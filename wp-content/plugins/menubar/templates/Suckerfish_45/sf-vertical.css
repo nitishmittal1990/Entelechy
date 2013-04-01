@@ -1,0 +1,137 @@
+/* 
+	WordPress Menubar Plugin
+	sf-vertical.css stylesheet for the Suckerfish_45 template
+
+	Credits:
+	Son of Suckerfish Dropdowns
+	By Patrick Griffiths and Dan Webb
+	http://www.htmldog.com/articles/suckerfish/dropdowns/
+*/
+
+.sf-vertical {
+	margin: 0;
+	padding: 0;
+	text-align: left;
+}
+
+.sf-vertical ul {
+	float: left;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	width: 170px;
+	background: #1874CD;
+	z-index: 9;
+}
+
+.sf-vertical ul ul {
+	top: 26px;
+	position: absolute;
+	left: -999em;
+	width: 170px;
+	margin: 0;
+	padding: 0;
+}
+	
+.sf-vertical ul ul {
+	margin: -26px 0 0 170px;
+}
+
+.sf-vertical li {
+	float: left;
+	padding: 0;
+	height: 26px;
+	position: relative;
+}
+
+.sf-vertical li {
+	float: left;
+	padding: 0;
+	width: 170px;
+}
+
+.sf-vertical a, 
+.sf-vertical a:link, 
+.sf-vertical a:visited, 
+.sf-vertical a:active, 
+.sf-vertical a:hover {
+	font-size: 12px;
+	font-weight: bold;
+	float: left;
+	color: white;
+	text-decoration: none;
+	display: block;
+	height: 26px;
+	line-height: 26px;
+	padding: 0 12px;
+	overflow: hidden;
+}
+
+.sf-vertical li a, 
+.sf-vertical li a:link, 
+.sf-vertical li a:visited, 
+.sf-vertical li a:active, 
+.sf-vertical li a:hover {
+	width: 167px;
+}
+
+.sf-vertical li:hover ul ul, 
+.sf-vertical li:hover ul ul ul,
+.sf-vertical li:hover ul ul ul ul,  
+.sf-vertical li.wpmhover ul ul, 
+.sf-vertical li.wpmhover ul ul ul, 
+.sf-vertical li.wpmhover ul ul ul ul {
+	left: -999em;
+}
+
+.sf-vertical li:hover ul, 
+.sf-vertical li li:hover ul, 
+.sf-vertical li li li:hover ul, 
+.sf-vertical li li li li:hover ul,
+.sf-vertical li.wpmhover ul, 
+.sf-vertical li li.wpmhover ul, 
+.sf-vertical li li li.wpmhover ul,
+.sf-vertical li li li li.wpmhover ul{
+	left: 0;
+}
+
+.sf-vertical li.selected, 
+.sf-vertical li.current-cat, 
+.sf-vertical li.current-cat-parent, 
+.sf-vertical li.current_page_item, 
+.sf-vertical li.current_page_parent,
+.sf-vertical li.current_page_ancestor  {
+	background: #1C86EE;
+}
+
+.sf-vertical li:hover, 
+.sf-vertical li.wpmhover {
+	visibility: inherit;
+	background: #1C86EE;
+}
+
+.sf-vertical li {
+	border-left: 1px solid #2EB0FF;
+	border-right: 1px solid #104E8B;
+}
+
+.sf-vertical li {
+	border-left: 0;
+	border-right: 0;
+	border-top: 1px solid #2EB0FF;
+	border-bottom: 1px solid #104E8B;
+}
+
+.sf-vertical ul {
+	border-left: 1px solid #2EB0FF;
+	border-right: 1px solid #104E8B;
+}
+
+.sf-vertical li a img {
+	float: left;
+	margin: 5px 7px 0 -5px;
+}
+
+.sf-vertical-after {
+	clear: left;
+}

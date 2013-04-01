@@ -1,0 +1,64 @@
+/*
+Plugin Name: Category Grid View Gallery
+Author: Anshul Sharma
+*/
+/* Style for the Post Popup when Lightbox is used to display posts */
+
+#cg-page { margin:0; padding:0;}
+
+#cg-main { margin:0px auto 0 auto; }
+div#cg-content article{padding:0 !important; margin:0 !important;}
+
+div #cg-header-wrap {}
+div #cg-header-wrap {
+font-family: Geneva, Arial, Helvetica, sans-serif; 
+text-align:center;
+text-decoration:none;
+border: 1px solid #aaa;
+}
+div #cg-header-wrap h1.cg-title{
+background-color: #ccc; color:#2c2c2c;
+font-size:18px; padding:0 10px; margin:0;padding:0;
+}
+div #cg-header-wrap h1.cg-title a, div #cg-header-wrap h1.cg-title a:hover{color:#2c2c2c;text-decoration:none;}
+
+div #cg-header-wrap div.cg-entry-meta{
+background-color: #ededed; color:#777; border-top:1px solid #ccc;
+font-size:10px;
+}
+div #cg-header-wrap div.cg-entry-meta span a, div #cg-header-wrap div.cg-entry-meta span a:hover{color:#333;text-decoration:none;}
+div #cg-header-wrap h1.cg-title  a{color:#777;text-decoration:none;}
+
+footer.cg-entry-meta{
+background-color: #ededed; color:#777; border-top:1px solid #ccc;
+font-size:10px;
+font-family: Geneva, Arial, Helvetica, sans-serif; 
+text-align:center;
+text-decoration:none;
+border: 1px solid #aaa;
+}
+footer.cg-entry-meta a, footer.cg-entry-meta a:hover{color:#333;text-decoration:none;}
+
+div .cg-entry-summary,div .cg-entry-content {overflow:auto; padding:5px;}
+
+/*Scrollbars*/
+/* Scroll bar styling is still not supported by Gecko :( . This will work well in Chrome and Safari, and not in Firefox */
+::-webkit-scrollbar {
+    width: 10px;
+	height: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #FFF;
+    -webkit-box-shadow: inset 1px 1px 2px rgba(0,0,0,0.1);
+}
+::-webkit-scrollbar-thumb {
+    background: #CCC;
+    -webkit-box-shadow: inset 1px 1px 2px rgba(0,0,0,0.2);
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #AAA;
+}
+::-webkit-scrollbar-thumb:active {
+    background: #888;
+    -webkit-box-shadow: inset 1px 1px 2px rgba(0,0,0,0.3);
+}

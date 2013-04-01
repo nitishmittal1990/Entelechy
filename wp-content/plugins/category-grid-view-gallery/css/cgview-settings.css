@@ -1,0 +1,63 @@
+
+/* theme settings */
+
+#cg_sc {display:none;}
+#cgview-settings-left .subsubsub{z-index:5;}
+#cgview-settings-left div.menu{border-bottom:1px solid #eee;}
+#cgview-settings-left .subsubsub a{color:#21759b;font-size:115%;}
+#cgview-settings-left .subsubsub a.active{color:#000;text-shadow:#333;letter-spacing:1px;}
+
+#cgview-settings-left input.radio{border:0;}
+
+#cgview-settings-left input:disabled{background-color:#eee;}
+
+#cgview-settings-left input.checkbox{padding:2px;margin:2px 0;}
+
+#cgview-settings-left table{margin:.2em 0;}
+#cgview-settings-left th{text-align:right;width:35%;vertical-align:top;}
+#cgview-settings-left tr{vertical-align:middle;border-bottom: 1px solid #eee;}
+#cgview-settings-left tr tr{vertical-align:middle;border:0;}
+
+#cgview-settings-left th p{line-height:150%;font-weight:normal;padding:0;margin:0;}
+#cgview-settings-left th p span, #cgview-settings-left td span{color:#999;font-weight:normal;font-style:italic;display:block}
+
+#cgview-settings-left label{margin-right:20px;}
+
+#cgview-settings-left .resizable-textarea textarea {
+  display:block;
+  margin-bottom:0pt;
+  width:95%;
+  height: 20%;
+}
+
+#cgview-settings-left .image-preview{
+  max-width:500px;
+  float: left;
+  background: #000;
+  margin: 10px 0;
+  overflow: hidden;
+}
+
+
+#cgview-settings-left .alignleft{float:left;margin-right:8px;}
+#cgview-settings-left .alignright{float:right;margin-left:8px;}
+#cgview-settings-left .aligncenter{display:block;margin-left:auto;margin-right:auto;text-align:center;}
+#cgview-settings-left .hidden{display:none;}
+
+#cgview-settings-left .warning, #cgview-settings-left th p span.warning{color: #ed1f24;}
+
+/* clearfix */
+#cgview-settings-left .clear-block:after{content:".";display:block;clear:both;visibility:hidden;line-height:0;height:0;}
+
+
+#cgview-settings-left {width:75%; border-right: 1px solid #eee;padding-right:5px; margin: 5px 0;}
+#cgview-settings-right {width:23%; padding:0 5px; margin: 5px 0;}
+#cgview-settings-right p{text-align:center; }
+#cgview-settings-right #cgview-fanbox{width:192px; margin:auto; }
+
+#cgview_shortcode {background-color:#EEEEFF;}
+#shortcode_options tr td {width:150px; font-weight:normal;font-style:italic; vertical-align:baseline;}
+#shortcode_options tr td span {color:#999;font-weight:normal;font-style:italic;display:block;font-size:x-small;}
+#shortcode_options tr td .upper {padding-bottom:10px; border-bottom:1px solid #eee;display:block}
+#shortcode_options tr td .lower {padding-top:5px;display:block}
+

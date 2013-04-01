@@ -1,0 +1,372 @@
+/*
+Theme Name: CalenotisMagazine
+Theme URI: http://www.simplewpthemes.com
+Version: 1.0
+Author: sin2384
+Author URI: http://www.simplewpthemes.com
+Description: Free Wordpress theme by <a href="http://www.simplewpthemes.com/">SimpleWPThemes.com</a>. Please read READ ME.TXT for usage instructions!
+*/
+@import url("css/comments.css");
+@import url("css/reset.css");
+@import url("css/slide.css");
+@import url("css/gallery.css");
+@import url("css/featuredcats.css");
+* {
+  margin: 0;
+  padding: 0;
+}
+/***************LINKS*************************/
+
+a:link, a:visited {
+  color: #3392d9;
+  text-decoration: none;
+}
+a:hover {
+  color: #333333;
+}
+/***************END LINKS*************************/
+
+html body {
+  font-size: 12px;
+  font-family: Georgia, Times, Times New Roman, serif;
+  line-height: 1.5em;
+  color: #7a7979;
+}
+
+/***************LAYOUT*************************/
+
+#mainwrap {
+  margin: 0 auto;
+  width: 960px;
+}
+#header {
+  width: 960px;
+  height: 100px;
+  padding-top: 45px;
+}
+#blogtitle {
+  text-transform: uppercase;
+  float: left;
+  width: 270px;
+  padding-left: 10px;
+}
+.description {
+  color: #868686;
+  font-size: 16px;
+  text-transform: lowercase;
+  margin-top: -8px;
+}
+
+/* -------- START PAGE MENU -------- */
+
+#top {
+  width: 680px;
+  height: 40px;
+  float: left;
+  margin-top: 10px;
+}
+#top ul.sf-menu {
+  float: right;
+}
+#top li {
+  float: left;
+  line-height: 40px;
+}
+#top li a {
+  float: left;
+  display: block;
+  padding: 0 0 0 35px;
+  color: #929292;
+  font-size: 18px;
+}
+#top li.current_page_item a, #top li a:hover {
+  color: #3392d9;
+}
+#top li li {
+  display: none;
+}
+/* -------- END PAGE MENU -------- */
+
+#s {
+  width: 206px;
+  padding: 10px 0 9px 5px;
+  margin-bottom: 5px;
+  color: #b6b5b5;
+  font-size: 11px;
+  border: 1px solid #b6b5b5;
+}
+*+html #s {
+  padding-bottom: 7px;
+}
+#contentwrap {
+  float: left;
+  width: 620px;
+}
+#sidebar {
+  float: right;
+  width: 300px;
+}
+
+/* -------- ADVERT -------- */
+
+.add1 {
+  clear: both;
+  float: left;
+  margin: 0 0 10px 0px;
+}
+.add2 {
+  float: right;
+  margin: 0 30px 10px 0;
+  display: inline;
+}
+
+/* -------- END ADVERT -------- */
+
+.custom_images img {
+  margin: 0px 2px 0px 4px;
+  padding: 0;
+}
+#footerw {
+  width: 100%;
+  clear: both;
+  background: #e2e2e2;
+  font-size: 11px;
+  color: #666666;
+}
+#footer {
+  width: 960px;
+  margin: 0 auto;
+  padding: 20px 0;
+  overflow: hidden;
+
+}
+#footer a, #footer a:visited {
+  color: #2e8cd1;
+}
+#footer a:hover {
+  color: #2e8cd1;
+  text-decoration: underline;
+}
+
+/* -------- END WP LAYOUT -------- */
+
+/* -------- START WP STYLES -------- */
+
+#sidebar h3 {
+  background: #3392d9;
+  padding: 4px 10px 2px;
+  color: #ffffff;
+  font-size: 19px;
+  display: inline-block;
+  margin-bottom: 15px;
+}
+*+html #sidebar h3 {
+  display: inline;
+  padding: 4px 10px 2px 7px;
+}
+.side-widget {
+  clear: both;
+  width: 300px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+#sidebar ul {
+  margin-top: -5px;
+}
+#sidebar ul.children {
+  margin: 6px 0 -6px 0;
+}
+#sidebar ul li {
+  padding: 6px 0 6px 15px;
+  margin-left: 0;
+  border-bottom: 1px solid #e2e2e2;
+  background: url(images/li.png) no-repeat scroll 0 13px;
+}
+#sidebar li li {
+  border-bottom: 0;
+  border-top: 1px solid #e2e2e2;
+}
+.side-widget a, .side-widget a:visited {
+  color: #7a7979;
+}
+.side-widget a:hover {
+  color: #3392d9;
+  text-decoration: underline;
+}
+.textwidget {
+  padding: 5px;
+}
+/***************POST STYLES*************************/
+h2.title {
+  margin-bottom: 5px;
+  line-height: 25px;
+  font-size: 25px;
+}
+h2.title a, h2.title a:visited {
+  color: #333333;
+}
+.meta {
+  padding: 0 0 2px 0;
+  font-size: 11px;
+}
+a.more-link {
+  background: url(images/more.png) no-repeat scroll center;
+  width: 86px;
+  height: 25px;
+  display: inline-block;
+  padding-top: 5px;
+  text-align: center;
+  float: right;
+  color: #949393;
+  font-size: 11px;
+}
+.postmetadata {
+  margin-top: 15px;
+}
+.leftpost {
+  clear: both;
+  float: left;
+  width: 288px;
+}
+.rightpost {
+  float: right;
+  width: 288px;
+}
+.clearp {
+  clear: both;
+  margin-bottom: 29px;
+  border-bottom: 1px solid #e2e2e2;
+}
+.post, .page {
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+}
+.entry {
+  margin-top: 5px;
+  line-height: 20px;
+}
+.entry h1, .entry h2, .entry h3, .entry h4, .entry h5, .entry h6 {
+  margin-top: 15px;
+}
+.entry h2 {
+  margin-bottom: 0.4em;
+}
+.entry p {
+  margin-bottom: 10px;
+}
+.entry img {
+  padding: 3px;
+  border: 1px solid #cdcccc;
+  background: #fff;
+}
+.post_thumbnail {
+  padding: 9px 9px 28px!important;
+  background: url(images/imgbg.png) no-repeat !important;
+  border: 0 !important;
+}
+.entry th {
+  padding: 0;
+  margin-right: 2px;
+}
+.entry li {
+  list-style: circle inside;
+}
+.entry ol li {
+  list-style: decimal inside;
+}
+blockquote {
+  border-left: 10px solid #666666;
+  margin-left: 20px;
+}
+blockquote p {
+  padding: 10px;
+}
+.alignleft {
+  float: left;
+  margin: 5px 10px 0px 0px;
+}
+.alignright {
+  float: right;
+  margin: 5px 0px 0px 10px;
+}
+img.aligncenter {
+  display: block;
+  margin: 0 auto 5px;
+}
+/***************END POST STYLES*************************/
+#wp-calendar caption {
+  background: #3392d9;
+  color: #fff;
+  margin-bottom: 10px;
+}
+#wp-calendar th {
+font-style: normal;
+text-transform: capitalize;
+}
+#wp-calendar th {
+font-style: normal;
+text-transform: capitalize;
+}
+#wp-calendar td {
+letter-spacing: normal;
+padding: 2px 0;
+text-align: center;
+}
+#wp-calendar {
+empty-cells: show;
+font-size: 14px;
+margin: 0;
+width: 90%;
+}
+#wp-calendar a:hover {
+  background: #3392d9;
+  color: #fff;
+}
+#wp-calendar td:hover, #wp-calendar #today {
+  background: #3392d9;
+  color: #fff;
+}
+li.pagenav, li.categories, li.linkcat {
+  list-style:none;
+}
+h2.pagetitle {
+  margin: 0 0 20px 0px;
+  font-size: 32px;
+  text-align: center;
+  color: #000;
+}
+p.center {
+  margin: 10px 0;
+}
+/* -------- END WP STYLES -------- */
+
+
+
+/* -------- TABLES -------- */
+#contentwrap table{font-size:1.2em;margin:5px 0 25px 1px;}
+#contentwrap table td{padding:8px;border: 1px solid #ccc;}
+/* -------- END TABLES -------- */
+
+
+/* -------- PAGE NAVIGATION -------- */
+
+.wp-pagenavi{
+  clear:both;
+  margin:20px 0 20px;
+}
+.wp-pagenavi span.pages,.wp-pagenavi span.extend{
+  color:#666666;
+  margin:2px;
+  padding:3px 7px;
+}
+.wp-pagenavi a,.wp-pagenavi a:link,.wp-pagenavi a:visited{
+  color:#666666;
+  margin:2px;
+  padding:3px 7px;
+  text-decoration:none;}
+.wp-pagenavi span.current,.wp-pagenavi a:hover{
+  color:#3392d9;
+  margin:2px;
+  padding:3px 7px;
+}
+/* -------- END PAGE NAVIGATION -------- */

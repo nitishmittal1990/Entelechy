@@ -1,0 +1,46 @@
+/* 
+	WordPress Menubar Plugin
+	b-green.css stylesheet for the Basic template
+*/
+
+.b-green {
+	clear: both;
+	margin: 10px 0px 0px 0px;
+	padding-top: 0px; 
+	padding-right: 0px; 
+	padding-bottom: 0px; 
+	padding-left: 30px; 
+	line-height: 24px;
+	background: white url(green.gif) center repeat-x;
+	font-size: 12px;
+	font-weight: bold;
+	border-top: 8px solid #D6D6D6;
+	border-bottom: 8px solid #00CC00;
+	}
+
+.b-green a, 
+.b-green a:visited {
+	padding-top: 3px; 
+	padding-right: 10px; 
+	padding-bottom: 3px; 
+	padding-left: 10px; 
+	color: #009430;
+	text-decoration: none;
+	}
+
+.b-green a:hover {
+	color: white;
+	text-decoration: none;
+	}
+
+.b-green a.selected, 
+.b-green a.selected:visited {
+	background: #00CC00; color: white;	
+	border-top: 4px solid #00CC00;
+	border-bottom: 2px solid #00CC00;
+	}
+
+.b-green a.selected:hover {
+	color: white;
+	text-decoration: none;
+	}

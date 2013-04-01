@@ -1,0 +1,340 @@
+msgid ""
+msgstr ""
+"Generated: SL Framework (http://www.sedlex.fr)\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2012-04-26T23:10:36+00:00\n"
+"Last-Translator: JackGarivaldis <http://diasporic.org>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: Greek\n"
+"X-Poedit-Country: Greece\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes\n"
+
+msgid "About..."
+msgstr "Σχετικά..."
+
+msgid "Settings"
+msgstr "Ρυθμίσεις"
+
+msgid "Advanced options"
+msgstr "Για Προχωρημένους"
+
+msgid "Show the advanced options:"
+msgstr "Δείξε τις επιλογές για προχωρημένους"
+
+msgid "Will display additionnal information on the plugin (including SVN features). Recommended for developpers which develop plugins with this framework."
+msgstr "Θα δείξει περισσότερες πληροφορίες για το plugin (συμπεριλαμβανομένων των χαρακτηριστικών SVN). Συνιστάτε για προγραμματιστές που γράφουν plugins σ&#039; αυτό το πλαίσιο."
+
+msgid "Show the developpers documentation:"
+msgstr "Δείξε τις πληροφορίες για προγραμματιστές:"
+
+msgid "You should register a new wordpress plugin first on %s."
+msgstr "Πρέπει να καταχωρήσεις ένα νέο plugin για Wordpress στο %."
+
+msgid "What is your SVN Login:"
+msgstr "Ποιοι είναι οι SVN κωδικοί σου:"
+
+msgid "You should have an account on %s before. Thus, the login will be the same!"
+msgstr "Πρέπει να έχετε λογαριασμό στο % πρώτα. Έτσι οι κωδικοί πρόσβασης θα είναι ίδιοι!"
+
+msgid "What is your SVN Password:"
+msgstr "Ποιο είναι το δικό σου SVN Passowrd:"
+
+msgid "Same comment as above..."
+msgstr "Το σχόλιο όπως πιο πάνω..."
+
+msgid "What is your Author Name:"
+msgstr "Ποιο είναι το δικό σου όνομα Συγγραφέα:"
+
+msgid "Your author name is the name that is displayed in your plugin."
+msgstr "Το δικό σου όνομα συγγραφέα είναι εκείνο που φαίνεται στο plugin."
+
+msgid "Do you want to udate the translations files when the plugin page is called:"
+msgstr "Θέλετε να διορθώσετε τα μεταφρασμένα αρχεία που χρησιμεύουν όταν το plugin χρησιμοποιείται;"
+
+msgid "This is useful if you develop a plugin, thus you will see when new sentences need to be translated."
+msgstr "Αυτό είναι χρήσιμο όταν προγραμματίσετε κάποιο plugin, κι έτσι θα δείτε νέες προτάσεις που χρειάζονται μετάφραση."
+
+msgid "IMAP Login:"
+msgstr "Πρόσβαση IMAP:"
+
+msgid "This is useful if you want that the framework retrieve automatically the translations file into an IMAP mailbox"
+msgstr "Αυτό είναι χρήσιμο όταν θέλετε το πλαίσιο να καλεί τα αρχεία μεταφράσεων αυτόματα στο mailbox του IMAP"
+
+msgid "IMAP Password:"
+msgstr "Κωδικός IMAP:"
+
+msgid "IMAP Server:"
+msgstr "IMAP Server:"
+
+msgid "Should be something like %s"
+msgstr "Πρέπει να είναι κάτι σαν %"
+
+msgid "Summary page for the plugins developped with the SL framework"
+msgstr "Συνοπτική σελίδα για τα plugins που προγραμματίστηκαν με το πλαίσιο SL"
+
+msgid "The core file used for the SedLex plugins is:"
+msgstr "Το κυριότερο (core) αρχείο που χρησιμοποιήθηκε για το Sedlex plugin είναι:"
+
+msgid "For now, you have installed %d  plugins including %d plugins developped with the 'SL framework':"
+msgstr "Για την ώρα, έχετε εγκαταστήσει % plugins συμπεριλαμβανομένων % plugins που έχει το πλαίσιο &#039;SL&#039;"
+
+msgid "Plugin name"
+msgstr "Όνομα του plugin"
+
+msgid "Description"
+msgstr "Λεπτομέρειες"
+
+msgid "Status of the core"
+msgstr "Κατάσταση του core"
+
+msgid "Version: %s by %s"
+msgstr "Παραλλαγή (version): % από %"
+
+msgid "List of SL plugins"
+msgstr "Κατάλογος plugins του πλαισίου SL"
+
+msgid "Parameters of the framework"
+msgstr "Παράμετροι του πλαισίου"
+
+msgid "The following description is a quick tutorial on about how to create a plugin with the SL framework. (Please note that the following description is in English for developpers, sorry for this inconvenience)"
+msgstr "Οι πληροφορίες πιο κάτω είναι ένα σύντομο εκπαιδευτικό για το πώς να δημιουργήσετε ένα plugin στο πλαίσιο SL. (Σημειώστε ότι οι παρακάτω πληρφορίες είναι στην Αγγλική για τους προγραμματιστές)"
+
+msgid "How to develop a plugin?"
+msgstr "Πώς να δημιουργήσετε ένα plugin."
+
+msgid "Framework documentation"
+msgstr "Πληροφοριακά έγγραφα πλαισίου"
+
+msgid "Manage translation of the framework"
+msgstr "Χειριστείτε τη μετάφραση του πλαισίου"
+
+msgid "An Unexpected HTTP Error occurred during the API request."
+msgstr "Ένας απρόσμενος HTTP Error σημειώθηκε κατά την κλήση του API."
+
+msgid "This plugin does not seem to be hosted on the wordpress repository."
+msgstr "Αυτό το plugin δεν φαίνεται να συμπεριλαμβάνεται στα αρχεία της Wordpress."
+
+msgid "The Wordpress page: %s"
+msgstr "Η σελίδα του Wordpress: %"
+
+msgid "Last update:"
+msgstr "Τελευταία εκσυγχρόνηση:"
+
+msgid "Rating: %s"
+msgstr "Εκτίμηση: %"
+
+msgid "by %s persons"
+msgstr "από % άτομα"
+
+msgid "Number of download:"
+msgstr "Αριθμός του download:"
+
+msgid "General modifications:"
+msgstr "Γενικές αλλαγές:"
+
+msgid "Quick"
+msgstr "Γρήγορο"
+
+msgid "Slow"
+msgstr "Αργό"
+
+msgid "folder created"
+msgstr "Το αρχείο δημιουργήθηκε"
+
+msgid "folder creation has failed !"
+msgstr "Η δημιουργία του αρχείου απέτυχε !"
+
+msgid "%s bytes transfered"
+msgstr "% bytes μεταφέρθηκαν"
+
+msgid "Confirmation"
+msgstr "Συγκατάθεση"
+
+msgid "Readme file"
+msgstr "Αρχείο ανάγνωσης"
+
+msgid "Save these data"
+msgstr "Αποθηκεύστε αυτές τις πληροφορίες"
+
+msgid "The current text"
+msgstr "Αυτό το κείμενο"
+
+msgid "The proposed text"
+msgstr "Το προτεινόμενο κείμενο"
+
+msgid "Update"
+msgstr "Εκσυχρόνηση"
+
+msgid "Translation"
+msgstr "Μετάφραση"
+
+msgid "Your name:"
+msgstr "Το όνομά σας:"
+
+msgid "Your email or your website:"
+msgstr "Το email ή την ιστοσελίδα σας:"
+
+msgid "Language"
+msgstr "Γλώσσα"
+
+msgid "Information"
+msgstr "Πληροφορίες"
+
+msgid "%s sentences have been translated (i.e. %s)."
+msgstr "% προτάσεις έχουν ματαφραστεί (π.χ. %)."
+
+msgid "Delete"
+msgstr "Διαγραφή"
+
+msgid "Import"
+msgstr "Eισαγωγή"
+
+msgid "Merge"
+msgstr "Συγχώνεψη"
+
+msgid "Old sentence"
+msgstr "Παλιά πρόταση"
+
+msgid "New sentence"
+msgstr "Νέα Πρόταση"
+
+msgid "To replace?"
+msgstr "Ν&#039; αντικαταστήσετε;"
+
+msgid "Download"
+msgstr "Καταχώρηση"
+
+msgid "Translators"
+msgstr "Μεταφραστές"
+
+msgid "Add"
+msgstr "Πρόσθεση"
+
+msgid "Select all"
+msgstr "Επιλέξτε όλα"
+
+msgid "Un-select all"
+msgstr "Αφαιρέστε όλες τις επιλογές"
+
+msgid "Methods"
+msgstr "Μέθοδοι"
+
+msgid "Details"
+msgstr "Λεπτομέρειες"
+
+msgid "[METHOD]"
+msgstr "[ΜΕΘΟΔΟΣ]"
+
+msgid "Parameters:"
+msgstr "Παράμετροι:"
+
+msgid "[optional]"
+msgstr "[επιλεκτικά]"
+
+msgid "Your email:"
+msgstr "Η ηλεκτρονική σας διεύθυνση:"
+
+msgid "Your comments:"
+msgstr "Τα σχόλιά σας;"
+
+msgid "Commit comment:"
+msgstr "Παραδώστε το σχόλιο:"
+
+msgid "Sending to the repository in progress..."
+msgstr "Η αποθήκευση είναι σε εξέλιξη..."
+
+msgid "The commit has ended but there is an error!"
+msgstr "Η παράδοση ολοκληρώθηκε αλλά υπάρχει σφάλμα!"
+
+msgid "Version number"
+msgstr "Αριθμός παραλλαγής"
+
+msgid "Parameters"
+msgstr "Παράμετροι"
+
+msgid "Values"
+msgstr "Αξίες"
+
+msgid "Plugin"
+msgstr "Plugin"
+
+msgid "New translations are available"
+msgstr "Υπάρχουν νέες μεταφράσεις"
+
+msgid "Updates of translations are available"
+msgstr "Υπάρχουν ανανεώσεις μεταφράσεων"
+
+msgid "What are the differences between these two files?"
+msgstr "Ποιες είναι οι διαφορές μεταξύ αυτών των δυο αρχείων;"
+
+msgid "The translation %s have been sent"
+msgstr "Οι μεταφράσεις % έχουν αποσταλεί."
+
+msgid "Make sure that your wordpress is able to send email."
+msgstr "Σιγουρευτείτε ότι το Wordpress μπορεί να στείλει ηλεκτρονικά μηνύματα (email)."
+
+msgid "This is the default language of the plugin. It cannot be modified."
+msgstr "Αυτή είναι η προεπιλεγμένη γλώσσα για το plugin. Δεν μπορεί να αλλαχτεί."
+
+msgid "Change the default language used"
+msgstr "Αλλάξτε την προεπιλεγμένη γλώσσα που χρησιμοποιείται."
+
+msgid "Set the language"
+msgstr "Καθορίστε τη γλώσσα"
+
+msgid "Ratio %"
+msgstr "Αναλογία %"
+
+msgid "Modify"
+msgstr "Μεταρυθμίστε"
+
+msgid "Send to the author of the plugin"
+msgstr "Στείλτε το στον κατασκευαστή του plugin"
+
+msgid "Add a new translation"
+msgstr "Προσθέστε μια νέα μετάφραση"
+
+msgid "You may add a new translation hereafter (Please note that it is recommended to send your translation to the author so that he would be able to add your translation to the future release of the plugin !)"
+msgstr "Μπορείτε να προσθέσετε μια νέα μετάφραση από εδώ και στο εξής (Παρακαλείστε να στείλετε τη μετάφρασή σας στον κατασκευαστή για να μπορέσει να την προσθέσει σε μελλοντικές αλλαγές του plugin)"
+
+msgid "(by default, its value is:"
+msgstr "(Προεπιλεκτικά η αξία του είναι:"
+
+msgid "Return value:"
+msgstr "Αξία επιστροφής:"
+
+msgid "Typical call:"
+msgstr "Συνηθισμένη κλήση:"
+
+msgid "See also:"
+msgstr "Δείτε επίσης:"
+
+msgid "[CLASS]"
+msgstr "[ΚΛΑΣΗ]"
+
+msgid "KB"
+msgstr "ΚΒ"
+
+msgid "MB"
+msgstr "ΜΒ"
+
+msgid "GB"
+msgstr "GB"
+
+msgid "Feedback form"
+msgstr "Φόρμα αναπληροφόρησης"
+
+msgid "Contact the author"
+msgstr "Επικοινωνήστε με τον κατασκευαστή"
+

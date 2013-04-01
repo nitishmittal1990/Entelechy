@@ -1,0 +1,226 @@
+msgid ""
+msgstr ""
+"Generated: SL Framework (http://www.sedlex.fr)\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2012-10-16T18:32:46+00:00\n"
+"Last-Translator: MarcelJansen <http://caddvision.org>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"
+"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes\n"
+
+msgid "About..."
+msgstr "Over.."
+
+msgid "Settings"
+msgstr "Instellingen"
+
+msgid "Log options"
+msgstr "Log opties"
+
+msgid "1=log only the critical errors;"
+msgstr "1=noteer alleen de kritische fouten"
+
+msgid "2=log only the critical errors and the standard errors;"
+msgstr "2=noteer alleen de kritische fouten en de standaard fouten"
+
+msgid "3=log only the critical errors, the standard errors and the warnings;"
+msgstr "3=noteer alleen de kritische fouten, standaard fouten en de waarschuwingen+"
+
+msgid "4=log information;"
+msgstr "4=log informatie"
+
+msgid "Multisite Management"
+msgstr "Multisite Beheer"
+
+msgid "Advanced options"
+msgstr "Uitgebreide opties"
+
+msgid "Show the advanced options:"
+msgstr "Toon de uitgebreide opties:"
+
+msgid "What is your SVN Login:"
+msgstr "Wat is uw SVN Login:"
+
+msgid "What is your Author Name:"
+msgstr "Wat is uw auteur naam:"
+
+msgid "IMAP Login:"
+msgstr "IMAP Login:"
+
+msgid "IMAP Password:"
+msgstr "IMAP Paswoord:"
+
+msgid "IMAP Server:"
+msgstr "IMAP Server:"
+
+msgid "Plugin name"
+msgstr "Plugin naam"
+
+msgid "Description"
+msgstr "Omschrijving"
+
+msgid "SVN Management"
+msgstr "SVN Management"
+
+msgid "The file %s is not %s !"
+msgstr "Het bestande %s is niet %s !"
+
+msgid "The folder %s does not exists and cannot be created !"
+msgstr "De map %s bestaat niet en kan niet aangemaakt worden !"
+
+msgid "Please see below:"
+msgstr "Kijk hieronder:"
+
+msgid "Installed plugins"
+msgstr "Geïnstalleerde plugins"
+
+msgid "Plugin already installed"
+msgstr "Plugin is al geïnstalleerd"
+
+msgid "Number of download:"
+msgstr "Aantal downloads"
+
+msgid "(integer)"
+msgstr "(geheel getal)"
+
+msgid "Update"
+msgstr "Aanpassen"
+
+msgid "KB"
+msgstr "KB"
+
+msgid "MB"
+msgstr "MB"
+
+msgid "GB"
+msgstr "GB"
+
+msgid "Feedback form"
+msgstr "reactieformulier"
+
+msgid "Contact the author"
+msgstr "Neem contact op met de auteur"
+
+msgid "Your comments:"
+msgstr "Uw commentaar:"
+
+msgid "Translations installed for Wordpress"
+msgstr "Vertaling geïnstalleerd voor WordPress"
+
+msgid "Adding a new translation for this language: %s"
+msgstr "Voeg een nieuwe vertaling toe voor deze taal: %s"
+
+msgid "Sentence to translate"
+msgstr "Zin om te vertalen"
+
+msgid "Translation"
+msgstr "Vertaling"
+
+msgid "Your email or your website:"
+msgstr "Jouw email of jouw website"
+
+msgid "Plugin"
+msgstr "Plugin"
+
+msgid "Language"
+msgstr "Taal"
+
+msgid "Information"
+msgstr "Informatie"
+
+msgid "Delete"
+msgstr "Verwijderen"
+
+msgid "Merge"
+msgstr "Samenvoegen"
+
+msgid "New translations are available"
+msgstr "Nieuwe vertalingen zijn beschikbaar"
+
+msgid "What are the differences between these two files?"
+msgstr "Wat zijn de verschillen tussen de twee bestanden?"
+
+msgid "Old sentence"
+msgstr "Oude zin"
+
+msgid "New sentence"
+msgstr "Nieuwe zin"
+
+msgid "To replace?"
+msgstr "Vervangen"
+
+msgid "Re-download"
+msgstr "Opnieuw downloaden"
+
+msgid "Last update: %s"
+msgstr "Laatste update: %s"
+
+msgid "Download a new translation"
+msgstr "Download de vertaling"
+
+msgid "Download"
+msgstr "Download"
+
+msgid "Set the language"
+msgstr "Stel de taal in"
+
+msgid "Translators"
+msgstr "Vertalers"
+
+msgid "Modify"
+msgstr "Aanpassen"
+
+msgid "Send to the author of the plugin"
+msgstr "Stuur naar de auteur van de plugin"
+
+msgid "Add a new translation"
+msgstr "Voeg een nieuwe vertaling toe"
+
+msgid "Add"
+msgstr "Toevoegen"
+
+msgid "Select all"
+msgstr "Selecteer alles"
+
+msgid "Un-select all"
+msgstr "Deselecteer alles"
+
+msgid "Close popup"
+msgstr "Sluit Popup"
+
+msgid "Saved on %s"
+msgstr "Bewaard op %s"
+
+msgid "Methods"
+msgstr "Methodes"
+
+msgid "Details"
+msgstr "Details"
+
+msgid "Parameters:"
+msgstr "Parameters"
+
+msgid "[optional]"
+msgstr "[optioneel]"
+
+msgid "(by default, its value is:"
+msgstr "(standaardwaarde is:"
+
+msgid "No param"
+msgstr "Geen parameter"
+
+msgid "See also:"
+msgstr "Zie ook:"
+

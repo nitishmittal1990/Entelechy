@@ -1,0 +1,157 @@
+/* 
+	WordPress Menubar Plugin
+	sf-grey.css stylesheet for the Suckerfish_45 template
+
+	Credits:
+	Son of Suckerfish Dropdowns
+	By Patrick Griffiths and Dan Webb
+	http://www.htmldog.com/articles/suckerfish/dropdowns/
+	Modified by Wolly aka Paolo Valenti
+	http://www.paolo.valenti.name/
+*/
+
+.sf-grey {
+	clear: both;
+	margin: 10px 0 0 0;
+	background-image: url('sf-grey.png');
+	background-repeat: repeat;
+	height: 28px;
+	border-top: 0 solid #a9a9a9;
+	padding: 0;
+	text-align: left;
+}
+
+.sf-grey ul {
+	float: left;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	background-image: url('sf-grey.png');
+	background-repeat: repeat;
+	width: 100%;
+	z-index: 9;
+}
+
+.sf-grey ul ul {
+	top: 28px;
+	position: absolute;
+	left: -999em;
+	width: 170px;
+	margin: 0;
+	padding: 0;
+}
+	
+.sf-grey ul ul ul {
+	margin: -26px 0 0 170px;
+}
+
+.sf-grey li {
+	float: left;
+	padding: 0;
+	height: 28px;
+	position: relative;
+}
+
+.sf-grey li li {
+	float: left;
+	padding: 0;
+	width: 170px;
+}
+
+.sf-grey a, 
+.sf-grey a:visited, 
+.sf-grey a:hover {
+	font-size: 12px;
+	font-weight: bold;
+	float: left;
+	color: white;
+	text-decoration: none;
+	display: block;
+	height: 28px;
+	line-height: 28px;
+	padding: 0 12px;
+	overflow: hidden;
+}
+
+.sf-grey li li a, 
+.sf-grey li li a:visited, 
+.sf-grey li li a:hover {
+	width: 167px;
+}
+
+.sf-grey li:hover ul ul, 
+.sf-grey li:hover ul ul ul,
+.sf-grey li:hover ul ul ul ul,  
+.sf-grey li.wpmhover ul ul, 
+.sf-grey li.wpmhover ul ul ul, 
+.sf-grey li.wpmhover ul ul ul ul {
+	left: -999em;
+}
+
+.sf-grey li:hover ul, 
+.sf-grey li li:hover ul, 
+.sf-grey li li li:hover ul, 
+.sf-grey li li li li:hover ul,
+.sf-grey li.wpmhover ul, 
+.sf-grey li li.wpmhover ul, 
+.sf-grey li li li.wpmhover ul,
+.sf-grey li li li li.wpmhover ul{
+	left: 0;
+}
+
+.sf-grey li.selected, 
+.sf-grey li.current-cat, 
+.sf-grey li.current-cat-parent, 
+.sf-grey li.current_page_item, 
+.sf-grey li.current_page_parent,
+.sf-grey li.current_page_ancestor  {
+	background: #808080;
+}
+
+.sf-grey li:hover, 
+.sf-grey li.wpmhover {
+	visibility: inherit;
+	background: #808080;
+}
+
+.sf-grey li {
+	border-left: 0px solid #a9a9a9;
+	border-right: 0px solid #778899;
+}
+
+.sf-grey li li {
+	border-left: 0;
+	border-right: 0;
+	border-top: 0px solid #a9a9a9;
+	border-bottom: 0px solid #778899;
+}
+
+.sf-grey ul ul {
+	border-left: 0px solid #a9a9a9;
+	border-right: 0px solid #778899;
+}
+
+.sf-grey li.right {
+	float: right;
+}
+
+.sf-grey form {
+	margin: 0;
+	padding: 4px 10px 0;
+}
+
+.sf-grey form input {
+	border: 0;
+}
+
+.sf-grey li a img {
+	float: left;
+	margin: 6px 7px 0 -5px;
+}
+
+.sf-grey-after {
+	clear: both;
+	margin: 0 0px 0 0px;
+	height: 0px;
+	border-top: 0px solid #778899;
+}

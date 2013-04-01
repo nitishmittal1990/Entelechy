@@ -1,0 +1,66 @@
+#jcorgtoc,#jcorgtocminimize {
+      font-family: "Lucida grande",arial,sans-serif;
+      padding:10px 25px 10px 10px ; 
+      border:5px solid rgba(100,100,100,0.1);       
+      position:fixed;
+      background: #f9f9f9;
+      z-index: 999;
+      color:#C00;     
+      outline: none; 
+  }
+  #jcorgtoc {
+      width:300px;
+  }
+  #jcorgtoc h1.tochead {
+      color:#333;    
+      font-size: 18px;
+      font-weight: bold;  
+  }
+  #jcorgtoc div.h1,#jcorgtoc div.h2,#jcorgtoc div.h3,#jcorgtoc div.h4 {
+    margin: 0px !important;
+    padding:0px !important;
+      cursor:pointer;   
+  }
+  #jcorgtoc h1 {
+      margin-left:0px;      
+      border-bottom: 1px #666 dotted;
+  }
+  #jcorgtoc div.h1 {
+      font-size:16px;
+      font-weight:bold;
+  }
+  #jcorgtoc div.h2 {
+      font-size:15px;
+      padding-left:20px !important;
+  }
+  #jcorgtoc div.h3 {
+      font-size:14px;
+     padding-left:35px !important;
+  }
+  #jcorgtoc div.h4 {
+     font-size:13px;
+     padding-left:50px !important;
+  }
+  #jcorgtoc div.h1:hover,#jcorgtoc div.h2:hover,#jcorgtoc div.h3:hover,#jcorgtoc div.h4:hover,.jcorgtocactive {
+      background: url(active.png?s) 100% 50% no-repeat !important;
+  }
+  .jspContainer {
+    border:none;
+    background: none;
+    background: #f1f1f1;
+  }
+  .jspVerticalBar,.jspHorizontalBar {
+    background: none;
+    width:12px;
+    background: #f1f1f1;  
+  }
+  .jspDrag,.jspTrack {
+    background: #f1f1f1;
+    border-radius:0px 20px 0px 0px;  
+    width:10px;  
+  }
+  .jspDrag {
+   background: #CCC;
+   width:10px; 
+   border-radius:10px;
+  }

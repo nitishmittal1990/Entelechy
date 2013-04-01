@@ -1,0 +1,736 @@
+msgid ""
+msgstr ""
+"Generated: SL Framework (http://www.sedlex.fr)\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2012-09-22T09:08:53+00:00\n"
+"Last-Translator: Caseidor <borprokop@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%100/10==1 ? 2 : n%10==1 ? 0 : (n+9)%10>3 ? 2 : 1;\n"
+"
+"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes\n"
+
+msgid "About..."
+msgstr "O pluginu"
+
+msgid "Settings"
+msgstr "Nastavení"
+
+msgid "Log options"
+msgstr "Hlášení nastavení"
+
+msgid "What is the debug level:"
+msgstr "Úroveň vyladění"
+
+msgid "See the debug logs"
+msgstr "Viz. ladicí protokoly"
+
+msgid "1=log only the critical errors;"
+msgstr "1 pouze kritické chyby"
+
+msgid "2=log only the critical errors and the standard errors;"
+msgstr "2 pouze kritické a standartní chyby"
+
+msgid "3=log only the critical errors, the standard errors and the warnings;"
+msgstr "3 pouze kritické chyby, standartní chyby a varování"
+
+msgid "4=log information;"
+msgstr "4 Informace"
+
+msgid "5=log verbose;"
+msgstr "5 podrobnosti"
+
+msgid "Multisite Management"
+msgstr "Multistránková správa"
+
+msgid "Do you want to allow sub-blogs to modify the translations of the plugins:"
+msgstr "Chcete aby subblogy změnily překlad pluginu:"
+
+msgid "If this option is unchecked, the translation tab won't be displayed in the blog administration panel."
+msgstr "Pokud je tato volba zaškrtnuta, nemusí se vám překlad zobrazit v panelu správy blogu."
+
+msgid "Advanced options"
+msgstr "Další nastavení"
+
+msgid "Show the advanced options:"
+msgstr "Zobrazit další nastavení"
+
+msgid "Will display additionnal information on the plugin (including SVN features). Recommended for developpers which develop plugins with this framework."
+msgstr "Zobrazí další informace o pluginu (včetně SVN funkcí). Doporučuje se pro vývojáře, kteří vyvíjejí zásuvné moduly s tímto rámcem."
+
+msgid "Show the developpers documentation:"
+msgstr "Zobrazit dokumentaci vývojáře:"
+
+msgid "You should register a new wordpress plugin first on %s."
+msgstr "Měli byste si registrovat nový wordpress plugin  na %s."
+
+msgid "What is your SVN Login:"
+msgstr "Jaké je vaše SVN přihlašovací jméno:"
+
+msgid "You should have an account on %s before. Thus, the login will be the same!"
+msgstr "Měli byste mít účet na %s před. Proto bude přihlášení stejné!"
+
+msgid "What is your SVN Password:"
+msgstr "Jaké je vaše SVN heslo:"
+
+msgid "Same comment as above..."
+msgstr "Stejná připomínka jako výše ..."
+
+msgid "What is your Author Name:"
+msgstr "Jaké je vaše autorské jméno:"
+
+msgid "Your author name is the name that is displayed in your plugin."
+msgstr "Vaše jméno autora se zobrazí ve vašem pluginu."
+
+msgid "Do you want to udate the translations files when the plugin page is called:"
+msgstr "Chcete aktualizovat překladové soubory, pokud vyvoláte stránku pluginu:"
+
+msgid "This is useful if you develop a plugin, thus you will see when new sentences need to be translated."
+msgstr "To je užitečné, pokud se u vás objeví plugin, tak uvidíte, že musí být přeložena nová věta."
+
+msgid "IMAP Login:"
+msgstr "IMAP přihlašovací jméno:"
+
+msgid "This is useful if you want that the framework retrieve automatically the translations file into an IMAP mailbox"
+msgstr "To je užitečné, pokud chcete, aby  rámec načetl automaticky soubor s překlady  do schránky IMAP"
+
+msgid "IMAP Password:"
+msgstr "IMAP Heslo:"
+
+msgid "IMAP Server:"
+msgstr "IMAP Server:"
+
+msgid "Should be something like %s"
+msgstr "Mělo by být něco jako %s"
+
+msgid "Summary page for the plugins developped with the SL framework"
+msgstr "Shrnutí stránky pro pluginy vyvinuté s SL rámci"
+
+msgid "The core file used for the SedLex plugins is:"
+msgstr "Jádro souboru používané pro SedLex pluginy je:"
+
+msgid "For now, you have installed %d  plugins including %d plugins developped with the 'SL framework':"
+msgstr "Pro tuto chvíli, jste nainstalovali %d pluginů včetně %d pluginů  s rozvinutými  &quot;SL rámci&quot;:"
+
+msgid "Plugin name"
+msgstr "Název pluginu"
+
+msgid "Description"
+msgstr "Popis"
+
+msgid "SVN Management"
+msgstr "SVN správa"
+
+msgid "Update plugin information..."
+msgstr "Informace o aktualizacích.."
+
+msgid "There is a SQL database for this plugin"
+msgstr "K dispozici je SQL databáze pro tento plugin"
+
+msgid "Version: %s by %s"
+msgstr "Verze %s by %s"
+
+msgid "Getting SVN information..."
+msgstr "Získání SVN informací ..."
+
+msgid "List of SL plugins"
+msgstr "Seznam SL pluginů"
+
+msgid "Parameters of the framework"
+msgstr "Parametry rámce"
+
+msgid "The following description is a quick tutorial on about how to create a plugin with the SL framework. (Please note that the following description is in English for developpers, sorry for this inconvenience)"
+msgstr "Následující popis je rychlý návod o tom, jak vytvořit plugin s rámci SL."
+
+msgid "How to develop a plugin?"
+msgstr "Jak vytvořit plugin?"
+
+msgid "Framework documentation"
+msgstr "Dokumentace rámce"
+
+msgid "Manage translation of the framework"
+msgstr "Správa překladových rámců"
+
+msgid "An Unexpected HTTP Error occurred during the API request."
+msgstr "Neočekávané HTTP Chyba během API žádosti."
+
+msgid "This plugin does not seem to be hosted on the wordpress repository."
+msgstr "Tento plugin není hostován v úložišti wordpress."
+
+msgid "The Wordpress page: %s"
+msgstr "Stránka Wordpressu: %s"
+
+msgid "Last update:"
+msgstr "Poslední aktualizace:"
+
+msgid "Rating: %s"
+msgstr "Hodnocení: %s"
+
+msgid "by %s persons"
+msgstr "z%s osob"
+
+msgid "Number of download: %s"
+msgstr "Počet stažení:"
+
+msgid "An error occured when retrieving the version of the plugin on Wordpress.org. Please retry!"
+msgstr "Došlo k chybě při načítání verze pluginu na Wordpress.org. Zkuste to prosím znovu!"
+
+msgid "Update of the core ..."
+msgstr "Aktualizace jádra ..."
+
+msgid "1) Update with the core of the %s plugin"
+msgstr "1) Aktualizace jádra z %s pluginu"
+
+msgid "1) The core of the plugin is up-to-date"
+msgstr "1) Jádro pluginu je obnoveno"
+
+msgid "2) Modify the version (but the files of plugin are unchanged)"
+msgstr "2) Upravte verzi (ale soubory pluginu jsou beze změn)"
+
+msgid "2) Modify the version (the files of the plugin have been changed)"
+msgstr "2) Upravte verzi (soubory z pluginu byly změněny)"
+
+msgid "2) Modify the readme.txt (as the version has been already changed)"
+msgstr "2) Upravit readme.txt (jeho verze byla již změněna)"
+
+msgid "3) Update the SVN repository (without modifying the version)"
+msgstr "3) Aktualizace repozitáře SVN (beze změny verze)"
+
+msgid "3) Update the SVN repository (and release a new version %s)"
+msgstr "3) Aktualizace repozitáře SVN (a uvolněte novou verzi %s)"
+
+msgid "Refresh"
+msgstr "Obnovit"
+
+msgid "Change the plugin version for %s"
+msgstr "Změna verze pluginu na %s"
+
+msgid "Version number"
+msgstr "Číslo verze"
+
+msgid "The current version of the plugin %s is %s."
+msgstr "Aktuální verze pluginu %s je %s."
+
+msgid "Please modify the version:"
+msgstr "Upravte verzi:"
+
+msgid "Readme file"
+msgstr "Soubor s instrukcemi"
+
+msgid "The current content of %s is:"
+msgstr "Aktuální obsah %s je:"
+
+msgid "The current text"
+msgstr "Současný text"
+
+msgid "The proposed text"
+msgstr "Návrh textu"
+
+msgid "Save these data"
+msgstr "Uložit tyto údaje"
+
+msgid "There is a problem with the header of %s. It appears that there is no Version header."
+msgstr "To je problém s hlavičkou %s. Zdá se, že neexistuje žádná verze hlavičky."
+
+msgid "The data has been saved. You may close this window."
+msgstr "Data byla uložena. Můžete zavřít okno."
+
+msgid "The folder %s is not %s !"
+msgstr "Složka %s není %s"
+
+msgid "The file %s is not %s !"
+msgstr "Soubor %s není %s"
+
+msgid "The folder %s does not exists and cannot be created !"
+msgstr "Složka %s neexistuje a nemůže být vytvořena!"
+
+msgid "The file %s does not exists and cannot be created !"
+msgstr "Soubor %s neexistuje a nemůže být vytvořen!"
+
+msgid "There are some issues with folders rights. Please corret them as soon as possible as they could induce bugs and instabilities."
+msgstr "Existují některé problémy s právy složek. Prosím opravte je co nejdříve, jinak by mohly vyvolat chyby a nestabilitu."
+
+msgid "Please see below:"
+msgstr "Prosím viz níže"
+
+msgid "Plugins that you may install"
+msgstr "Pluginy, které můžete nainstalovat"
+
+msgid "The following plugins have been developed by the author and are not yet installed:"
+msgstr "Následující pluginy byly vyvinuty autorem a jsou dosud nenainstalovány:"
+
+msgid "Plugin not yet installed"
+msgstr "Plugin není nainstalován"
+
+msgid "Description and Screenshots"
+msgstr "Popis a screeny"
+
+msgid "All author's plugins have been installed. Thank you!"
+msgstr "Všechny autorovy pluginy byly nainstalovány. Děkujeme!"
+
+msgid "Installed plugins"
+msgstr "Instalované pluginy"
+
+msgid "You have already installed the following author's plugins:"
+msgstr "Již jste nainstalovali následující autorovy pluginy:"
+
+msgid "Plugin already installed"
+msgstr "Plugin je již nainstalován."
+
+msgid "Number of download:"
+msgstr "Počet stažení:"
+
+msgid "Your credentials do not seem to be correct. Please check them!"
+msgstr "Vaše přihlašovací údaje se nezdají být správné. Zkontrolujte je prosím!"
+
+msgid "This file have not been written in the repository due to server problem. Nevertheless, you should retry as it often works better with a second try !"
+msgstr "Tento soubor již nebyl napsán v repozitáři kvůli problému na serveru. Přesto prosím zopakujte, neboť často se to podaří lépe při druhém pokusu!"
+
+msgid "SVN client for %s"
+msgstr "SVN klient pro %s"
+
+msgid "Updating the local cache"
+msgstr "Aktualizace místní mezipaměti"
+
+msgid "folder created"
+msgstr "složka vytvořena"
+
+msgid "folder creation has failed !"
+msgstr "vytvoření složky selhalo"
+
+msgid "%s bytes transfered"
+msgstr "%s bytů přeneseno"
+
+msgid "An error occurred during the retrieval of files on the server ! Sorry ..."
+msgstr "Došlo k chybě při načítání souborů na serveru! Je nám líto ..."
+
+msgid "Local to SVN repository"
+msgstr "Místní  SVN repozitář"
+
+msgid "Comparing %s with %s"
+msgstr "Porovnání %s s %s"
+
+msgid "Confirmation"
+msgstr "Potvrzení"
+
+msgid "Commit comment:"
+msgstr "Napsat komentář:"
+
+msgid "Yes, the SVN version will be deleted and be replaced by the local version"
+msgstr "Ano, verze SVN bude odstraněna a nahrazena lokální verzí"
+
+msgid "SVN repository to Local"
+msgstr "SVN repozitář do místního"
+
+msgid "Yes, the local version will be overwritten with the repository files"
+msgstr "Ano, lokální verze vám přepíše uložené soubory"
+
+msgid "Sending to the repository in progress..."
+msgstr "Odeslání do úložiště průběžně ..."
+
+msgid "The commit has ended [ %s ]... You should received an email quickly ! You may close the window or wait for the automatic closing."
+msgstr "Potvrzení dokončeno [%s] ... Měli byste rychle obdržet e-mail! Můžete zavřít okno nebo počkat na automatické zavření."
+
+msgid "The commit has ended but there is an error!"
+msgstr "Potvrzení skončilo, ale je tam chyba!"
+
+msgid "Sending to the local files in progress..."
+msgstr "Průběžné odeslání místních souborů ..."
+
+msgid "The rollback has ended ..."
+msgstr "Návrat ukončen.."
+
+msgid "Error: the submitted value is not an integer and thus, the parameter has not been updated!"
+msgstr "Chyba: předložená hodnota není číslo a tak parametr není aktualizován!"
+
+msgid "Error: the submitted string does not match the constrains"
+msgstr "Chyba:  řetězec neodpovídá"
+
+msgid "Error: the submitted file can not be uploaded!"
+msgstr "Chyba: soubor nelze odeslat!"
+
+msgid "Error: security issue!"
+msgstr "Chyba: chyba zabezpečení!"
+
+msgid "Parameters"
+msgstr "Parametry"
+
+msgid "Here are the parameters of the plugin. Modify them at will to fit your needs."
+msgstr "Zde jsou parametry pluginu. Upravte je tak, aby vyhovovaly vašim potřebám."
+
+msgid "Here are the parameters of the framework. Modify them at will to fit your needs."
+msgstr "Zde jsou parametry rámce. Upravte je tak, aby vyhovovaly vašim potřebám."
+
+msgid "Values"
+msgstr "Hodnoty"
+
+msgid "Warning: some characters have been removed because they are not allowed here"
+msgstr "Upozornění: Některé znaky byly odstraněny, protože zde nejsou povoleny"
+
+msgid "(integer)"
+msgstr "(integer)"
+
+msgid "(If you want to delete this file, please check this box %s)"
+msgstr "(Pokud chcete smazat tento soubor, prosím, zaškrtněte toto políčko% s)"
+
+msgid "Update"
+msgstr "Aktualizovat"
+
+msgid "Some parameters have not been updated due to errors (see below)!"
+msgstr "Některé parametry nebyly aktualizovány kvůli chybám (viz níže),!"
+
+msgid "Parameters have been updated (but with some warnings)!"
+msgstr "Parametry byly aktualizovány (ale existují nějaká varování)!"
+
+msgid "Parameters have been updated successfully!"
+msgstr "Parametry byly úspěšně aktualizovány."
+
+msgid "KB"
+msgstr "kB"
+
+msgid "MB"
+msgstr "mB"
+
+msgid "GB"
+msgstr "gB"
+
+msgid "Feedback form"
+msgstr "Formulář"
+
+msgid "This form is an easy way to contact the author and to discuss issues/incompatibilities/etc. with him"
+msgstr "Tento formulář je snadný způsob jak kontaktovat autora"
+
+msgid "Contact the author"
+msgstr "Kontaktovat autora"
+
+msgid "Your name:"
+msgstr "Vaše jméno:"
+
+msgid "Your email:"
+msgstr "Váš email:"
+
+msgid "Useful... so that the author will be able to anwser you."
+msgstr "Výhodné ... autor vám bude moci odpovědět.."
+
+msgid "Your comments:"
+msgstr "Vaše komentáře:"
+
+msgid "Please note that additional information on your wordpress installation will be sent to the author in order to help the debugging if needed (such as : the wordpress version, the installed plugins, etc.)"
+msgstr "Vezměte prosím na vědomí, že informace o vaší instalaci wordpressu budou zaslány autorovi, aby mu to pomohlo při ladění v případě potřeby (např.: verze wordpress, instalované pluginy, atd.)"
+
+msgid "Send feedback"
+msgstr "Poslat zpětnou vazbu"
+
+msgid "No email have been provided for the author of this plugin. Therefore, the feedback is impossible"
+msgstr "Žádný e-mail byly autora tohoto pluginu nebyl nalezen. Proto je zpětná vazba nemožná."
+
+msgid "The feedback has been sent"
+msgstr "Zpětná vazba byla odeslána"
+
+msgid "An error occured sending the email."
+msgstr "Došlo k chybě při odesílání e-mailu."
+
+msgid "Make sure that your wordpress is able to send email."
+msgstr "Ujistěte se, že váš wordpress může zasílat e-mail."
+
+msgid "Here, you may configure three levels of translations: at the plugin level, at the framework level, and at the dashboard level."
+msgstr "Zde se může nastavit tři úrovně překladů: na úrovni pluginu a na úrovni rámce."
+
+msgid "Please be informed that your current language is %s. Text will be translated if a translation is available."
+msgstr "Dovolujeme si Vás upozornit, že váš současný jazyk je %s. Text bude přeložen, pokud je překlad  k dispozici."
+
+msgid "Translations available for this plugin (i.e. %s)"
+msgstr "Překlady k dispozici k tomuto pluginu (tj. %s)"
+
+msgid "Translations available for the SL framework (stored in %s)"
+msgstr "Překlady jsou k dispozici pro SL rámce (uložené v %s)"
+
+msgid "Translations installed for Wordpress"
+msgstr "Překlady instalované pro Wordpress"
+
+msgid "Adding a new translation for this language: %s"
+msgstr "Přidání nového překladu pro tento jazyk: %s"
+
+msgid "Sentence to translate"
+msgstr "Přeložit větu"
+
+msgid "Translation"
+msgstr "Překlad"
+
+msgid "(if your name/pseudo is already in the list, there is no need to fill this input)"
+msgstr "(pokud vaše jméno / nick je již v seznamu, není potřeba vyplnit toto pole)"
+
+msgid "Your email or your website:"
+msgstr "Váš e-mail nebo vaše webové stránky:"
+
+msgid "Create the translation files"
+msgstr "Vytvoření souborů s překladem."
+
+msgid "Modifying the translation for this language: %s"
+msgstr "Úprava překlad pro tento jazyk: %s"
+
+msgid "Modify the translation files"
+msgstr "Upravit překladové soubory"
+
+msgid "The file %s cannot be extracted from mail attachments"
+msgstr "Soubor %s nelze vyjmout z mailů"
+
+msgid "The file %s cannot be written in the %s folder"
+msgstr "Soubor %s nelze zapisovat do %s adresáře"
+
+msgid "The file %s has been imported in the %s folder"
+msgstr "Soubor %s byl importován z %s adresáře"
+
+msgid "Plugin"
+msgstr "Plugin"
+
+msgid "Language"
+msgstr "Jazyk"
+
+msgid "Information"
+msgstr "Informace"
+
+msgid "%s sentences have been translated (i.e. %s)."
+msgstr "%s věty byly přeloženy (tj.%s)."
+
+msgid "Delete"
+msgstr "Smazat"
+
+msgid "%s sentences have been newly translated and %s sentences have been modified (the old file has %s translated sentences)."
+msgstr "%s věty byly nově přeloženy %s věty byly upraveny (starý soubor má %s přeložené věty)."
+
+msgid "Merge"
+msgstr "Spojit"
+
+msgid "New translations are available"
+msgstr "Nové překlady jsou k dispozici"
+
+msgid "Updates of translations are available"
+msgstr "Aktualizace překladů jsou k dispozici"
+
+msgid "What are the differences between these two files?"
+msgstr "Jaké jsou rozdíly mezi těmito dvěma soubory?"
+
+msgid "Old sentence"
+msgstr "Stará věta"
+
+msgid "New sentence"
+msgstr "Nová věta"
+
+msgid "To replace?"
+msgstr "Nahradit?"
+
+msgid "%s sentences have been translated (i.e. %s) %s %s sentences have to be checked because they are close (but not identical) to those to translate.%s"
+msgstr "%s věty byly přeloženy (tj. %s) %s věty %s  musí být překontrolovány, protože jsou podobné (ale ne totožné) s těmi přeloženými. %s"
+
+msgid "The translation %s have been sent"
+msgstr "Překlady %s byly odeslány"
+
+msgid "%s file has been updated for %s"
+msgstr "soubor %s byl aktualizován pro %s"
+
+msgid "%s file has been updated from this file"
+msgstr "soubor %s byl aktualizován z tohoto souboru"
+
+msgid "%s file has been created with a new translation for %s"
+msgstr "soubor %s byl vytvořen s novým překladem pro %s"
+
+msgid "%s file has been created from this file"
+msgstr "soubor %s byl vytvořen z tohoto souboru"
+
+msgid "If you do not want to loose your translations on the next upgrading of this plugin, it is recommended to send the translation files to the author by clicking %s here %s !"
+msgstr "Pokud nechcete přijít o své překlady při další modernizaci tohoto pluginu, je doporučeno odeslat překladatelské soubory autorovi kliknutím %s zde %s !"
+
+msgid "If you do not want to loose your translations on the next upgrading of this plugin, please save them on your hard disk before upgrading and then restore them after the upgrade !"
+msgstr "Pokud nechcete přijít o své překlady s další modernizací tohoto pluginu, uložte je na pevném disku před upgradem a pak je obnovte  po upgradu!"
+
+msgid "The following languages may be used by your Wordpress installation."
+msgstr "Následující jazyky mohou být použity pro instalaci Wordpress."
+
+msgid "There is a need to update the list of available translation at the Wordpress repository because no information are available for the version of Wordpress (i.e. %s)."
+msgstr "Je potřeba aktualizovat seznam dostupných překladů v úložišti Wordpress, protože žádné informace nejsou k dispozici pro verzi Wordpress (tj. %s)."
+
+msgid "Update the list of translations"
+msgstr "Aktualizace seznamu překladů"
+
+msgid "This is the default language of the plugin. It cannot be modified."
+msgstr "Toto je výchozí jazyk pluginu a může být upraven."
+
+msgid "Re-download"
+msgstr "Opětovné stažení"
+
+msgid "Last update: %s"
+msgstr "Poslední aktualizace %s"
+
+msgid "Download a new translation"
+msgstr "Stáhnout nový překlad"
+
+msgid "You may download a new translation from Wordpress.org"
+msgstr "Můžete si stáhnout nový překlad z Wordpress.org"
+
+msgid "Download"
+msgstr "Stáhnout"
+
+msgid "Change the default language used"
+msgstr "Změna výchozího používaného jazyka"
+
+msgid "If you want to modify the default language of the dashboad, and thus of the plugin, please select your language here:"
+msgstr "Pokud chcete změnit výchozí jazyk, a tedy i v pluginu, vyberte svůj jazyk zde:"
+
+msgid "Set the language"
+msgstr "Nastavení jazyka"
+
+msgid "The file %s has been downloaded (version %s)"
+msgstr "Soubor %s byl stažen (verze %s)"
+
+msgid "The file %s cannot be stored in %s. Check permissions."
+msgstr "Soubor %s nelze uložit do %s. Zkontrolujte oprávnění."
+
+msgid "The translations files do not exists ... it is strange!"
+msgstr "Tyto soubory překladu neexistují ... to je divné!"
+
+msgid "The sentences used in this plugin are in English. Help the others users using the same language as you by translating this plugin."
+msgstr "Věty v tomto pluginu jsou v angličtině. Pomozte prosím s překladem tohoto pluginu."
+
+msgid "This plugin is available in %d languages."
+msgstr "Tento plugin je k dispozici v jazycích %d."
+
+msgid "There are %d sentences to be translated in this plugin."
+msgstr "Tato %d věta byla přeložena"
+
+msgid "Ratio %"
+msgstr "Hodnocení"
+
+msgid "Translators"
+msgstr "Překladatel"
+
+msgid "Modify"
+msgstr "Úpravy"
+
+msgid "Send to the author of the plugin"
+msgstr "Poslat autorovi pluginu"
+
+msgid "Add a new translation"
+msgstr "Přidat nový překlad"
+
+msgid "You may add a new translation hereafter (Please note that it is recommended to send your translation to the author so that he would be able to add your translation to the future release of the plugin !)"
+msgstr "Můžete přidat nový překlad (Vezměte prosím na vědomí, že se doporučuje poslat svůj překlad autorovi tak že bude moci přidat svůj překlad do budoucího vydání pluginuu!)"
+
+msgid "Add"
+msgstr "Přidat"
+
+msgid "The 'SL framework' is a framework used for developping many plugins like this one. Thus, if you participate translating the framework, it will be very helpful for a bunch of plugins."
+msgstr "&quot;SL rámec&quot; je rámec pro vývoj mnoha pluginů, jako je tento. Proto, pokud se účastníte překladu rámce, bude to velmi užitečné pro spoustu dalších pluginů."
+
+msgid "There is %d languages supported for the 'SL framework'."
+msgstr "K dispozici jsou %d jazyky podporované pro &quot;SL rámce&quot;."
+
+msgid "There is %d sentence to be translated in the framework."
+msgstr "K dispozici je %d věta, která má být přeložena v rámci."
+
+msgid "This is the default language of the plugin framework. It cannot be modified."
+msgstr "Toto je výchozí jazyk rámce pluginu. Může být upraven."
+
+msgid "Send to the author of the framework"
+msgstr "Poslat autorovi rámce"
+
+msgid "Select all"
+msgstr "Vybrat vše"
+
+msgid "Un-select all"
+msgstr "Odebrat vše"
+
+msgid "Sorry, but only %s files can be diff at once, in order to avoid any memory saturation"
+msgstr "Bohužel, rozdíl může být najednou, ale pouze %s soubory, aby se zabránilo saturaci paměti."
+
+msgid "Error: %s function is not found"
+msgstr "Chyba: %s Funkce nenalezena"
+
+msgid "The file %s cannot be read. You should have a problem with file permissions or security restrictions."
+msgstr "Soubor %s nelze přečíst."
+
+msgid "The file %s cannot be deleted. You should have a problem with file permissions or security restrictions."
+msgstr "Soubor %s nelze odstranit."
+
+msgid "The folder %s cannot be opened. You should have a problem with folder permissions or security restrictions."
+msgstr "Složka %s nelze otevřít."
+
+msgid "An other process is still running (it runs for %s seconds)"
+msgstr "Jiný proces stále běží (spustí se za %s sekund)"
+
+msgid "The file %s cannot be modified/created. You should have a problem with file permissions or security restrictions."
+msgstr "Soubor %s nelze změnit / vytvořit"
+
+msgid "The file %s cannot be created. You should have a problem with file permissions or security restrictions."
+msgstr "Soubor %s nelze vytvořit."
+
+msgid "The file %s cannot be compressed."
+msgstr "Soubor %s nelze komprimovat."
+
+msgid "The file %s cannot be renamed. You should have a problem with file permissions or security restrictions."
+msgstr "Soubor %s nelze přejmenovat."
+
+msgid "The file %s cannot be modified. You should have a problem with file permissions or security restrictions."
+msgstr "Soubor %s nelze změnit."
+
+msgid "Close popup"
+msgstr "Zavřít okno"
+
+msgid "Saved on %s"
+msgstr "Uloženo %s"
+
+msgid "No cache file found... Regenerating one!"
+msgstr "Žádný soubor mezipaměti nalezen ... !"
+
+msgid "PHP Doc for the SL Framework"
+msgstr "PHP dokumenty pro SL rámce"
+
+msgid "Here are the classes of the SL framework:"
+msgstr "Zde jsou třídy v rámci SL:"
+
+msgid "Here is the method of the class:"
+msgstr "Zde je třída metody:"
+
+msgid "Methods"
+msgstr "Metody"
+
+msgid "Details"
+msgstr "Detaily"
+
+msgid "[METHOD]"
+msgstr "[METHOD]"
+
+msgid "Parameters:"
+msgstr "Parametry"
+
+msgid "[optional]"
+msgstr "[optional]"
+
+msgid "(by default, its value is:"
+msgstr "(ve výchozím nastavení, jeho hodnota je:"
+
+msgid "No param"
+msgstr "Žádné parametry"
+
+msgid "Return value:"
+msgstr "Návratová hodnota:"
+
+msgid "Typical call:"
+msgstr "Typická volání:"
+
+msgid "See also:"
+msgstr "Viz také:"
+
+msgid "[CLASS]"
+msgstr "[CLASS]"
+

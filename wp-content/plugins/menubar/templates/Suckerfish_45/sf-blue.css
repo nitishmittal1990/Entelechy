@@ -1,0 +1,154 @@
+/* 
+	WordPress Menubar Plugin
+	sf-blue.css stylesheet for the Suckerfish_45 template
+
+	Credits:
+	Son of Suckerfish Dropdowns
+	By Patrick Griffiths and Dan Webb
+	http://www.htmldog.com/articles/suckerfish/dropdowns/
+*/
+
+.sf-blue {
+	clear: both;
+	margin: 10px 0 0 0;
+	background: #1874CD;
+	height: 26px;
+	border-top: 1px solid #2EB0FF;
+	padding: 0;
+	text-align: left;
+}
+
+.sf-blue ul {
+	float: left;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	background: #1874CD;
+	width: 100%;
+	z-index: 9;
+}
+
+.sf-blue ul ul {
+	top: 26px;
+	position: absolute;
+	left: -999em;
+	width: 170px;
+	margin: 0;
+	padding: 0;
+}
+	
+.sf-blue ul ul ul {
+	margin: -26px 0 0 170px;
+}
+
+.sf-blue li {
+	float: left;
+	padding: 0;
+	height: 26px;
+	position: relative;
+}
+
+.sf-blue li li {
+	float: left;
+	padding: 0;
+	width: 170px;
+}
+
+.sf-blue a, 
+.sf-blue a:visited, 
+.sf-blue a:hover {
+	font-size: 12px;
+	font-weight: bold;
+	float: left;
+	color: white;
+	text-decoration: none;
+	display: block;
+	height: 26px;
+	line-height: 26px;
+	padding: 0 12px;
+	overflow: hidden;
+}
+
+.sf-blue li li a, 
+.sf-blue li li a:visited, 
+.sf-blue li li a:hover {
+	width: 167px;
+}
+
+.sf-blue li:hover ul ul, 
+.sf-blue li:hover ul ul ul,
+.sf-blue li:hover ul ul ul ul,  
+.sf-blue li.wpmhover ul ul, 
+.sf-blue li.wpmhover ul ul ul, 
+.sf-blue li.wpmhover ul ul ul ul {
+	left: -999em;
+}
+
+.sf-blue li:hover ul, 
+.sf-blue li li:hover ul, 
+.sf-blue li li li:hover ul, 
+.sf-blue li li li li:hover ul,
+.sf-blue li.wpmhover ul, 
+.sf-blue li li.wpmhover ul, 
+.sf-blue li li li.wpmhover ul,
+.sf-blue li li li li.wpmhover ul{
+	left: 0;
+}
+
+.sf-blue li.selected, 
+.sf-blue li.current-cat, 
+.sf-blue li.current-cat-parent, 
+.sf-blue li.current_page_item, 
+.sf-blue li.current_page_parent,
+.sf-blue li.current_page_ancestor  {
+	background: #1C86EE;
+}
+
+.sf-blue li:hover, 
+.sf-blue li.wpmhover {
+	visibility: inherit;
+	background: #1C86EE;
+}
+
+.sf-blue li {
+	border-left: 1px solid #2EB0FF;
+	border-right: 1px solid #104E8B;
+}
+
+.sf-blue li li {
+	border-left: 0;
+	border-right: 0;
+	border-top: 1px solid #2EB0FF;
+	border-bottom: 1px solid #104E8B;
+}
+
+.sf-blue ul ul {
+	border-left: 1px solid #2EB0FF;
+	border-right: 1px solid #104E8B;
+}
+
+.sf-blue li.right {
+	float: right;
+}
+
+.sf-blue form {
+	margin: 0;
+	padding: 4px 10px 0;
+}
+
+.sf-blue form input {
+	border: 0;
+}
+
+.sf-blue li a img {
+	float: left;
+	margin: 5px 7px 0 -5px;
+}
+
+.sf-blue-after {
+	clear: both;
+	margin: 0;
+	background: url(shadow.png) repeat-x;
+	height: 6px;
+	border-top: 1px solid #104E8B;
+}

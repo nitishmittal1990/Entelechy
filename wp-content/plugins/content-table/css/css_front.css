@@ -1,0 +1,9 @@
+.tableofcontent p {
+	margin : 3px ; 
+	text-indent : -5px ; 
+	padding-top : 2px ; 
+}
+
+.tableofcontent-end {
+	clear: both;
+}

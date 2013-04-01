@@ -1,0 +1,241 @@
+/* Table of Contents Creator v1.6.4.1 */
+
+/* Classes that may be used for formatting purposes. Note text between angle brackets is optional
+any may be used to format individual items. Also note that spaces shown between class and division 
+identifiers are important. Finally, "theme" should be replaced with the icon theme name.
+
+use: "#tocc" to apply default format to all items
+use: "#tocc<.tocc_theme> <.tocc_page> .tocc_active" to format active page
+use: "#tocc<.tocc_theme> <.tocc_page or .tocc_blog_cat> .tocc_has_child" to format parent items
+use: "#tocc<.tocc_theme> <.tocc_page or .tocc_blog_cat or .tocc_forum> <tocc_page_title or tocc_blog_cat_title>.tocc_root" to format root items (those displayed in first column)
+use: "#tocc <.tocc_blog_post or .tocc_forum> .tocc_more" to format more prompt text or image
+use: "#tocc <.tocc_blog_post or .tocc_page or .tocc_forum> .tocc_author" to format author text
+use: "#tocc <.tocc_blog_post or .tocc_page or .tocc_forum> .tocc_date" to format date text
+use: "#tocc <.tocc_blog_post or .tocc_page> .tocc_misctext" to format miscellaneous text (such as number of posts)
+use: "#tocc <.tocc_blog_cat_title or .tocc_blog_post_title or .tocc_page_tile or .tocc_link_title or .tocc_forum_title>" to format individual title types
+use: "#tocc .tocc_options" to format option menu
+use: "#tocc .tocc_options ul ul" to format options drop down menu
+use: "#tocc .tocc_footer" author acknowledge footer
+use: "#tocc.tocc_has_icons" class is active only if an icon theme is selected
+use: "#tocc .tocc_summ_icon<.tocc_summ_up or tocc_summ_down>" summary icon
+use: "#tocc <.tocc_blog_post or .tocc_page> .tocc_summ_body" to format the summary text
+use: "#tocc.tocc_has_expansion" class is active only if expand/collapse child elements selected
+use: "#tocc .tocc_expand_icon<.tocc_expand_up or .tocc_expand_down><.tocc_hover>" expand/collapse icon
+use: "#tocc<.tocc_theme>. <.tocc_page or .tocc_blog_cat or .tocc_blog_post or .tocc_forum or .tocc_summ_icon>" themed icon
+use: "#tocc.tocc_help_text" to format the help text
+use: "#tocc.tocc_post_count" to format the number of posts displayed after each category listing
+use: "#tocc.tocc_comment_count" to format the number of comments displayed after each page or post
+*/
+
+/* General */
+
+#tocc a {
+	text-decoration:none; 
+	margin:10px 0 10px 0; 
+	background-image: none;
+}
+#tocc a:hover {
+	text-decoration: underline;
+}
+#tocc p {
+	margin:0;
+	padding:0;
+}
+#tocc .tocc_footer {
+	font-size:75%;
+}
+
+#tocc .tocc_misctext {
+	font-style: italic  !important;
+	font-size: 90% !important;
+}
+
+#tocc .tocc_comment_count, #tocc .tocc_post_count {
+	font-style: italic !important;
+	font-size: 90% !important;
+}
+
+#tocc .tocc_more {
+	background-image: none !important;
+}
+
+/* Clear existing li and ul icons and styling */
+
+#tocc.tocc_has_icons ul li:before, #tocc .tocc_options ul li:before {
+	content:"" !important;
+	clear:both !important;
+	list-style-type:none !important;
+}
+#tocc.tocc_has_icons ul, #tocc .tocc_options ul {
+	list-style: none !important;
+	list-style-type:none !important;
+}
+#tocc.tocc_has_icons li, #tocc .tocc_options li {
+	list-style-type:none !important;
+	background-repeat:no-repeat !important;
+	background-position:top left !important;
+	background-image:none;
+}
+
+/* Icon Formatting */
+
+#tocc.tocc_has_icons ul {
+	margin:0;
+	padding:0;
+}
+#tocc.tocc_has_icons li {
+	margin:10px 0 10px 0;
+	padding:0 0 0 30px;
+	min-height:20px; 
+}
+
+/* Summarizer */
+
+#tocc .tocc_summ_icon {
+	cursor:pointer; 
+	border:0 none; 
+	padding:0; 
+	margin:0 0 0 8px;
+	vertical-align:text-bottom;
+	height: 16px; 
+	width: 16px;
+	display: -moz-inline-box;
+	display: inline-block;
+	background: transparent url("icons/summary-icon.gif") no-repeat center top;
+}
+#tocc .tocc_summ_icon.tocc_summ_down {
+	background-position: center -16px !important;
+}
+#tocc .tocc_summ_icon.tocc_summ_up {
+	background-position: center -32px !important;
+}
+#tocc .tocc_summ_body {
+	font-size:85%;
+	font-style: italic;
+}
+
+/* Options Menu */
+
+#tocc .tocc_options {
+	margin:0;
+	text-align:right;
+}
+#tocc .tocc_options {
+	float:right;
+}
+#tocc .tocc_options ul {
+	display:none;
+	z-index:500;
+	border-style:solid;
+	border-width:1px;
+	padding:4px;
+	margin: 0 !important;
+	text-align:left;
+	float:none;
+}
+#tocc .tocc_options li.tocc_separator {
+	border-top-style:solid;
+	border-top-width:1px;
+	font-size:1px;
+	margin: 2px 0 2px 0;
+}
+#tocc .tocc_options ul li {
+	margin:0;
+	padding:0;
+	list-style-type:none !important;
+	white-space:nowrap;
+	min-height:0;
+	height:auto;
+}
+
+/* Help icon */
+
+#tocc .tocc_help_icon {
+	cursor:pointer; 
+	border:0 none !important; 
+	padding:0; 
+	margin:0;
+	vertical-align:text-bottom;
+	height: 16px; 
+	width: 16px;
+	float:right;
+	background: transparent url("icons/help-icon.gif") no-repeat center top;
+}
+
+/* List Exapander */
+
+#tocc.tocc_has_expansion ul {
+	margin:16px !important;
+}
+#tocc .tocc_expand_icon {
+	cursor:pointer; 
+	border:0 none; 
+	padding:0; 
+	margin:0;
+	margin-left:-37px;
+	vertical-align:text-bottom;
+	height: 16px; 
+	width: 16px;
+	float:left;
+	background: transparent url("icons/expand-icon.gif") no-repeat center top;
+}
+#tocc.tocc_has_icons .tocc_expand_icon {
+	margin-left:-47px;
+}
+#tocc .tocc_expand_icon.tocc_hover {
+	background-position: center -16px !important;
+}
+#tocc .tocc_expand_icon.tocc_expand_up {
+	background-position: center -32px !important;
+}
+#tocc .tocc_expand_icon.tocc_expand_up.tocc_hover {
+	background-position: center -48px !important;
+}
+
+/* Icon Sets */
+
+#tocc.tocc_blue .tocc_page {background-image:url("icons/blue/img_page.gif");}
+#tocc.tocc_blue .tocc_page .tocc_link {background-image:url("icons/blue/img_link.gif");}
+#tocc.tocc_blue .tocc_blog_cat {background-image:url("icons/blue/img_blog_cat.gif");}
+#tocc.tocc_blue .tocc_blog_post {background-image:url("icons/blue/img_blog_post.gif");}
+#tocc.tocc_blue .tocc_forum {background-image:url("icons/blue/img_forum.gif");}
+#tocc.tocc_blue .tocc_summ_icon {background-image: url("icons/blue/summary-icon.gif");}
+
+#tocc.tocc_handdrawn .tocc_page {background-image:url("icons/handdrawn/img_page.gif");}
+#tocc.tocc_handdrawn .tocc_page .tocc_link {background-image:url("icons/handdrawn/img_link.gif");}
+#tocc.tocc_handdrawn .tocc_blog_cat {background-image:url("icons/handdrawn/img_blog_cat.gif");}
+#tocc.tocc_handdrawn .tocc_blog_post {background-image:url("icons/handdrawn/img_blog_post.gif");}
+#tocc.tocc_handdrawn .tocc_forum {background-image:url("icons/handdrawn/img_forum.gif");}
+#tocc.tocc_handdrawn .tocc_summ_icon {background-image: url("icons/handdrawn/summary-icon.gif");}
+
+#tocc.tocc_square .tocc_page {background-image:url("icons/square/img_page.gif");}
+#tocc.tocc_square .tocc_page .tocc_link {background-image:url("icons/square/img_link.gif");}
+#tocc.tocc_square .tocc_blog_cat {background-image:url("icons/square/img_blog_cat.gif");}
+#tocc.tocc_square .tocc_blog_post {background-image:url("icons/square/img_blog_post.gif");}
+#tocc.tocc_square .tocc_forum {background-image:url("icons/square/img_forum.gif");}
+#tocc.tocc_square .tocc_summ_icon {background-image: url("icons/square/summary-icon.gif");}
+
+#tocc.tocc_bling .tocc_page {background-image:url("icons/bling/img_page.gif");}
+#tocc.tocc_bling .tocc_page .tocc_link {background-image:url("icons/bling/img_link.gif");}
+/*#tocc.tocc_bling .tocc_blog_cat {background-image:url("icons/bling/img_blog_cat.gif"); }*/	
+#tocc.tocc_bling .tocc_blog_cat {background-color:#FFFFFF; padding:30px; overflow:hidden; border-radius: 10px}	/*Swena*/
+/*#tocc.tocc_bling .tocc_blog_post {background-image:url("icons/bling/img_blog_post.gif");}*/	
+#tocc.tocc_bling .tocc_blog_post {background-image:url("icons/bling/img_blog_post.gif"); overflow:hidden; color:#000000;}	/*Swena*/
+#tocc.tocc_bling .tocc_blog_cat_title{ font-size:18px; font-family:cabin; font-weight:bold;}	/*swena*/
+#tocc.tocc_bling .tocc_blog_post_title{ font-size:16px; font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;}	/*Swena*/
+#tocc.tocc_bling .tocc_forum {background-image:url("icons/bling/img_forum.gif");}
+#tocc.tocc_bling .tocc_summ_icon {background-image: url("icons/bling/summary-icon.gif");}
+#tocc.tocc_bling .tocc_page_title{ font-size:23px; font-family:cabin; font-weight:bold;}	/*Swena*/
+@font-face		/*Swena*/
+{
+font-family: cabin;
+src:url(../../themes/twentyten/ttf/CabinSketch-Bold.otf); /* IE9+ */
+}
+
+#tocc.tocc_professional .tocc_page {background-image:url("icons/professional/img_page.gif");}
+#tocc.tocc_professional .tocc_page .tocc_link {background-image:url("icons/professional/img_link.gif");}
+#tocc.tocc_professional .tocc_blog_cat {background-image:url("icons/professional/img_blog_cat.gif");}
+#tocc.tocc_professional .tocc_blog_post {background-image:url("icons/professional/img_blog_post.gif");}
+#tocc.tocc_professional .tocc_forum {background-image:url("icons/professional/img_forum.gif");}
+#tocc.tocc_professional .tocc_summ_icon {background-image: url("icons/professional/summary-icon.gif");}
+

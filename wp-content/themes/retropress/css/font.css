@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'Kaushan';
+    src: url('KaushanScript-Regular-webfont.eot');
+    src: url('KaushanScript-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('KaushanScript-Regular-webfont.woff') format('woff'),
+         url('KaushanScript-Regular-webfont.ttf') format('truetype'),
+         url('KaushanScript-Regular-webfont.svg#Kaushan') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'Shanti';
+    src: url('Shanti-Regular-webfont.eot');
+    src: url('Shanti-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Shanti-Regular-webfont.woff') format('woff'),
+         url('Shanti-Regular-webfont.ttf') format('truetype'),
+         url('Shanti-Regular-webfont.svg#Shanti') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

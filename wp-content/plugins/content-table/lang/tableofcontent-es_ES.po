@@ -1,0 +1,109 @@
+msgid ""
+msgstr ""
+"Generated: SL Framework (http://www.sedlex.fr)\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2012-11-20T14:15:13+00:00\n"
+"Last-Translator: Jan-ErikFinlander <janerik.finlander@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"
+"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes\n"
+
+msgid "Display the table of content"
+msgstr "Visualice la tabla de contenidos"
+
+msgid "If you want that the table of content appears in your post, just type: %s, that is all!"
+msgstr "Si deseas que la tabla de contenidos apareza en tu mensaje, escribe:% s, eso es todo!"
+
+msgid "What is the title to be displayed in the table of content?"
+msgstr "¿Cuál es el título que se mostrará en la tabla de contenidos?"
+
+msgid "Title of the table of content:"
+msgstr "Título de la tabla de contenidos:"
+
+msgid "Add prefix in your title:"
+msgstr "Agregar un prefijo al título:"
+
+msgid "If you leave the field blank, nothing will be added!"
+msgstr "Si dejas el campo en blanco, nada será añadido!"
+
+msgid "Note that if you want to display the number of level 2, just write %s ..."
+msgstr "Ten en cuenta que si deseas mostrar el número de nivel 2, simplemente escribe% s ..."
+
+msgid "Prefix of the level %s:"
+msgstr "Prefijo del nivel% s:"
+
+msgid "Customize the global visual appearance:"
+msgstr "Personalizar la apariencia visual global:"
+
+msgid "The HTML:"
+msgstr "El código HTML:"
+
+msgid "The default HTML is: %s"
+msgstr "El código HTML predeterminado es:% s"
+
+msgid "Please note that %s will be replaced with the given title of the table of content and %s will be replaced with the current chapter/section/etc. title"
+msgstr "Ten en cuenta que% s se sustituirá por el título dado a la tabla de contenidos y% s será reemplazado por el actual capítulo / sección / etc. título"
+
+msgid "The CSS:"
+msgstr "El código CSS:"
+
+msgid "The default CSS is: %s"
+msgstr "El código CSS predeterminado es:% s"
+
+msgid "Customize the visual appearance of the title:"
+msgstr "Personalizar la apariencia visual del título:"
+
+msgid "Customize the visual appearance of each entry in the TOC:"
+msgstr "Personalizar la apariencia visual de cada entrada en la tabla de contenidos:"
+
+msgid "The indentation of the TOC (in pixels):"
+msgstr "La sangría de la tabla de contenidos (en píxeles):"
+
+msgid "The max font size:"
+msgstr "El tamaño de letra máximo:"
+
+msgid "The color of the upper level:"
+msgstr "El color del nivel superior:"
+
+msgid "The color of the lower level:"
+msgstr "El color del nivel baja:"
+
+msgid "The color of entry will be a transition color between these two colors (depending of their levels)."
+msgstr "El color de entrada será un color de transición entre estos dos colores (dependiendo de sus niveles)."
+
+msgid "Please add the # character before the code. If you do not know what code to use, please visit this website: %s"
+msgstr "Por favor, agregar el carácter # delante del código. Si no sabes qué código usar, por favor, visita la página web:% s"
+
+msgid "Customize the visual appearance of each entry in the TOC (for Experts):"
+msgstr "Personalizar la apariencia visual de cada entrada en la tabla de contenidos (para expertos):"
+
+msgid "The CSS style of the level %s:"
+msgstr "El estilo CSS del nivel% s:"
+
+msgid "For instance, %s"
+msgstr "Por ejemplo% s,"
+
+msgid "Parameters"
+msgstr "Parámetros"
+
+msgid "Manage translations"
+msgstr "Administrar traducciones"
+
+msgid "Give feedback"
+msgstr "Enviar comentario"
+
+msgid "Other plugins"
+msgstr "Otros complementos"
+

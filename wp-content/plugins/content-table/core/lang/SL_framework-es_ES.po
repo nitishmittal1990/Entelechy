@@ -1,0 +1,439 @@
+msgid ""
+msgstr ""
+"Generated: SL Framework (http://www.sedlex.fr)\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2012-09-28T08:37:30+00:00\n"
+"Last-Translator: IgnacioCalvo <http://ignaciocalvo.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"
+"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes\n"
+
+msgid "About..."
+msgstr "Acerca de..."
+
+msgid "Settings"
+msgstr "Configuración"
+
+msgid "Log options"
+msgstr "Opciones de registro"
+
+msgid "What is the debug level:"
+msgstr "Nivel de depuración:"
+
+msgid "See the debug logs"
+msgstr "Ver registros de depuración"
+
+msgid "1=log only the critical errors;"
+msgstr "1=registrar sólo errores críticos;"
+
+msgid "2=log only the critical errors and the standard errors;"
+msgstr "2=registrar sólo errores críticos y estándar;"
+
+msgid "3=log only the critical errors, the standard errors and the warnings;"
+msgstr "3=registrar sólo errores críticos y estándar y advertencias;"
+
+msgid "4=log information;"
+msgstr "4=registrar información;"
+
+msgid "5=log verbose;"
+msgstr "5=registrar todos los detalles;"
+
+msgid "Multisite Management"
+msgstr "Gestión de Multisitio"
+
+msgid "Do you want to allow sub-blogs to modify the translations of the plugins:"
+msgstr "Desea que los sub-blogs modifiquen las traducciones de los plugins:"
+
+msgid "If this option is unchecked, the translation tab won't be displayed in the blog administration panel."
+msgstr "Si no marca esta opción, la ficha de traducción no se mostrará en el panel de administración del blog."
+
+msgid "Advanced options"
+msgstr "Opciones avanzadas"
+
+msgid "Show the advanced options:"
+msgstr "Mostrar opciones avanzadas:"
+
+msgid "Will display additionnal information on the plugin (including SVN features). Recommended for developpers which develop plugins with this framework."
+msgstr "Mostrará información adicional del plugin (incluyendo características SVN). Recomendado para desarrolladores de plugins con este framework."
+
+msgid "Show the developpers documentation:"
+msgstr "Mostrar la documentación de desarrollo:"
+
+msgid "You should register a new wordpress plugin first on %s."
+msgstr "Los plugins de Wordpress nuevos deben registrarse primero en %s."
+
+msgid "What is your SVN Login:"
+msgstr "Login SVN:"
+
+msgid "You should have an account on %s before. Thus, the login will be the same!"
+msgstr "Debería tener una cuenta en %s. El login será el de dicha cuenta."
+
+msgid "What is your SVN Password:"
+msgstr "Password SVN:"
+
+msgid "Same comment as above..."
+msgstr "Lo mismo que antes..."
+
+msgid "What is your Author Name:"
+msgstr "Nombre de autor:"
+
+msgid "Your author name is the name that is displayed in your plugin."
+msgstr "Su nombre de autor es el mismo que el mostrado en su plugin."
+
+msgid "Do you want to udate the translations files when the plugin page is called:"
+msgstr "Desea actualizar las traducciones cuando se invoque la página del plugin:"
+
+msgid "This is useful if you develop a plugin, thus you will see when new sentences need to be translated."
+msgstr "Esto es útil si desarrolla un plugin, así usted verá cuándo hace falta que se traduzcan nuevas frases."
+
+msgid "IMAP Login:"
+msgstr "Login IMAP:"
+
+msgid "This is useful if you want that the framework retrieve automatically the translations file into an IMAP mailbox"
+msgstr "Esto es útil si desea que el framework envíe automáticamente las traducciones a una cuenta IMAP"
+
+msgid "IMAP Password:"
+msgstr "Contraseña IMAP:"
+
+msgid "IMAP Server:"
+msgstr "Servidor IMAP:"
+
+msgid "Should be something like %s"
+msgstr "Debería ser de la forma %s"
+
+msgid "Summary page for the plugins developped with the SL framework"
+msgstr "Página resumen de los plugins desarrollados con SL Framework"
+
+msgid "The core file used for the SedLex plugins is:"
+msgstr "El fichero núcleo usado por los plugins SedLex es:"
+
+msgid "For now, you have installed %d  plugins including %d plugins developped with the 'SL framework':"
+msgstr "Por ahora, has instalado %d plugins de los cuales hay %d desarrollados con SL Framework."
+
+msgid "Plugin name"
+msgstr "Nombre de plugin"
+
+msgid "Description"
+msgstr "Descripción"
+
+msgid "SVN Management"
+msgstr "Gestión SVN"
+
+msgid "Update plugin information..."
+msgstr "Actualizar información de plugin..."
+
+msgid "There is a SQL database for this plugin"
+msgstr "Hay una base de datos SQL para este plugin"
+
+msgid "Version: %s by %s"
+msgstr "Versión: %s por %s"
+
+msgid "Getting SVN information..."
+msgstr "Obteniendo información SVN..."
+
+msgid "List of SL plugins"
+msgstr "Lista de plugins SL"
+
+msgid "Parameters of the framework"
+msgstr "Parámetros del framework"
+
+msgid "The following description is a quick tutorial on about how to create a plugin with the SL framework. (Please note that the following description is in English for developpers, sorry for this inconvenience)"
+msgstr "La siguiente descripción es un tutotrial rápido para crear un plugin con el framework SL. (Está en inglés, sentimos la inconveniencia)"
+
+msgid "How to develop a plugin?"
+msgstr "¿Cómo desarrollar un plugin?"
+
+msgid "Framework documentation"
+msgstr "Documentación del framework"
+
+msgid "Manage translation of the framework"
+msgstr "Gestionar traducción del framework"
+
+msgid "An Unexpected HTTP Error occurred during the API request."
+msgstr "Excepción HTTP inesperada durante la petición a la API"
+
+msgid "This plugin does not seem to be hosted on the wordpress repository."
+msgstr "Este plugin no parece estar alojado en el repositorio Wordpress."
+
+msgid "The Wordpress page: %s"
+msgstr "La página de WordPress: %s"
+
+msgid "Last update:"
+msgstr "Última actualización:"
+
+msgid "Rating: %s"
+msgstr "Puntuación: %s"
+
+msgid "by %s persons"
+msgstr "por %s personas"
+
+msgid "Number of download: %s"
+msgstr "Número de descarga: %s"
+
+msgid "An error occured when retrieving the version of the plugin on Wordpress.org. Please retry!"
+msgstr "Ocurrió un error al obtener la versión del plugin en Wordpress.org. Por favor, inténtelo de nuevo."
+
+msgid "Update of the core ..."
+msgstr "Actualización del núcleo..."
+
+msgid "1) Update with the core of the %s plugin"
+msgstr "1) Actualizar con el núcleo del plugin %s"
+
+msgid "1) The core of the plugin is up-to-date"
+msgstr "1) El núcleo del plugin está actualizado"
+
+msgid "2) Modify the version (but the files of plugin are unchanged)"
+msgstr "2) Modificar la versión (pero los ficheros del plugin quedan intactos)"
+
+msgid "2) Modify the version (the files of the plugin have been changed)"
+msgstr "2) Modificar la versión (los ficheros del plugin han cambiado)"
+
+msgid "2) Modify the readme.txt (as the version has been already changed)"
+msgstr "2) Modificar el readme.txt (pues la versión ya ha cambiado)"
+
+msgid "3) Update the SVN repository (without modifying the version)"
+msgstr "3) Actualizar el repositorio SVN (sin modificar la versión)"
+
+msgid "3) Update the SVN repository (and release a new version %s)"
+msgstr "3) Actualizar el repositorio SVN (y publicar nueva versión %s)"
+
+msgid "Refresh"
+msgstr "Actualizar"
+
+msgid "Change the plugin version for %s"
+msgstr "Cambiar la versión del plugin para %s"
+
+msgid "Version number"
+msgstr "Número de versión"
+
+msgid "The current version of the plugin %s is %s."
+msgstr "La versión actual del plugin %s es %s."
+
+msgid "Please modify the version:"
+msgstr "Por favor, modifique la versión:"
+
+msgid "Readme file"
+msgstr "Fichero leeme"
+
+msgid "The current content of %s is:"
+msgstr "El contenido actual de %s es:"
+
+msgid "The current text"
+msgstr "Texto actual"
+
+msgid "The proposed text"
+msgstr "Texto propuesto"
+
+msgid "Save these data"
+msgstr "Guardar datos"
+
+msgid "There is a problem with the header of %s. It appears that there is no Version header."
+msgstr "Hay un problema con la cabecera de %s. Parece que no hay cabecera Version."
+
+msgid "The data has been saved. You may close this window."
+msgstr "Los datos han sido guardados. Puedes cerrar esta ventana."
+
+msgid "The folder %s is not %s !"
+msgstr "¡La carpeta %s no es %s!"
+
+msgid "The file %s is not %s !"
+msgstr "¡El fichero %s no es %s!"
+
+msgid "The folder %s does not exists and cannot be created !"
+msgstr "¡La carpeta %s no existe y no puede crearse!"
+
+msgid "The file %s does not exists and cannot be created !"
+msgstr "¡El fichero %s no existe y no puede crearse!"
+
+msgid "There are some issues with folders rights. Please corret them as soon as possible as they could induce bugs and instabilities."
+msgstr "Hay problemas con los derechos de carpeta. Por favor, corríjalos lo antes posible pues podrían producir errores e inestabilidades."
+
+msgid "Please see below:"
+msgstr "Por favor, ver más abajo:"
+
+msgid "Plugins that you may install"
+msgstr "Plugins que puedes instalar"
+
+msgid "The following plugins have been developed by the author and are not yet installed:"
+msgstr "Los siguientes plugins han sido desarrollados por el autor y todavía no se han instalado:"
+
+msgid "Plugin not yet installed"
+msgstr "Plugin no instalado todavía"
+
+msgid "Description and Screenshots"
+msgstr "Descripción y capturas de pantalla"
+
+msgid "All author's plugins have been installed. Thank you!"
+msgstr "Todos los puglins del autor han sido instalados. ¡Gracias!"
+
+msgid "Installed plugins"
+msgstr "Plugins instalados"
+
+msgid "You have already installed the following author's plugins:"
+msgstr "Ya has instalado los siguientes plugins del autor:"
+
+msgid "Plugin already installed"
+msgstr "Plugin ya instalado"
+
+msgid "Number of download:"
+msgstr "Número de descarga:"
+
+msgid "Your credentials do not seem to be correct. Please check them!"
+msgstr "Sus credenciales parecen incorrectas. Por favor, compruébelas."
+
+msgid "This file have not been written in the repository due to server problem. Nevertheless, you should retry as it often works better with a second try !"
+msgstr "Debido a un problema, este fichero no se ha guardado en el repositorio. No obstante, debería volver a intentarlo pues normalmente esto resuelve el problema."
+
+msgid "SVN client for %s"
+msgstr "Cliente SVN para %s"
+
+msgid "Updating the local cache"
+msgstr "Actualizando la caché local"
+
+msgid "folder created"
+msgstr "carpeta creada"
+
+msgid "folder creation has failed !"
+msgstr "creación de carpeta ha fallado!"
+
+msgid "%s bytes transfered"
+msgstr "%s bytes transferidos"
+
+msgid "An error occurred during the retrieval of files on the server ! Sorry ..."
+msgstr "Ocurrió un error al obtener ficheros del servidor. Lo sentimos..."
+
+msgid "Local to SVN repository"
+msgstr "Local a repositorio SVN"
+
+msgid "KB"
+msgstr "KB"
+
+msgid "MB"
+msgstr "MB"
+
+msgid "GB"
+msgstr "GB"
+
+msgid "Feedback form"
+msgstr "Formulario de contacto"
+
+msgid "This form is an easy way to contact the author and to discuss issues/incompatibilities/etc. with him"
+msgstr "Este formulario es una forma sencilla de contactar con el autor y discutir con el problemas, incompatibilidades, etc."
+
+msgid "Contact the author"
+msgstr "Contacte con el autor"
+
+msgid "Your name:"
+msgstr "Su nombre:"
+
+msgid "Your email:"
+msgstr "Su email:"
+
+msgid "Useful... so that the author will be able to anwser you."
+msgstr "Útil.. para que el autor pueda responderte."
+
+msgid "Your comments:"
+msgstr "Tus comentarios:"
+
+msgid "Here, you may configure three levels of translations: at the plugin level, at the framework level, and at the dashboard level."
+msgstr "Aquí se pueden configurar tres niveles de traducciones: nivel de plugin, nivel de framework y nivel de escritorio."
+
+msgid "Please be informed that your current language is %s. Text will be translated if a translation is available."
+msgstr "Tenga en cuenta que su lenguaje actual es %s. El texto será traducido si exista traducción a dicho idioma."
+
+msgid "Translations available for this plugin (i.e. %s)"
+msgstr "Traducciones disponibles para este plugin (p. ej. %s)"
+
+msgid "Translations available for the SL framework (stored in %s)"
+msgstr "Traducciones disponibles para el SL Framework (almacenadas en %s)"
+
+msgid "Translations installed for Wordpress"
+msgstr "Traducciones instaladas para WordPress"
+
+msgid "Adding a new translation for this language: %s"
+msgstr "Añadiendo una nuevo traducción para este lenguaje: %s"
+
+msgid "Sentence to translate"
+msgstr "Frase para traducir"
+
+msgid "Translation"
+msgstr "Traducción"
+
+msgid "(if your name/pseudo is already in the list, there is no need to fill this input)"
+msgstr "(si su nombre/nick ya está en la lista, no es necesario rellenar esta casilla)"
+
+msgid "Your email or your website:"
+msgstr "Tu email o website:"
+
+msgid "Create the translation files"
+msgstr "Crear ficheros de traducción"
+
+msgid "Modifying the translation for this language: %s"
+msgstr "Modificando la traducción para este lenguaje: %s"
+
+msgid "Modify the translation files"
+msgstr "Modificar los ficheros de traducción"
+
+msgid "The file %s cannot be extracted from mail attachments"
+msgstr "El fichero %s no puede extraerse de adjuntos de email"
+
+msgid "The file %s cannot be written in the %s folder"
+msgstr "El fichero %s no puede escribirse en la carpeta %s"
+
+msgid "The file %s has been imported in the %s folder"
+msgstr "El fichero %s ha sido importado a la carpeta %s"
+
+msgid "Plugin"
+msgstr "Plugin"
+
+msgid "Language"
+msgstr "Lenguaje"
+
+msgid "Information"
+msgstr "Información"
+
+msgid "%s sentences have been translated (i.e. %s)."
+msgstr "%s frases han sido traducidas (p. ej. %s)."
+
+msgid "Delete"
+msgstr "Borrar"
+
+msgid "%s sentences have been newly translated and %s sentences have been modified (the old file has %s translated sentences)."
+msgstr "%s frases han sido traducidas por primera vez y %s frases han sido modificadas (el antiguo fichero tiene %s frases traducidas)."
+
+msgid "Merge"
+msgstr "Unificar"
+
+msgid "New translations are available"
+msgstr "Hay nuevas traducciones disponibles"
+
+msgid "Updates of translations are available"
+msgstr "Hay modificaciones de las traducciones disponibles"
+
+msgid "What are the differences between these two files?"
+msgstr "¿Cuáles son las diferencias entre estos dos ficheros?"
+
+msgid "Old sentence"
+msgstr "Antigua frase"
+
+msgid "New sentence"
+msgstr "Nueva frase"
+
+msgid "To replace?"
+msgstr "¿Reemplazar?"
+
+msgid "The translation %s have been sent"
+msgstr "La traducción %s ha sido enviada"
+

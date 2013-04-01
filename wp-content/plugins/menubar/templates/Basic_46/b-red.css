@@ -1,0 +1,49 @@
+/* 
+	WordPress Menubar Plugin
+	b-red.css stylesheet for the Basic template
+*/
+
+.b-red {
+	clear: both;
+	margin: 10px 0px 0px 0px;
+	padding: 0;
+	height: 27px;	
+	line-height: 27px;
+	background: #990000;
+	font-size: 12px;
+	font-weight: bold;
+	}
+
+.b-red a, 
+.b-red a:visited {
+	float: left;
+	padding-right: 1em; 
+	padding-left: 1em; 
+	line-height: 27px;
+	background: #990000;
+	color: white;	
+	border-right: 1px solid white;
+	text-decoration: none;
+	}
+
+.b-red a:hover {
+	background: #CC0000; color: white;	
+	text-decoration: none;
+	}
+
+.b-red a.selected, 
+.b-red a.selected:visited {
+	background: #CC0000; color: white;	
+	}
+
+.b-red a.selected:hover {
+	background: #CC0000; color: white;	
+	text-decoration: none;
+	}
+
+.b-red a.right, 
+.b-red a.right:visited {
+	float: right;
+	border-left: 1px solid white;
+	border-right: none;
+	}

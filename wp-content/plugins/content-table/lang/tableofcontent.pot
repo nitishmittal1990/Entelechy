@@ -1,0 +1,200 @@
+Content-Transfer-Encoding: 8bit
+
+#: content-table.php:160
+#@ tableofcontent
+msgid "Display the table of content"
+msgstr ""
+
+#: content-table.php:192
+#@ tableofcontent
+msgid "If you want that the table of content appears in your post, just type: %s, that is all!"
+msgstr ""
+
+#: content-table.php:207
+#@ tableofcontent
+msgid "General"
+msgstr ""
+
+#: content-table.php:208
+#@ tableofcontent
+msgid "Title of the table of content:"
+msgstr ""
+
+#: content-table.php:209
+#@ tableofcontent
+msgid "What is the first level?"
+msgstr ""
+
+#: content-table.php:210
+#@ tableofcontent
+msgid "If you set this option to %s, then the first level would be %s!"
+msgstr ""
+
+#: content-table.php:211
+#@ tableofcontent
+msgid "Add prefix in your title:"
+msgstr ""
+
+#: content-table.php:212
+#@ tableofcontent
+msgid "Prefix of the first level:"
+msgstr ""
+
+#: content-table.php:213
+#@ tableofcontent
+msgid "If you leave the field blank, nothing will be added!"
+msgstr ""
+
+#: content-table.php:213
+#@ tableofcontent
+msgid "Note that if you want to display the number of level 2, just write %s ..."
+msgstr ""
+
+#: content-table.php:214
+#@ tableofcontent
+msgid "Prefix of the second level:"
+msgstr ""
+
+#: content-table.php:215
+#@ tableofcontent
+msgid "Prefix of the third level:"
+msgstr ""
+
+#: content-table.php:216
+#@ tableofcontent
+msgid "Prefix of the fourth level:"
+msgstr ""
+
+#: content-table.php:217
+#@ tableofcontent
+msgid "Prefix of the fifth level:"
+msgstr ""
+
+#: content-table.php:218
+#@ tableofcontent
+msgid "Customize the global visual appearance:"
+msgstr ""
+
+#: content-table.php:219
+#@ tableofcontent
+msgid "The HTML:"
+msgstr ""
+
+#: content-table.php:220
+#@ tableofcontent
+msgid "The default HTML is: %s"
+msgstr ""
+
+#: content-table.php:224
+#@ tableofcontent
+msgid "Please note that %s will be replaced with the given title of the table of content and %s will be replaced with the current chapter/section/etc. title"
+msgstr ""
+
+#: content-table.php:225
+#: content-table.php:237
+#@ tableofcontent
+msgid "The CSS:"
+msgstr ""
+
+#: content-table.php:226
+#: content-table.php:238
+#@ tableofcontent
+msgid "The default CSS is: %s"
+msgstr ""
+
+#: content-table.php:236
+#@ tableofcontent
+msgid "Customize the visual appearance of the title:"
+msgstr ""
+
+#: content-table.php:246
+#@ tableofcontent
+msgid "Customize the visual appearance of each entry in the TOC:"
+msgstr ""
+
+#: content-table.php:247
+#@ tableofcontent
+msgid "The indentation of the TOC (in pixels):"
+msgstr ""
+
+#: content-table.php:248
+#: content-table.php:249
+#@ tableofcontent
+msgid "The max font size:"
+msgstr ""
+
+#: content-table.php:250
+#@ tableofcontent
+msgid "The color of the upper level:"
+msgstr ""
+
+#: content-table.php:251
+#@ tableofcontent
+msgid "The color of the lower level:"
+msgstr ""
+
+#: content-table.php:252
+#@ tableofcontent
+msgid "The color of entry will be a transition color between these two colors (depending of their levels)."
+msgstr ""
+
+#: content-table.php:252
+#@ tableofcontent
+msgid "Please add the # character before the code. If you do not know what code to use, please visit this website: %s"
+msgstr ""
+
+#: content-table.php:253
+#@ tableofcontent
+msgid "Customize the visual appearance of each entry in the TOC (for Experts):"
+msgstr ""
+
+#: content-table.php:254
+#@ tableofcontent
+msgid "The CSS style of the first level:"
+msgstr ""
+
+#: content-table.php:255
+#@ tableofcontent
+msgid "For instance, %s"
+msgstr ""
+
+#: content-table.php:256
+#@ tableofcontent
+msgid "The CSS style of the second level:"
+msgstr ""
+
+#: content-table.php:257
+#@ tableofcontent
+msgid "The CSS style of the third level:"
+msgstr ""
+
+#: content-table.php:258
+#@ tableofcontent
+msgid "The CSS style of the fourth level:"
+msgstr ""
+
+#: content-table.php:259
+#@ tableofcontent
+msgid "The CSS style of the fifth level:"
+msgstr ""
+
+#: content-table.php:262
+#@ tableofcontent
+msgid "Parameters"
+msgstr ""
+
+#: content-table.php:269
+#@ tableofcontent
+msgid "Manage translations"
+msgstr ""
+
+#: content-table.php:275
+#@ tableofcontent
+msgid "Give feedback"
+msgstr ""
+
+#: content-table.php:280
+#@ tableofcontent
+msgid "Other plugins"
+msgstr ""
+

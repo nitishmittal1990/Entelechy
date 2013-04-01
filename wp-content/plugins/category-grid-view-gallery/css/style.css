@@ -1,0 +1,174 @@
+/* 
+Plugin Name: Category Grid View Gallery
+Author: Anshul Sharma
+*/
+div.cgview{
+	list-style-type: none; 
+	clear:both;
+	text-align:center;
+}
+
+div.cgview ul{
+	margin-left:-10px;
+	list-style-type: none; 
+	clear:both;
+	overflow:hidden;
+}
+
+
+div.cgview ul li{font-weight:bold;text-align:center;margin:10px 0 0 10px;
+					-webkit-border-radius: 10px;-moz-border-radius: 10px;border-radius: 10px;
+				}
+div.cgview ul li{
+	display:inline-block;
+	position:relative;
+	border:4px double;
+	overflow:hidden;
+	
+}
+
+div.cgview ul li:hover {border:4px solid;}
+div.cgview ul li div.cgtitle{height:0%;overflow:hidden;z-index:3;position:absolute;bottom:0;left:0;width:inherit;}
+div.cgview ul li div.cgtitle p{width:inherit;}
+div.cgview ul li div.cgback{
+					height:0%;overflow:hidden;z-index:2;position:absolute;bottom:0;left:0;width:inherit;
+					filter:alpha(opacity=60);
+ 					opacity:0.6;
+}
+div.cgview ul li div.cgtitle p a{font-family:Geneva, Arial, Helvetica, sans-serif;text-decoration:none;}
+
+/* Light Theme */
+div.cgview.light ul li{border-color: #aaa;}
+div.cgview.light ul li:hover{border-color: #ccc;}
+div.cgview.light ul li div.cgback{background-color:#fff;}
+div.cgview.light ul li div.cgtitle p a{color:#000;}
+
+/* Dark Theme */
+div.cgview.dark ul li{border-color: #777;}
+div.cgview.dark ul li:hover{border-color: #555;}
+div.cgview.dark ul li div.cgback{background-color:#000;}
+div.cgview.dark ul li div.cgtitle p a{color:#fff;}
+
+
+/* CSS hover Fallback Strategy : In a case when Javascript is not loaded/disabled,
+	the plugin falls back to a pure css hover effect. */
+
+
+div.cgview ul li div.cgback.cgnojs.hover, div.cgview ul li div.cgback.cgnojs.never{
+	display:none;
+	height:35%;
+}
+div.cgview ul li div.cgtitle.cgnojs.hover, div.cgview ul li div.cgtitle.cgnojs.never{
+	display:none;
+	height:32%;
+}
+div.cgview ul li div.cgback.always{
+	display:block;
+	height:35%;
+}
+div.cgview ul li div.cgtitle.always{
+	display:block;
+	height:32%;
+}
+div.cgview ul li:hover > div.cgback.cgnojs.hover, div.cgview ul li:hover > div.cgtitle.cgnojs.hover{
+	display: block;
+}
+
+div#cg-credits{font-family:Arial, Helvetica, sans-serif;font-size:80%;color:#777; text-align:right;}
+div#cg-credits a{color: #3366CC; text-decoration:none;}
+/*Pagination Controls style */
+ol#cg-page-controls{clear:both;position:relative;margin:0 0 0 -2px;}
+	ol#cg-page-controls li{
+		display:inline-block;
+		position:relative;
+		width:16px;
+		height:16px;
+		background:url(images/bg_buttons.png) no-repeat 0 0;
+		text-indent:-8000px;
+		list-style:none;
+		cursor:pointer;
+		margin:0 2px;
+		}
+	ol#cg-page-controls li:hover{background:url(images/bg_buttons.png) no-repeat 0 -16px;}
+	ol#cg-page-controls li.current{color:#f00;font-weight:bold;background:url(images/bg_buttons.png) no-repeat 0 -32px;}
+	/*ol#cg-page-controls li.prev, ol#cg-page-controls li.next{		}*/
+	ol#cg-page-controls li.prev{background:url(images/bg_buttons.png) no-repeat 0 -64px;}
+	ol#cg-page-controls li.next{background:url(images/bg_buttons.png) no-repeat 0 -48px;}
+
+	
+/*
+    ColorBox Core Style:
+    The following CSS is consistent between example themes and should not be altered.
+*/
+#colorbox, #cboxOverlay, #cboxWrapper{position:absolute; top:0; left:0; z-index:9999; overflow:hidden;}
+#cboxOverlay{position:fixed; width:100%; height:100%;}
+#cboxMiddleLeft, #cboxBottomLeft{clear:left;}
+#cboxContent{position:relative;}
+#cboxLoadedContent{overflow:auto;}
+#cboxTitle{margin:0;}
+#cboxLoadingOverlay, #cboxLoadingGraphic{position:absolute; top:0; left:0; width:100%;}
+#cboxPrevious, #cboxNext, #cboxClose, #cboxSlideshow{cursor:pointer;}
+.cboxPhoto{float:left; margin:auto; border:0; display:block;}
+.cboxIframe{width:100%; height:100%; display:block; border:0;}
+
+/*  User Style:
+    Change the following styles to modify the appearance of ColorBox.
+*/
+#cboxOverlay{background:#fff;}
+#colorbox{}
+    #cboxTopLeft{width:25px; height:25px; background:url(images/border1.png) no-repeat 0 0;}
+    #cboxTopCenter{height:25px; background:url(images/border1.png) repeat-x 0 -50px;}
+    #cboxTopRight{width:25px; height:25px; background:url(images/border1.png) no-repeat -25px 0;}
+    #cboxBottomLeft{width:25px; height:25px; background:url(images/border1.png) no-repeat 0 -25px;}
+    #cboxBottomCenter{height:25px; background:url(images/border1.png) repeat-x 0 -75px;}
+    #cboxBottomRight{width:25px; height:25px; background:url(images/border1.png) no-repeat -25px -25px;}
+    #cboxMiddleLeft{width:25px; background:url(images/border2.png) repeat-y 0 0;}
+    #cboxMiddleRight{width:25px; background:url(images/border2.png) repeat-y -25px 0;}
+    #cboxContent{background:#fff; overflow:hidden;}
+        #cboxError{padding:50px; border:1px solid #ccc;}
+        #cboxLoadedContent{margin-bottom:20px;}
+        #cboxTitle{position:absolute; bottom:0px; left:0; text-align:center; width:100%; color:#999;}
+        #cboxCurrent{position:absolute; bottom:0px; left:100px; color:#999;}
+        #cboxSlideshow{position:absolute; bottom:0px; right:42px; color:#444;}
+        #cboxPrevious{position:absolute; bottom:0px; left:0; color:#444;}
+        #cboxNext{position:absolute; bottom:0px; left:63px; color:#444;}
+        #cboxLoadingOverlay{background:#fff url(images/loading.gif) no-repeat center center;}
+        #cboxClose{position:absolute; top:0; right:0; display:block; color:#333; font-weight:bold; font-size:16px; padding-right:5px;font-family: Geneva, Arial, Helvetica, sans-serif;}
+
+/*
+  The following fixes a problem where IE7 and IE8 replace a PNG's alpha transparency with a black fill
+  when an alpha filter (opacity change) is set on the element or ancestor element.  This style is not applied to IE9.
+*/
+.cboxIE #cboxTopLeft,
+.cboxIE #cboxTopCenter,
+.cboxIE #cboxTopRight,
+.cboxIE #cboxBottomLeft,
+.cboxIE #cboxBottomCenter,
+.cboxIE #cboxBottomRight,
+.cboxIE #cboxMiddleLeft,
+.cboxIE #cboxMiddleRight {
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF);
+}
+
+/*
+  The following provides PNG transparency support for IE6
+*/
+.cboxIE6 #cboxTopLeft{background:url(images/ie6/borderTopLeft.png);}
+.cboxIE6 #cboxTopCenter{background:url(images/ie6/borderTopCenter.png);}
+.cboxIE6 #cboxTopRight{background:url(images/ie6/borderTopRight.png);}
+.cboxIE6 #cboxBottomLeft{background:url(images/ie6/borderBottomLeft.png);}
+.cboxIE6 #cboxBottomCenter{background:url(images/ie6/borderBottomCenter.png);}
+.cboxIE6 #cboxBottomRight{background:url(images/ie6/borderBottomRight.png);}
+.cboxIE6 #cboxMiddleLeft{background:url(images/ie6/borderMiddleLeft.png);}
+.cboxIE6 #cboxMiddleRight{background:url(images/ie6/borderMiddleRight.png);}
+
+.cboxIE6 #cboxTopLeft,
+.cboxIE6 #cboxTopCenter,
+.cboxIE6 #cboxTopRight,
+.cboxIE6 #cboxBottomLeft,
+.cboxIE6 #cboxBottomCenter,
+.cboxIE6 #cboxBottomRight,
+.cboxIE6 #cboxMiddleLeft,
+.cboxIE6 #cboxMiddleRight {
+    _behavior: expression(this.src = this.src ? this.src : this.currentStyle.backgroundImage.split('"')[1], this.style.background = "none", this.style.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src=" + this.src + ", sizingMethod='scale')");
+}

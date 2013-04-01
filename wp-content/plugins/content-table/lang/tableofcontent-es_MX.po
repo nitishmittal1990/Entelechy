@@ -1,0 +1,109 @@
+msgid ""
+msgstr ""
+"Generated: SL Framework (http://www.sedlex.fr)\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2012-03-19T18:05:52+00:00\n"
+"Last-Translator: RobertoRamrez <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: Spanish\n"
+"X-Poedit-Country: Mexico\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes\n"
+
+msgid "If you want that the table of content appears in your post, just type: %s, that is all!"
+msgstr "Escribe %s si quieres que la tabla de contenido aparesca en tu entrada, ¡eso es todo!"
+
+msgid "What is the title to be displayed in the table of content?"
+msgstr "¿Qué titulo quieres que aparesca en la tabla de contenido?"
+
+msgid "Title of the table of content:"
+msgstr "Titulo de la tabla de contenido:"
+
+msgid "Add prefix in your title:"
+msgstr "Agrega un prefijo a tu titulo:"
+
+msgid "If you leave the field blank, nothing will be added!"
+msgstr "¡Nada se agregara si dejas el campo vacio!"
+
+msgid "Note that if you want to display the number of level 2, just write %s ..."
+msgstr "Date cuenta que solo tienes que escribir %s para mostrar el número del nivel 2"
+
+msgid "Prefix of the level %s:"
+msgstr "Prefijo del nivel %s:"
+
+msgid "Customize the global visual appearance:"
+msgstr "Personaliza la apariencia visual global:"
+
+msgid "The HTML:"
+msgstr "El código HTML:"
+
+msgid "The default HTML is: %s"
+msgstr "El código HTML por omisión es: %s"
+
+msgid "Please note that %s will be replaced with the given title of the table of content and %s will be replaced with the current chapter/section/etc. title"
+msgstr "Por favor date cuenta que %s será reemplazado con el titulo de la tabla de contenido dado, y que %s será reemplazado con el titulo del parrafo/sección/etc actual"
+
+msgid "The CSS:"
+msgstr "El código CSS:"
+
+msgid "The default CSS is: %s"
+msgstr "El código CSS por omisión:"
+
+msgid "Customize the visual appearance of the title:"
+msgstr "Personaliza la apariencia visual del titulo:"
+
+msgid "Customize the visual appearance of each entry in the TOC:"
+msgstr "Personaliza la apariencia visual de cada entrada dentro de la tabla de contenido:"
+
+msgid "The indentation of the TOC (in pixels):"
+msgstr "La sangría de la tabla de contenido (en pixels):"
+
+msgid "The max font size:"
+msgstr "El tamaño de fuente máximo:"
+
+msgid "The color of the upper level:"
+msgstr "El color del nivel superior:"
+
+msgid "The color of the lower level:"
+msgstr "El color del nivel inferior:"
+
+msgid "The color of entry will be a transition color between these two colors (depending of their levels)."
+msgstr "El color de la entrada será una transición de color entre estos dos colores (dependiendo de sus niveles):"
+
+msgid "Please add the # character before the code. If you do not know what code to use, please visit this website: %s"
+msgstr "Por favor agrega el carácter # antes del código. Por favor visita el siguiente sitio en caso de no saber qué código usar: %s"
+
+msgid "Customize the visual appearance of each entry in the TOC (for Experts):"
+msgstr "Personaliza la apariencia visual de cada entrada en la tabla de contenido (para expertos):"
+
+msgid "The CSS style of the level %s:"
+msgstr "El estílo CSS del nivel %s:"
+
+msgid "For instance, %s"
+msgstr "Por ejemplo, %s:"
+
+msgid "Parameters"
+msgstr "Parámetros"
+
+msgid "Manage translations"
+msgstr "Gestiona las traducciones"
+
+msgid "Give feedback"
+msgstr "Da retroalimentación"
+
+msgid "Other plugins"
+msgstr "Otros plugins"
+
+msgid "The file %s cannot be deleted. You should have a problem with file permissions or security restrictions."
+msgstr "No se puede eliminar el archivo %s. Seguro tienes problemas de permisionamiento de archivos o restricciones de seguridad."
+

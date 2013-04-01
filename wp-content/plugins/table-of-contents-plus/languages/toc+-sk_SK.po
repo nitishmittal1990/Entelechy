@@ -1,0 +1,746 @@
+# Copyright (C) 2012 
+# This file is distributed under the same license as the  package.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/table-of-contents-plus\n"
+"POT-Creation-Date: 2012-11-17 03:02:57+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2013-01-23 12:49+0300\n"
+"Last-Translator: Serg\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: Poedit 1.5.4\n"
+
+#: toc.php:171
+msgid "Settings"
+msgstr "Nastavenia"
+
+#: toc.php:341 toc.php:342
+msgid "TOC"
+msgstr "TOC"
+
+#: toc.php:486
+msgid "Options saved."
+msgstr "Nastavenia uložené."
+
+#: toc.php:488
+msgid "Save failed."
+msgstr "Uloženie bolo neúspešné."
+
+#: toc.php:500
+msgid "Main Options"
+msgstr "Hlavné možnosti"
+
+#: toc.php:501
+msgid "Sitemap"
+msgstr "Sitemap"
+
+#: toc.php:502
+msgid "Help"
+msgstr "pomoc"
+
+#: toc.php:510
+msgid "Position"
+msgstr "Pozícia"
+
+#: toc.php:513
+msgid "Before first heading (default)"
+msgstr "Pred prvej položky (predvolené)"
+
+#: toc.php:514
+msgid "Top"
+msgstr "Top"
+
+#: toc.php:515
+msgid "Bottom"
+msgstr "Dno"
+
+#: toc.php:520
+msgid "Show when"
+msgstr "Show, kedy"
+
+#. translators: text follows drop down list of numbers
+#: toc.php:532
+msgid "or more headings are present"
+msgstr "alebo ďalšie nadpisy sú prítomné"
+
+#: toc.php:536
+msgid "Auto insert for the following content types"
+msgstr "Auto vložiť pre tieto typy obsahu"
+
+#. translators: this is the title of the table of contents
+#: toc.php:551
+msgid "Heading text"
+msgstr "Text nadpisu"
+
+#: toc.php:553
+msgid "Show title on top of the table of contents"
+msgstr "Zobraziť názov nad obsahu"
+
+#: toc.php:556
+msgid "Eg: Contents, Table of Contents, Page Contents"
+msgstr "Napr: Obsah, obsah, obsah stránky"
+
+#: toc.php:558
+msgid "Allow the user to toggle the visibility of the table of contents"
+msgstr "Povoliť používateľovi prepnúť viditeľnosť obsahu"
+
+#: toc.php:563
+msgid "Show text"
+msgstr "Zobraziť text"
+
+#. translators: example text to display when you want to expand the table of
+#. contents
+#: toc.php:567
+msgid "Eg: show"
+msgstr "Napr: Ukázať"
+
+#: toc.php:570
+msgid "Hide text"
+msgstr "Skryť text"
+
+#. translators: example text to display when you want to collapse the table of
+#. contents
+#: toc.php:574
+msgid "Eg: hide"
+msgstr "Napr: skryť"
+
+#: toc.php:578
+msgid "Hide the table of contents initially"
+msgstr "Skryť obsah spočiatku"
+
+#: toc.php:584
+msgid "Show hierarchy"
+msgstr "Zobraziť hierarchiu"
+
+#: toc.php:588
+msgid "Number list items"
+msgstr "Číslo položky zoznamu"
+
+#: toc.php:592
+msgid "Enable smooth scroll effect"
+msgstr "Umožniť hladké rolovacie efekt"
+
+#: toc.php:593
+msgid "Scroll rather than jump to the anchor link"
+msgstr "Prejdite skôr ako skočiť na kotva odkaz"
+
+#: toc.php:598
+msgid "Appearance"
+msgstr "Vzhľad"
+
+#: toc.php:602
+msgid "Width"
+msgstr "Šírka"
+
+#: toc.php:605
+msgid "Fixed width"
+msgstr "Pevná šírka"
+
+#: toc.php:616
+msgid "Relative"
+msgstr "Relatívna"
+
+#: toc.php:617
+msgid "Auto (default)"
+msgstr "Automatické (štandardne)"
+
+#. translators: other width
+#: toc.php:627
+msgid "Other"
+msgstr "Ostatné"
+
+#: toc.php:628
+msgid "User defined"
+msgstr "Definované používateľom"
+
+#. translators: ignore %s as it's some HTML label tags
+#: toc.php:634
+msgid "Please enter a number and %s select its units, eg: 100px, 10em"
+msgstr "Zadajte číslo a %s vyberte svoje podielové listy, napr: 100px, 10em"
+
+#: toc.php:645
+msgid "Wrapping"
+msgstr "Balenie"
+
+#: toc.php:648
+msgid "None (default)"
+msgstr "None (predvolené)"
+
+#: toc.php:649
+msgid "Left"
+msgstr "Doľava"
+
+#: toc.php:650
+msgid "Right"
+msgstr "Právo"
+
+#: toc.php:655
+msgid "Font size"
+msgstr "Veľkosť písma"
+
+#. translators: appearance / colour / look and feel options
+#: toc.php:668
+msgid "Presentation"
+msgstr "Prezentácia"
+
+#: toc.php:671
+msgid "Grey (default)"
+msgstr "Grey (predvolené)"
+
+#: toc.php:676
+msgid "Light blue"
+msgstr "Svetlo modrá"
+
+#: toc.php:681
+msgid "White"
+msgstr "Biela"
+
+#: toc.php:686
+msgid "Black"
+msgstr "Čierna"
+
+#: toc.php:691
+msgid "Transparent"
+msgstr "Transparentné"
+
+#: toc.php:696
+msgid "Custom"
+msgstr "Vlastné"
+
+#: toc.php:706
+msgid "Background"
+msgstr "Pozadie"
+
+#: toc.php:710
+msgid "Border"
+msgstr "Orámovanie"
+
+#: toc.php:714 toc.php:1556
+msgid "Title"
+msgstr "Názov"
+
+#: toc.php:718
+msgid "Links"
+msgstr "Odkazy"
+
+#: toc.php:722
+msgid "Links (hover)"
+msgstr "Odkazy (hover)"
+
+#: toc.php:726
+msgid "Links (visited)"
+msgstr "Odkazy (navštívil)"
+
+#: toc.php:733
+msgid "Leaving the value as %s will inherit your theme's styles"
+msgstr "Odchod na hodnotu ako %s zdedí vaša téma štýly"
+
+#: toc.php:740
+msgid "Advanced"
+msgstr "Pokročilé"
+
+#: toc.php:740 toc.php:857
+msgid "show"
+msgstr "Zobraziť"
+
+#: toc.php:742
+msgid "Power options"
+msgstr "Možnosti napájania"
+
+#: toc.php:746
+msgid "Include homepage"
+msgstr "Zahŕňa domovskú stránku"
+
+#: toc.php:747
+msgid "Show the table of contents for qualifying items on the homepage"
+msgstr "Zobraziť obsah pre kvalifikované položky na domovskej stránke"
+
+#: toc.php:750
+msgid "Exclude CSS file"
+msgstr "Vylúčiť CSS súbor"
+
+#: toc.php:751
+msgid ""
+"Prevent the loading of this plugin's CSS styles. When selected, the "
+"presentation options from above will also be ignored."
+msgstr ""
+"Zabrániť načítaniu tento plugin CSS štýlov. Pri výbere možnosti prezentácie "
+"zhora bude tiež ignorovať."
+
+#: toc.php:754
+msgid "Preserve theme bullets"
+msgstr "Zachovať tému guľky"
+
+#: toc.php:755
+msgid ""
+"If your theme includes background images for unordered list elements, enable "
+"this to support them"
+msgstr ""
+"Ak vaša téma obsahuje obrázky na pozadí pre neusporiadaný zoznam prvkov, "
+"umožnilo to na ich podporu"
+
+#: toc.php:758
+msgid "Heading levels"
+msgstr "Úrovne nadpisov"
+
+#: toc.php:760
+msgid ""
+"Include the following heading levels. Deselecting a heading will exclude it."
+msgstr "Zahrnúť nasledujúce úrovne nadpisov. Zrušením nadpis vylúči to."
+
+#: toc.php:766
+msgid "heading "
+msgstr "nadpis "
+
+#: toc.php:772
+msgid "Smooth scroll top offset"
+msgstr "Hladké scroll najvyššie offset"
+
+#: toc.php:775
+msgid ""
+"If you have a consistent menu across the top of your site, you can adjust "
+"the top offset to stop the headings from appearing underneath the top menu. "
+"A setting of 30 accommodates the WordPress admin bar. This setting appears "
+"after you have enabled smooth scrolling from above."
+msgstr ""
+"Ak máte konzistentné menu v hornej časti vášho webu, môžete upraviť top "
+"kompenzovať zastaviť nadpisy zobrazovaniu pod v hornom menu. Nastavenie 30 "
+"pojme WordPress admin panel. Toto nastavenie sa zobrazí po povolení plynulé "
+"posúvanie zhora."
+
+#: toc.php:779
+msgid "Restrict path"
+msgstr "Obmedziť cesta"
+
+#: toc.php:782
+msgid ""
+"Restrict generation of the table of contents to pages that match the "
+"required path. This path is from the root of your site and always begins "
+"with a forward slash."
+msgstr ""
+"Obmedziť generácie obsah na stránkach, ktoré zodpovedajú požadovanú cestu. "
+"Táto cesta je z koreňa vaše stránky a vždy začína s lomkou."
+
+#. translators: example URL path restriction
+#: toc.php:785
+msgid "Eg: /wiki/, /corporate/annual-reports/"
+msgstr "Napr: / wiki /, /corporate/annual-reports /"
+
+#: toc.php:789
+msgid "Default anchor prefix"
+msgstr "Predpona kotva predvolený"
+
+#: toc.php:792
+msgid ""
+"Anchor targets are restricted to alphanumeric characters as per HTML "
+"specification (see readme for more detail). The default anchor prefix will "
+"be used when no characters qualify. When left blank, a number will be used "
+"instead."
+msgstr ""
+"Kotva ciele sú obmedzené na alfanumerické znaky podľa HTML Špecifikácia "
+"(pozri súbor readme pre podrobnejšie). Predpona kotva predvolený bude "
+"použije pri žiadne znaky kvalifikovať. Ak ponecháte argument prázdny, číslo "
+"sa použije namiesto toho."
+
+#: toc.php:793
+msgid ""
+"This option normally applies to content written in character sets other than "
+"ASCII."
+msgstr ""
+"Táto voľba sa obyčajne vzťahuje na obsah napísaný v znakovej sady ako ASCII."
+
+#. translators: example anchor prefixes when no ascii characters match
+#: toc.php:796
+msgid "Eg: i, toc_index, index, _"
+msgstr "EG: ja, toc_index, index _"
+
+#. translators: advanced usage
+#: toc.php:804
+msgid "Usage"
+msgstr "Využitie"
+
+#: toc.php:805
+msgid ""
+"If you would like to fully customise the position of the table of contents, "
+"you can use the %s shortcode by placing it at the desired position of your "
+"post, page or custom post type. This method allows you to generate the table "
+"of contents despite having auto insertion disabled for its content type. "
+"Please visit the help tab for further information about this shortcode."
+msgstr ""
+"Ak by ste chceli prispôsobiť plne pozíciu obsahu, môžete použiť krátky kód "
+"%s umiestnite ho na požadovanú pozíciu z vášho post, stránky alebo vlastné "
+"post typu. Táto metóda umožňuje vytvárať tabuľky obsah napriek tomu, že "
+"automatické vloženie pre jej typ obsahu zakázané. Navštívte karte pomoc pre "
+"ďalšie informácie o tomto krátky."
+
+#: toc.php:813
+msgid ""
+"At its simplest, placing %s into a page will automatically create a sitemap "
+"of all pages and categories. This also works in a text widget."
+msgstr ""
+"Na jeho najjednoduchšie, uvádzanie %s do stránky automaticky vytvorí súbor "
+"sitemap všetky stránky a kategórie. To funguje aj v text widget."
+
+#: toc.php:817
+msgid "Show page listing"
+msgstr "Zobraziť stránku výpis"
+
+#: toc.php:821
+msgid "Show category listing"
+msgstr "Zobraziť výpis kategórie"
+
+#: toc.php:825
+msgid "Heading type"
+msgstr "Typ záhlavia"
+
+#. translators: the full line is supposed to read - Use [1-6 drop down list] to
+#. print out the titles
+#: toc.php:828
+msgid "Use"
+msgstr "Použitie"
+
+#. translators: the full line is supposed to read - Use [h1-h6 drop down list]
+#. to print out the titles
+#: toc.php:839
+msgid "to print out the titles"
+msgstr "vytlačiť nadpisy"
+
+#: toc.php:843
+msgid "Pages label"
+msgstr "Stránky label"
+
+#: toc.php:845
+msgid "Eg: Pages, Page List"
+msgstr "Napr: Stránky, zoznam stránok"
+
+#: toc.php:849
+msgid "Categories label"
+msgstr "Menovky kategórií"
+
+#: toc.php:851
+msgid "Eg: Categories, Category List"
+msgstr "Napr: Kategórie, zoznam kategórií"
+
+#: toc.php:857
+msgid "Advanced usage"
+msgstr "Pokročilé použitie"
+
+#: toc.php:859
+msgid ""
+"lets you print out a listing of only pages. Similarly %s can be used to "
+"print out a category listing. They both can accept a number of attributes so "
+"visit the help tab for more information."
+msgstr ""
+"umožňuje vytlačiť zoznam iba stránky. Podobne %s môžu byť použité na "
+"vytlačiť výpis kategórie. Obaja môžu akceptovať viacero atribútov tak "
+"Navštívte karte Pomocníka pre viac informácií."
+
+#: toc.php:860
+msgid "Examples"
+msgstr "Príklady"
+
+#: toc.php:862
+msgid "hides the heading from a category listing"
+msgstr "skryje položky z kategórie výpisu"
+
+#: toc.php:863
+msgid ""
+"Uses h6 to display %s on a page listing excluding pages with IDs 1 and 15"
+msgstr ""
+"H6 sa používa na zobrazenie %s na stránke výpis okrem stránky s ID 1 a 15"
+
+#: toc.php:871
+msgid "Where's my table of contents?"
+msgstr "Kde je v obsahu?"
+
+#: toc.php:872
+msgid ""
+"If you're reading this, then chances are you have successfully installed and "
+"enabled the plugin and you're just wondering why the index isn't appearing "
+"right?  Try the following:"
+msgstr ""
+"Ak čítate tento, potom šance sú, ste úspešne nainštalovali a povolené plugin "
+"a vy ste práve premýšľal, prečo index nezobrazený právo?  Vyskúšajte "
+"nasledujúci postup:"
+
+#: toc.php:874
+msgid ""
+"In most cases, the post, page or custom post type has less than the minimum "
+"number of headings. By default, this is set to four so make sure you have at "
+"least four headings within your content. If you want to change this value, "
+"you can find it under 'Main Options' &gt; 'Show when'."
+msgstr ""
+"Vo väčšine prípadov, post, stránky alebo vlastný príspevok typ má menej než "
+"minimum počet položiek. Štandardne to je nastavená na štyri tak uistite sa, "
+"že máte v najmenej štyroch častí svojho obsahu. Ak chcete zmeniť túto "
+"hodnotu, nájdete ju pod &quot;Hlavné možnosti&quot; &amp;gt; &quot;Show, "
+"kedy&quot;."
+
+#: toc.php:875
+msgid ""
+"Is auto insertion enabled for your content type? By default, only pages are "
+"enabled."
+msgstr ""
+"Zapnuté automatické vloženie pre váš typ obsahu? Predvolene sú len stránky "
+"povolené."
+
+#: toc.php:876
+msgid ""
+"Have you got <code>[no_toc]</code> somewhere within the content? This will "
+"disable the index for the current post, page or custom post type."
+msgstr ""
+"Máš <code>[no_toc]</code> niekde v obsahu? To budevypnúť index pre aktuálny "
+"post, stránky alebo vlastný príspevok typu."
+
+#: toc.php:877
+msgid ""
+"If you are using the TOC+ widget, check if you have the <em>\"Show the table "
+"of contents only in the sidebar\"</em> enabled as this will limit its "
+"display to only the sidebar. You can check by going into Appearance &gt; "
+"Widgets."
+msgstr ""
+"Ak používate TOC + widget, skontrolujte, či máte <em>\"Show tabuľky</"
+"em>obsah iba vo sidebar\" &quot;povolené ako to obmedzí jehozobrazovať iba "
+"sidebar. Môžete skontrolovať ísť do vzhľad &amp;gt; Widgety."
+
+#: toc.php:878
+msgid ""
+"You may have restricted generation to a URL path match. The setting can be "
+"found in the advanced section under Main Options."
+msgstr ""
+"Môže mať obmedzený generácie na URL cestu zápas. Nastavenie môže byť nájdené "
+"v sekcii rozšírené v časti hlavné možnosti."
+
+#: toc.php:881
+msgid "How do I stop the table of contents from appearing on a single page?"
+msgstr "Ako môžem zastaviť obsahu zobrazeniu na jednej stránke?"
+
+#: toc.php:882
+msgid ""
+"Place the following <code>[no_toc]</code> anywhere on the page to suppress "
+"the table of contents. This is known as a shortcode and works for posts, "
+"pages and custom post types that make use of the_content()"
+msgstr ""
+"Miesto nasledujúce <code>[no_toc]</code> kdekoľvek na stránke potlačiťv "
+"tabuľke obsahu. Toto je známe ako pracuje pre príspevky, a krátky stránky a "
+"vlastné post typy, ktoré robia použitie the_content()"
+
+#: toc.php:884
+msgid ""
+"I've set wrapping to left or right but the headings don't wrap around the "
+"table of contents"
+msgstr ""
+"Som nastaviť zalomenie vľavo alebo vpravo, ale nadpisy Nechcem ovinúť okolo "
+"obsah"
+
+#: toc.php:885
+msgid ""
+"This normally occurs when there is a CSS clear directive in or around the "
+"heading originating from the theme (Twenty Eleven and Twenty Twelve are two "
+"themes which do this). This directive tells the user agent to reset the "
+"previous wrapping specifications."
+msgstr ""
+"Toto zvyčajne nastane, keď je jasné smernice v alebo okolo CSS položky "
+"pochádzajúce z motívu (dvadsať jedenásť a dvanásť dvadsať sú dva témy, ktoré "
+"sa tohto). Táto smernica hovorí user agent na obnovenie Predchádzajúci "
+"balenie špecifikácie."
+
+#: toc.php:886
+msgid ""
+"You can adjust your theme's CSS or try moving the table of contents position "
+"to the top of the page. If you didn't build your theme, I'd highly suggest "
+"you try the %s if you wish to make CSS changes."
+msgstr ""
+"Môžete upraviť vaše tému CSS alebo premiestnite tabuľke obsah postavenia na "
+"vrchnej časti stránky. Ak ste nestavali vaše tému, by som veľmi navrhnúť "
+"môžete skúsiť %s Ak chcete vykonať zmeny CSS."
+
+#. translators: CSS code follows after this line
+#: toc.php:889
+msgid ""
+"Try adding the following CSS to allow the wrapping to occur around the table "
+"of contents:"
+msgstr ""
+"Skúste pridať nasledujúce CSS povoliť balenie nastať okolo stola obsah:"
+
+#: toc.php:894
+msgid "How do I include the name of the page in the table of contents title?"
+msgstr "Ako urobiť zahrnúť názov stránky v tabuľke obsah hlavy?"
+
+#: toc.php:895
+msgid ""
+"As the title of the page changes depending on the page you're viewing, you "
+"can use the following special variable to automatically insert the title of "
+"the page into the table of contents heading:"
+msgstr ""
+"Ako názov stránky zmien v závislosti na stránke prezeráte, ste môžete použiť "
+"nasledovné špeciálne premenná automaticky vložiť názov stránky do obsahu "
+"položky:"
+
+#: toc.php:897
+msgid "You can use it as is or place text either side of the variable."
+msgstr "Môžete ho ako je, alebo umiestniť text oboch stranách premennej."
+
+#: toc.php:898
+msgid ""
+"As an example: if your page is named <em>Great Expectations</em> and your "
+"table of contents title is set to <em>Contents for %PAGE_NAME%</em>, the "
+"final title would read <em>Contents for Great Expectations</em>"
+msgstr ""
+"Ako príklad: Ak vaše stránky s názvom <em>Great Expectations</em> a "
+"vašeTabuľka obsah titulu je nastavená na <em>obsah % PAGE_NAME %</em>,"
+"posledný názov by čítať <em>obsah pre veľké očakávania</em>"
+
+#: toc.php:900
+msgid "The sitemap uses a strange font dissimilar to the rest of the site"
+msgstr "Sitemap používa podivné písmo nepodobné zvyšok stránky"
+
+#: toc.php:901
+msgid ""
+"No extra styles are created for the sitemap, instead it inherits any styles "
+"you used when adding the shortcode. If you copy and pasted, you probably "
+"also copied the 'code' tags surrounding it so remove them if this is the "
+"case."
+msgstr ""
+"Žiadne ďalšie štýly sú vytvorené na sitemap, namiesto toho ho zdedí všetky "
+"štýly Použili ste pri pridávaní krátky kód. Ak ste skopírovať a vložiť, ste "
+"pravdepodobne tiež skopírovať &quot;kód&quot; Tagy obklopovať to odstráni "
+"ich či to je prípad."
+
+#: toc.php:902
+msgid ""
+"In most cases, try to have the shortcode on its own line with nothing before "
+"or after the square brackets."
+msgstr ""
+"Vo väčšine prípadov sa snažím mať krátky kód na samostatnom riadku s ničím "
+"pred alebo po hranatých zátvoriek."
+
+#: toc.php:904
+msgid "What were those shortcodes and attributes again?"
+msgstr "Aké boli tie shortcodes a atribúty znova?"
+
+#: toc.php:905
+msgid ""
+"When attributes are left out for the shortcodes below, they will fallback to "
+"the settings you defined under Settings &gt; TOC+."
+msgstr ""
+"Keď atribúty sú vynechal pre nižšie shortcodes, budú fallback na nastavenia "
+"definované v časti Nastavenia &amp;gt; TOC +."
+
+#: toc.php:909
+msgid "Shortcode"
+msgstr "Krátky"
+
+#: toc.php:910
+msgid "Description"
+msgstr "Popis"
+
+#: toc.php:911
+msgid "Attributes"
+msgstr "Atribúty"
+
+#: toc.php:917
+msgid ""
+"Lets you generate the table of contents at the preferred position. Also "
+"useful for sites that only require a TOC on a small handful of pages."
+msgstr ""
+"Umožňuje generovať obsah na prednostné pozíciu. Tiež užitočné stránky, ktoré "
+"vyžadujú len TOC na malú hrsť stránky."
+
+#: toc.php:920
+msgid "text, title of the table of contents"
+msgstr "text, názov obsah"
+
+#: toc.php:921
+msgid "true/false, shows or hides the title"
+msgstr "pravda/nepravda, zobrazí alebo skryje názov"
+
+#: toc.php:922
+msgid "text, either \"left\" or \"right\""
+msgstr "text, buď \"left\" alebo \"right\""
+
+#: toc.php:923
+msgid ""
+"numbers, this lets you select the heading levels you want included in the "
+"table of contents. Separate multiple levels with a comma. Example: include "
+"headings 3, 4 and 5 but exclude the others with"
+msgstr ""
+"čísla, to vám umožní vybrať úrovne nadpisov chcete zahrnúť Tabuľka obsah. "
+"Viacerých úrovniach oddeľte čiarkou. Príklad: patrí položky 3, 4 a 5, ale "
+"vylúčiť ostatných, s"
+
+#: toc.php:929
+msgid ""
+"Allows you to disable the table of contents for the current post, page, or "
+"custom post type."
+msgstr ""
+"Umožňuje vypnúť obsahu pre súčasný post, stránky, alebo typu vlastný "
+"príspevok."
+
+#: toc.php:934
+msgid ""
+"Produces a listing of all pages and categories for your site. You can use "
+"this on any post, page or even in a text widget."
+msgstr ""
+"Produkuje výpis všetky stránky a kategórie pre vaše stránky. Môžete použiť "
+"to na každom post, stránky alebo dokonca v text widget."
+
+#: toc.php:939
+msgid "Lets you print out a listing of only pages."
+msgstr "Umožňuje vytlačiť zoznam iba stránky."
+
+#: toc.php:942
+msgid "number between 1 and 6, defines which html heading to use"
+msgstr "čísla 1 až 6, definuje html nadpis používať"
+
+#: toc.php:943
+msgid "text, title of the list"
+msgstr "text, názov zoznamu"
+
+#: toc.php:944
+msgid "true/false, shows or hides the list heading"
+msgstr "pravda/nepravda, zobrazí alebo skryje hlavičku zoznamu"
+
+#: toc.php:945
+msgid "IDs of the pages or categories you wish to exclude"
+msgstr "Identifikácií stránok alebo kategórií chcete vylúčiť"
+
+#: toc.php:946
+msgid ""
+"ID of the page or category you wish to exclude including its all descendants"
+msgstr ""
+"ID strany alebo kategórie, ktoré chcete vylúčiť, vrátane jeho všetkých "
+"potomkov"
+
+#: toc.php:952
+msgid "Similar to [sitemap_pages] but for categories."
+msgstr "Podobne ako [sitemap_pages] ale pre kategórie."
+
+#: toc.php:958
+msgid "I have another question..."
+msgstr "Ja mám inú otázku..."
+
+#: toc.php:959
+msgid ""
+"Visit the %1$splugin homepage%2$s to ask your question - who knows, maybe "
+"your question has already been answered. I'd really like to hear your "
+"suggestions if you have any."
+msgstr ""
+"Navštívte %1$ splugin homepage % 2$ s položiť vašu otázku - kto vie, možno "
+"vaša otázka už bola zodpovedaná. By som naozaj rád počuť váš návrhy, ak máte "
+"nejaké."
+
+#: toc.php:965
+msgid "Update Options"
+msgstr "Aktualizáciou možností"
+
+#: toc.php:1470
+msgid "Display the table of contents in the sidebar with this widget"
+msgstr "Zobrazenie obsahu v bočnom paneli s tento widget"
+
+#: toc.php:1562
+msgid "Show the table of contents only in the sidebar"
+msgstr "Zobraziť obsah iba v bočnom paneli"

@@ -1,0 +1,106 @@
+msgid ""
+msgstr ""
+"Generated: SL Framework (http://www.sedlex.fr)\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2012-02-25T10:38:24+00:00\n"
+"Last-Translator: jkappa <gmalavolta@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: Italian\n"
+"X-Poedit-Country: Italy\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes\n"
+
+msgid "If you want that the table of content appears in your post, just type: %s, that is all!"
+msgstr ""
+
+msgid "What is the title to be displayed in the table of content?"
+msgstr "Qual è il titolo da visualizzare nel Table of Content?"
+
+msgid "Title of the table of content:"
+msgstr "Titolo del Table of Content"
+
+msgid "Add prefix in your title:"
+msgstr "Aggiungi un prefisso per il titolo"
+
+msgid "If you leave the field blank, nothing will be added!"
+msgstr "Se lasci vuoto, nulla verrà aggiunto"
+
+msgid "Note that if you want to display the number of level 2, just write %s ..."
+msgstr "Nota che se vuoi visualizzare il numero del livello 2, devi scrivere %s"
+
+msgid "Prefix of the level %s:"
+msgstr "Prefisso per il livello %s:"
+
+msgid "Customize the global visual appearance:"
+msgstr ""
+
+msgid "The HTML:"
+msgstr ""
+
+msgid "The default HTML is: %s"
+msgstr ""
+
+msgid "Please note that %s will be replaced with the given title of the table of content and %s will be replaced with the current chapter/section/etc. title"
+msgstr ""
+
+msgid "The CSS:"
+msgstr ""
+
+msgid "The default CSS is: %s"
+msgstr ""
+
+msgid "Customize the visual appearance of the title:"
+msgstr ""
+
+msgid "Customize the visual appearance of each entry in the TOC:"
+msgstr ""
+
+msgid "The indentation of the TOC (in pixels):"
+msgstr ""
+
+msgid "The max font size:"
+msgstr ""
+
+msgid "The color of the upper level:"
+msgstr ""
+
+msgid "The color of the lower level:"
+msgstr ""
+
+msgid "The color of entry will be a transition color between these two colors (depending of their levels)."
+msgstr ""
+
+msgid "Please add the # character before the code. If you do not know what code to use, please visit this website: %s"
+msgstr ""
+
+msgid "Customize the visual appearance of each entry in the TOC (for Experts):"
+msgstr ""
+
+msgid "The CSS style of the level %s:"
+msgstr ""
+
+msgid "For instance, %s"
+msgstr ""
+
+msgid "Parameters"
+msgstr "Parametri"
+
+msgid "Manage translations"
+msgstr "Gestisci la traduzione"
+
+msgid "Give feedback"
+msgstr "Invia un tuo commento"
+
+msgid "Other plugins"
+msgstr ""
+

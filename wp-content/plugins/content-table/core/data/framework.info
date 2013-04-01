@@ -1,0 +1,10 @@
+This plugin uses the SL framework. This framework eases the creation of new plugins by providing incredible tools and frames.
+
+For instance, a new created plugin comes with
+
+* A translation interface to simplify the localization of the text of the plugin ; 
+* An embedded SVN client (subversion) to easily commit/update the plugin in wordpress.org repository ; 
+* A detailled documentation of all available classes and methodes ; 
+* etc.
+
+Have fun !

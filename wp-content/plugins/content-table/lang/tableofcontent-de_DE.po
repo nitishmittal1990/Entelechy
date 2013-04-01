@@ -1,0 +1,109 @@
+msgid ""
+msgstr ""
+"Generated: SL Framework (http://www.sedlex.fr)\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2012-02-24T23:08:58+00:00\n"
+"Last-Translator: internetfreak <http://www.internetfreak.net>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: Germany\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes\n"
+
+msgid "If you want that the table of content appears in your post, just type: %s, that is all!"
+msgstr "Wenn du möchtest, dass das Inhaltsverzeichnis in deinem Post erscheint, schreib einfach %s, das ist alles!"
+
+msgid "What is the title to be displayed in the table of content?"
+msgstr "Wie lautet der Titel deines Inhaltsverzeichnisses, der dargestellt werden soll?"
+
+msgid "Title of the table of content:"
+msgstr "Titel des Inhaltsverzeichnisses:"
+
+msgid "Add prefix in your title:"
+msgstr "Füge einen Präfix in deinem Titel hinzu:"
+
+msgid "If you leave the field blank, nothing will be added!"
+msgstr "Wenn du dieses Feld leer lässt, wird nichts hinzugefügt!"
+
+msgid "Note that if you want to display the number of level 2, just write %s ..."
+msgstr "Beachte, wenn du nur die Nummer von Ebene 2 darstellen willst, schreib einfach %s..."
+
+msgid "Prefix of the level %s:"
+msgstr "Präfix von Level %s:"
+
+msgid "Customize the global visual appearance:"
+msgstr "Individualisiere die globale visuelle Erscheinung:"
+
+msgid "The HTML:"
+msgstr "HTML:"
+
+msgid "The default HTML is: %s"
+msgstr "Standard HTML ist %s"
+
+msgid "Please note that %s will be replaced with the given title of the table of content and %s will be replaced with the current chapter/section/etc. title"
+msgstr "Bitte beachte, dass %s ersetzt wird mit dem übergebenen Titel des Inhaltsverzeichnisses und %s ersetzt wird mit dem Titel des aktuellen Kapitels/der aktuellen Sektion/usw. "
+
+msgid "The CSS:"
+msgstr "CSS"
+
+msgid "The default CSS is: %s"
+msgstr "Standard CSS ist: %s"
+
+msgid "Customize the visual appearance of the title:"
+msgstr "Individualisiere die visuelle Erscheinung des Titels"
+
+msgid "Customize the visual appearance of each entry in the TOC:"
+msgstr "Individualisiere die visuelle Erscheinung jedes Eintrages im Inhaltsverzeichnis:"
+
+msgid "The indentation of the TOC (in pixels):"
+msgstr "Einzug des Inhaltsverzeichnisses (in Pixeln):"
+
+msgid "The max font size:"
+msgstr "Maximale Schriftgröße:"
+
+msgid "The color of the upper level:"
+msgstr "Farbe der obersten Ebene:"
+
+msgid "The color of the lower level:"
+msgstr "Farbe der untersten Ebene:"
+
+msgid "The color of entry will be a transition color between these two colors (depending of their levels)."
+msgstr "Die Farbe eines Eintrages ist ein Übergang zwischen diesen zwei Farben (abhängig von ihrer Ebene)"
+
+msgid "Please add the # character before the code. If you do not know what code to use, please visit this website: %s"
+msgstr "Bitte füge das Zeichen # vor deinem Code hinzu. Wenn du nicht weißt, welchen Code du nutzen sollst, besuche bitte diese Webseite: %s"
+
+msgid "Customize the visual appearance of each entry in the TOC (for Experts):"
+msgstr "Individualisiere die visuelle Erscheinung jedes Eintrages im Inhaltsverzeichnis (für Fortgeschrittene):"
+
+msgid "The CSS style of the level %s:"
+msgstr "CSS Style der Ebene %s"
+
+msgid "For instance, %s"
+msgstr "Beispielsweise, %s"
+
+msgid "Parameters"
+msgstr "Parameter"
+
+msgid "Manage translations"
+msgstr "Verwalte die Übersetzungen"
+
+msgid "Give feedback"
+msgstr "Feedbeack geben"
+
+msgid "Other plugins"
+msgstr "Andere Plugins"
+
+msgid "The file %s cannot be deleted. You should have a problem with file permissions or security restrictions."
+msgstr "Datei %s kann nicht gelöscht werden. Du solltest ein Problem mit den Berechtigungen oder Sicherheitseinstellungen haben."
+

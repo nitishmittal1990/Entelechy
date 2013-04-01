@@ -1,0 +1,90 @@
+
+/*====================================================*/
+/* FILE /plugins/content-table/css/css_front.css*/
+/*====================================================*/
+.tableofcontent p {
+	margin : 3px ; 
+	text-indent : -5px ; 
+	padding-top : 2px ; 
+}
+
+.tableofcontent-end {
+	clear: both;
+}
+
+/*====================================================*/
+/* FILE /sedlex/inline_styles/0bac044b65a924fd76aebd94ebaf05b0.css*/
+/*====================================================*/
+.tableofcontent {
+	border: 1px solid #AAAAAA;
+	padding: 5px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	font-size: 0.95em;
+	min-width:200px;
+	float:left ; 
+}
+.tableofcontent h2 {
+	text-align: center;
+	font-size: 1em;
+	font-weight: bold;
+	margin : 3px ; 
+	padding-top : 5px ;
+	padding-bottom : 5px ;
+}
+.contentTable_h2 {
+   font-size:14px;
+   line-height:14px;
+   padding-left:0px;
+
+}
+
+.contentTable_h2 a:link, .contentTable_h2 a:visited, .contentTable_h2 a:hover {
+   color:#000000;
+}
+
+.contentTable_h3 {
+   font-size:13px;
+   line-height:13px;
+   padding-left:20px;
+
+}
+
+.contentTable_h3 a:link, .contentTable_h3 a:visited, .contentTable_h3 a:hover {
+   color:#151515;
+}
+
+.contentTable_h4 {
+   font-size:12px;
+   line-height:12px;
+   padding-left:40px;
+
+}
+
+.contentTable_h4 a:link, .contentTable_h4 a:visited, .contentTable_h4 a:hover {
+   color:#2a2a2a;
+}
+
+.contentTable_h5 {
+   font-size:11px;
+   line-height:11px;
+   padding-left:60px;
+
+}
+
+.contentTable_h5 a:link, .contentTable_h5 a:visited, .contentTable_h5 a:hover {
+   color:#3f3f3f;
+}
+
+.contentTable_h6 {
+   font-size:10px;
+   line-height:10px;
+   padding-left:80px;
+
+}
+
+.contentTable_h6 a:link, .contentTable_h6 a:visited, .contentTable_h6 a:hover {
+   color:#555555;
+}
+

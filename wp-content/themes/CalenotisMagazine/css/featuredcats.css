@@ -1,0 +1,63 @@
+.feat-cat-entry  {
+  font-size: 11px;
+  padding: 0 !important;
+}
+.feat-cat-meta {
+	clear: both;
+	height: auto;
+	width: auto;
+    padding: 2px 7px 4px;
+	display: block;
+	margin: 0px 0 5px 0;
+    background: #e2e1e1;
+}
+.fi {
+  margin-right: 0px !important;
+  margin-bottom: 2px;
+  float: left;
+}
+.fimg {
+  border: 0;
+  padding: 0px;
+}
+.feat-cat-meta h4 {
+  display: inline;
+  margin-bottom: 0 !important;
+  position: relative;
+  top: 2px;
+}
+.feat-cat-meta h4 a, .feat-cat-meta h4 a:visited {
+  color: #0d0d0d;
+  font-size: 18px;
+}
+.feat-cat-meta p {
+  position: relative;
+  top: -5px;
+}
+.clearfix {
+  clear: both;
+}
+.sep {
+  background: url(../images/sep.gif) repeat-x scroll top;
+  height: 2px;
+  display: inline-block;
+  margin: 0px 0 5px;
+  width: 200px;
+}
+*+html .sep {
+  padding: 5px 0 3px;
+  background-position: center;
+}
+.feat-cat-meta:hover {
+  background: #3392d9;
+}
+.feat-cat-meta:hover h4 a, .feat-cat-meta:hover h4 a:visited {
+  color: #fff !important;
+}
+.feat-cat-meta:hover .sep {
+  background: url(../images/sep2.gif) repeat-x scroll top;
+}
+.feat-cat-meta:hover p {
+  color: #fff !important;
+}
+

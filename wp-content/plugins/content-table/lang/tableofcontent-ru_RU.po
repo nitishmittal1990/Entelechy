@@ -1,0 +1,106 @@
+msgid ""
+msgstr ""
+"Generated: SL Framework (http://www.sedlex.fr)\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2012-01-31T10:28:16+00:00\n"
+"Last-Translator: Limych <andrey@khrolenok.ru>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%100/10==1 ? 2 : n%10==1 ? 0 : (n+9)%10>3 ? 2 : 1;\n"
+"X-Poedit-Language: Russian\n"
+"X-Poedit-Country: Russia\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes\n"
+
+msgid "If you want that the table of content appears in your post, just type: %s, that is all!"
+msgstr "Хотите добавить оглавление на страницу? Просто вставьте %s в нужном месте!…"
+
+msgid "What is the title to be displayed in the table of content?"
+msgstr "Что будем писать в заголовке оглавления?"
+
+msgid "Title of the table of content:"
+msgstr "Заголовок блока:"
+
+msgid "Add prefix in your title:"
+msgstr "Префиксы заголовков"
+
+msgid "If you leave the field blank, nothing will be added!"
+msgstr "Если оставить поле пустым, ничего не будет добавляться."
+
+msgid "Note that if you want to display the number of level 2, just write %s ..."
+msgstr "Чтобы добавить номер заголовка, например, второго уровня, напишите в тексте «%s»."
+
+msgid "Prefix of the level %s:"
+msgstr "Префикс для уровня %s:"
+
+msgid "Customize the global visual appearance:"
+msgstr "Настройте общее визуальное представление:"
+
+msgid "The HTML:"
+msgstr "HTML:"
+
+msgid "The default HTML is: %s"
+msgstr "HTML по-умолчанию:"
+
+msgid "Please note that %s will be replaced with the given title of the table of content and %s will be replaced with the current chapter/section/etc. title"
+msgstr "Обратите внимание, что %s будет заменено на заголовок оглавления, а %s будет заменено на заголовок текущей главы, раздела и т.п."
+
+msgid "The CSS:"
+msgstr "CSS:"
+
+msgid "The default CSS is: %s"
+msgstr "CSS по-умолчанию:"
+
+msgid "Customize the visual appearance of the title:"
+msgstr "Настройте визуальное представление заголовка:"
+
+msgid "Customize the visual appearance of each entry in the TOC:"
+msgstr "Настройте визуальное представление каждой строки оглавления:"
+
+msgid "The indentation of the TOC (in pixels):"
+msgstr "Отступ оглавления (в точках):"
+
+msgid "The max font size:"
+msgstr "Максимальный размер шрифта:"
+
+msgid "The color of the upper level:"
+msgstr "Цвет верхнего уровня:"
+
+msgid "The color of the lower level:"
+msgstr "Цвет нижнего уровня:"
+
+msgid "The color of entry will be a transition color between these two colors (depending of their levels)."
+msgstr "Цвет всех промежуточных уровней будет устанавливаться так, чтобы был плавный переход от цвета верхнего к цвету нижнего."
+
+msgid "Please add the # character before the code. If you do not know what code to use, please visit this website: %s"
+msgstr "Пожалуйста, добавьте # перед кодом цвета. Если Вы не знаете подходящий код, Вам поможет сайт %s"
+
+msgid "Customize the visual appearance of each entry in the TOC (for Experts):"
+msgstr "Настройте визуальное представление каждой строки оглавления (для экспертов):"
+
+msgid "The CSS style of the level %s:"
+msgstr "CSS-стиль уровня %s:"
+
+msgid "For instance, %s"
+msgstr "Например, %s"
+
+msgid "Parameters"
+msgstr "Параметры"
+
+msgid "Manage translations"
+msgstr "Управление переводами"
+
+msgid "Give feedback"
+msgstr "Обратная связь"
+
+msgid "Other plugins"
+msgstr "Другие плагины"
+

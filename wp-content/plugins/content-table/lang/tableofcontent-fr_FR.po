@@ -1,0 +1,109 @@
+msgid ""
+msgstr ""
+"Generated: SL Framework (http://www.sedlex.fr)\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2012-09-26T14:11:43+00:00\n"
+"Last-Translator: SedLex <http://www.sedlex.fr/>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n>1;\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: France\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes\n"
+
+msgid "Display the table of content"
+msgstr "Afficher la table des matière"
+
+msgid "If you want that the table of content appears in your post, just type: %s, that is all!"
+msgstr "Si vous voulez que la table des matières apparaissent dans votre article, taper simplement : %s, c&#039;est tout !"
+
+msgid "What is the title to be displayed in the table of content?"
+msgstr "Quel titre sera affiché pour la table des matières ?"
+
+msgid "Title of the table of content:"
+msgstr "Titre de la table des matières :"
+
+msgid "Add prefix in your title:"
+msgstr "Ajoutez un préfixe à vos titres"
+
+msgid "If you leave the field blank, nothing will be added!"
+msgstr "Si vous laissez ce champ vide, rien ne sera ajouté !"
+
+msgid "Note that if you want to display the number of level 2, just write %s ..."
+msgstr "Si vous souhaitez afficher le numéro du niveau 2, écrivez simplement %s ..."
+
+msgid "Prefix of the level %s:"
+msgstr "Préfixe du niveau %s :"
+
+msgid "Customize the global visual appearance:"
+msgstr "Personnaliser l&#039;apparence visuelle globale :"
+
+msgid "The HTML:"
+msgstr "Le HTML :"
+
+msgid "The default HTML is: %s"
+msgstr "Le HTML par défaut est : %s"
+
+msgid "Please note that %s will be replaced with the given title of the table of content and %s will be replaced with the current chapter/section/etc. title"
+msgstr "Merci de noter que %s sera remplacé par le titre enregistré de la table des matières et que %s sera remplacé avec le titre courant du chapitre/section/etc."
+
+msgid "The CSS:"
+msgstr "Le CSS :"
+
+msgid "The default CSS is: %s"
+msgstr "Le CSS par défaut est : %s"
+
+msgid "Customize the visual appearance of the title:"
+msgstr "Personnaliser l&#039;apparence visuelle du titre :"
+
+msgid "Customize the visual appearance of each entry in the TOC:"
+msgstr "Personnaliser l&#039;apparence visuelle de chaque entrée dans la table des matières :"
+
+msgid "The indentation of the TOC (in pixels):"
+msgstr "L&#039;indentation de la table des matières (en pixels) :"
+
+msgid "The max font size:"
+msgstr "La taille maximale de la police :"
+
+msgid "The color of the upper level:"
+msgstr "La couleur du niveau supérieur :"
+
+msgid "The color of the lower level:"
+msgstr "La couleur du niveau inférieur :"
+
+msgid "The color of entry will be a transition color between these two colors (depending of their levels)."
+msgstr "La couleur de l&#039;entrée sera comprise entre ces deux couleurs (selon son niveau)."
+
+msgid "Please add the # character before the code. If you do not know what code to use, please visit this website: %s"
+msgstr "Merci d&#039;ajouter le caractère # avant le code de couleur. Si vous ne savez pas quel code utiliser, merci de visiter le site : %s"
+
+msgid "Customize the visual appearance of each entry in the TOC (for Experts):"
+msgstr "Personnaliser l&#039;apparence visuelle de chaque entrée dans la table des matières (mode Experts) :"
+
+msgid "The CSS style of the level %s:"
+msgstr "Le style CSS du niveau %s :"
+
+msgid "For instance, %s"
+msgstr "Par exemple, %s"
+
+msgid "Parameters"
+msgstr "Paramètres"
+
+msgid "Manage translations"
+msgstr "Gérer les traductions"
+
+msgid "Give feedback"
+msgstr "Donner un feedback"
+
+msgid "Other plugins"
+msgstr "Autres plugins"
+

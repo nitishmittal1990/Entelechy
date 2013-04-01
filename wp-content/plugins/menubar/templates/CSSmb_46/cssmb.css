@@ -1,0 +1,36 @@
+
+/* 
+Generated via www.cssmenubuilder.com 
+
+Copyright (c) 2008 www.cssmenubuilder.com
+
+Permission is hereby granted, free of charge, to any person
+obtaining a copy of this software and associated documentation
+files (the "Software"), to deal in the Software without
+restriction, including without limitation the rights to use,
+copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the
+Software is furnished to do so, subject to the following
+conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
+HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+OTHER DEALINGS IN THE SOFTWARE.
+*/
+
+.cssmb{clear:both; margin:0; padding:0; height:30px; display:block; background:url('cssmb.png') repeat-x;}
+.cssmb li{padding:0; margin:0; list-style:none; display:inline;}
+.cssmb li a{float:left; padding-left:15px; display:block; color:rgb(250,245,245); text-decoration:none; font:12px Verdana, Arial, Helvetica, sans-serif; cursor:pointer; background:url('cssmb.png') 0px -30px no-repeat;}
+.cssmb li a span{line-height:30px; float:left; display:block; padding-right:15px; background:url('cssmb.png') 100% -30px no-repeat;}
+.cssmb li a:hover{background-position:0px -60px; color:rgb(17,17,237);}
+.cssmb li a:hover span{background-position:100% -60px;}
+.cssmb li a.active, .cssmb li a.active:hover{line-height:30px; font:12px Verdana, Arial, Helvetica, sans-serif; background:url('cssmb.png') 0px -90px no-repeat; color:rgb(255,255,255);}
+.cssmb li a.active span, .cssmb li a.active:hover span{background:url('cssmb.png') 100% -90px no-repeat;}

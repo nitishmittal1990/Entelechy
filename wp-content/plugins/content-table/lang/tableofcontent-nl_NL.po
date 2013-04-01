@@ -1,0 +1,109 @@
+msgid ""
+msgstr ""
+"Generated: SL Framework (http://www.sedlex.fr)\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2012-10-16T18:29:21+00:00\n"
+"Last-Translator: MarcelJansen <http://caddvision.org>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"
+"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes\n"
+
+msgid "Display the table of content"
+msgstr "Toon de inhoudsopgave"
+
+msgid "If you want that the table of content appears in your post, just type: %s, that is all!"
+msgstr "Als je de inhoudsopgave wilt weergeven in je bericht, type %s, dat is alles"
+
+msgid "Title of the table of content:"
+msgstr "Titel van de inhoudsopgave"
+
+msgid "Add prefix in your title:"
+msgstr "Voeg prefix toe in de titel"
+
+msgid "The HTML:"
+msgstr "De HTML:"
+
+msgid "The CSS:"
+msgstr "De CSS:"
+
+msgid "The max font size:"
+msgstr "maximale font afmeting"
+
+msgid "The color of the upper level:"
+msgstr "kleur van het bovenste niveau:"
+
+msgid "The CSS style of the level %s:"
+msgstr "De CSS stijl van het niveau %s is:"
+
+msgid "For instance, %s"
+msgstr "Bijvoorbeeld, %s"
+
+msgid "Parameters"
+msgstr "Parameters"
+
+msgid "Manage translations"
+msgstr "Vetalingen beheren"
+
+msgid "Give feedback"
+msgstr "Geef een reactie"
+
+msgid "Other plugins"
+msgstr "Andere Plugins"
+
+msgid "What is the title to be displayed in the table of content?"
+msgstr "Wat is de titel die getoond moet worden in de inhoudsopgave?"
+
+msgid "If you leave the field blank, nothing will be added!"
+msgstr "Als je dit veld leeg laat dan zal er niets worden toegevoegd!"
+
+msgid "Note that if you want to display the number of level 2, just write %s ..."
+msgstr "Als je het nummer van niveau 2 wilt toevoegen dan schrijf je %s..."
+
+msgid "Prefix of the level %s:"
+msgstr "Prefix voor het niveau %s:"
+
+msgid "Customize the global visual appearance:"
+msgstr "Pas de globale uitstraling aan."
+
+msgid "The default HTML is: %s"
+msgstr "Standaard HTML is: %s"
+
+msgid "Please note that %s will be replaced with the given title of the table of content and %s will be replaced with the current chapter/section/etc. title"
+msgstr "%s wordt vervangen door de titel van de inhoudsopgave en %s wordt vervangen door de huidige hoofdstuk/sectie ed. titel"
+
+msgid "The default CSS is: %s"
+msgstr "Standaard CSS is: %s"
+
+msgid "Customize the visual appearance of the title:"
+msgstr "Pas de visuele verschijning van de titel aan"
+
+msgid "Customize the visual appearance of each entry in the TOC:"
+msgstr "Pas de visuele verschijning van de onderdelen van de inhoudsopgave aan"
+
+msgid "The indentation of the TOC (in pixels):"
+msgstr "Inspringing ( in pixels)"
+
+msgid "The color of the lower level:"
+msgstr "De kleur van het laagste niveau"
+
+msgid "The color of entry will be a transition color between these two colors (depending of their levels)."
+msgstr "De kleur is een overgangskleur tussen de twee kleuren (afhankelijk van de niveaus)."
+
+msgid "Please add the # character before the code. If you do not know what code to use, please visit this website: %s"
+msgstr "Zet een # voor de code, Als je niet welke code je kunt gebruiken, bezoek dan de website. %s"
+
+msgid "Customize the visual appearance of each entry in the TOC (for Experts):"
+msgstr "Pas de visuele verschijning van de onderdelen van de inhoudsopgave aan ( voor experts)"
+

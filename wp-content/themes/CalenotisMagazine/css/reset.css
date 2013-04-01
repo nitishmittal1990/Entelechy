@@ -1,0 +1,91 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, address, big, cite, code, pre,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+ul li {
+  list-style: none;
+}
+
+h1 {
+  font-size: 25px;
+  margin-bottom:0.5em;
+}
+
+h2 {
+  font-size: 22px;
+}
+
+h3 {
+  font-size: 20px;
+  margin-bottom:0.4em;
+}
+
+h4 {
+  font-size: 18px;
+  margin-bottom:0.4em;
+}
+h5 {
+  font-size: 16px;
+  margin-bottom:0.4em;
+}
+h6 {
+  font-size: 14px;
+  margin-bottom:0.4em;
+}
+code, pre {
+  display: block;
+  background: #ccc;
+  border: 1px solid #000;
+  margin: 10px 0;
+  overflow: scroll;
+  padding: 10px;
+  clear: both;
+}
+
+

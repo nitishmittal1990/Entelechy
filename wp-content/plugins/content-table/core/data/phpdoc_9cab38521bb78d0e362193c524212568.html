@@ -1,0 +1,1477 @@
+<h3>PHP Doc pour le SL framework</h3><p>Voici les classes du SL framework :</p><ul><li class='li_class'><b><a href='#class_pluginSedLex'>pluginSedLex</a></b>: This PHP class aims at simplifying the developement of new plugin for Wordpress and especially if you do not know how to develop it.</li><li class='li_class'><b><a href='#class_adminTable'>adminTable</a></b>: This PHP class enables the creation of tables in the admin backend</li><li class='li_class'><b><a href='#class_adminCell'>adminCell</a></b>: This PHP class create cells to be used with the adminTable::add_line method</li><li class='li_class'><b><a href='#class_adminTabs'>adminTabs</a></b>: This PHP class enables the creation of tabulation in the admin backend</li><li class='li_class'><b><a href='#class_boxAdmin'>boxAdmin</a></b>: This PHP class enables the creation of a box in the admin backend</li><li class='li_class'><b><a href='#class_browsersOsDetection'>browsersOsDetection</a></b>: This PHP class enables the Browser and OS detection</li><li class='li_class'><b><a href='#class_SL_Database'>SL_Database</a></b>: This PHP class creates an export of the database</li><li class='li_class'><b><a href='#class_SL_Debug'>SL_Debug</a></b>: This PHP class allow to log debug information regarding the execution of plugins</li><li class='li_class'><b><a href='#class_deprecatedSL'>deprecatedSL</a></b>: This PHP class enables the creation of a box in the admin backend</li><li class='li_class'><b><a href='#class_feedbackSL'>feedbackSL</a></b>: This PHP class enables the translation of the plugin using the framework</li><li class='li_class'><b><a href='#class_foldDiff'>foldDiff</a></b>: This PHP class allows to compare two folder to find differences</li><li class='li_class'><b><a href='#class_otherPlugins'>otherPlugins</a></b>: This PHP class create a page with the other plugins of the author referenced</li><li class='li_class'><b><a href='#class_parametersSedLex'>parametersSedLex</a></b>: This PHP class enable the creation of form to manage the parameter of your plugin</li><li class='li_class'><b><a href='#class_phpDoc'>phpDoc</a></b>: This PHP class enables the generation of the documentation of the PHP files used for the framework</li><li class='li_class'><b><a href='#class_popupAdmin'>popupAdmin</a></b>: This PHP class create a page with the other plugins of the author listed</li><li class='li_class'><b><a href='#class_progressBarAdmin'>progressBarAdmin</a></b>: This PHP class enables the creation of a progress bar</li><li class='li_class'><b><a href='#class_translationSL'>translationSL</a></b>: This PHP class enables the translation of the plugin using the framework</li><li class='li_class'><b><a href='#class_textDiff'>textDiff</a></b>: This PHP class allows to determine which part of a text has been removed and added</li><li class='li_class'><b><a href='#class_treeList'>treeList</a></b>: This PHP class allows to display hierachical list in a smart way</li><li class='li_class'><b><a href='#class_svnAdmin'>svnAdmin</a></b>: This PHP class enables the svn management of the plugin with the wordpress.org repository</li><li class='li_class'><b><a href='#class_Utils'>Utils</a></b>: This PHP class regroups a few useful method to manage directory, string, ...</li><li class='li_class'><b><a href='#class_SL_Zip'>SL_Zip</a></b>: This PHP class creates zip file (multipart if needed)</li></ul><a name='class_pluginSedLex'></a>			<div class="metabox-holder" style="width: 100%">
+				<div class="meta-box-sortables">
+					<div class="postbox">
+						<h3 class="hndle"><span>pluginSedLex<span class='desc_phpDoc'>[CLASSE]</span></span></h3>
+						<div class="inside" style="padding: 5px 10px 5px 20px;">
+							<p>This PHP class aims at simplifying the developement of new plugin for Wordpress and especially if you do not know how to develop it.</p><p>Therefore, your plugin class should inherit from this class. Please refer to the HOW TO manual to learn more.</p><p>Voici les méthodes de la classe:</p><ul><li class='li_class'><b><a href='#pluginSedLex_getPluginID'>pluginSedLex::getPluginID</a></b>: Get the plugin ID</li><li class='li_class'><b><a href='#pluginSedLex_get_param'>pluginSedLex::get_param</a></b>: Get the value of an option of the plugin</li><li class='li_class'><b><a href='#pluginSedLex_get_name_params'>pluginSedLex::get_name_params</a></b>: Get name of all options</li><li class='li_class'><b><a href='#pluginSedLex_del_param'>pluginSedLex::del_param</a></b>: Delete an option of the plugin</li><li class='li_class'><b><a href='#pluginSedLex_set_param'>pluginSedLex::set_param</a></b>: Set the option of the plugin</li><li class='li_class'><b><a href='#pluginSedLex_add_js'>pluginSedLex::add_js</a></b>: Add a javascript file in the header</li><li class='li_class'><b><a href='#pluginSedLex_add_inline_js'>pluginSedLex::add_inline_js</a></b>: Add inline javascript in the header</li><li class='li_class'><b><a href='#pluginSedLex_add_css'>pluginSedLex::add_css</a></b>: Add a CSS file in the header</li><li class='li_class'><b><a href='#pluginSedLex_add_inline_css'>pluginSedLex::add_inline_css</a></b>: Add inline CSS in the header</li><li class='li_class'><b><a href='#pluginSedLex_get_plugins_data'>pluginSedLex::get_plugins_data</a></b>: Get information on the plugin</li><li class='li_class'><b><a href='#pluginSedLex_check_folder_rights'>pluginSedLex::check_folder_rights</a></b>: Ensure that the needed folders are writable by the webserver.</li><li class='li_class'><b><a href='#pluginSedLex_the_content_SL'>pluginSedLex::the_content_SL</a></b>: Get the displayed content</li><li class='li_class'><b><a href='#pluginSedLex_the_excerpt_ante_SL'>pluginSedLex::the_excerpt_ante_SL</a></b>: Get the excerpt content</li></ul>					<table class="widefat fixed" cellspacing="0">
+						<thead>
+							<tr>
+								<tr>
+									<th class="manage-column column-columnname" scope="col">Méthodes</th>
+									<th class="manage-column column-columnname" scope="col">Détails</th>
+								</tr>
+							</tr>
+						</thead>
+						<tfoot>
+							<tr>
+								<tr>
+									<th class="manage-column column-columnname" scope="col">Méthodes</th>
+									<th class="manage-column column-columnname" scope="col">Détails</th>
+								</tr>
+							</tr>
+						</tfoot>
+						<tbody>
+							<tr class="alternate" valign="top" id="ligne1"> 
+								<td class="column-columnname">
+									<span id="cell_1_1" ><a name='pluginSedLex_getPluginID'><p><b>getPluginID</b><span class='desc_phpDoc'>[METHODE]</span></p><p>Get the plugin ID</p></span>
+								</td>
+								<td class="column-columnname">
+									<span id="cell_1_2" ><p><b>Paramètres : </b></p><p style='padding-left:30px;'>Pas de paramètre</p><p><b>Valeur de retour :</b></p><p style='padding-left:30px;'><b>string</b> the plugin ID string. the string will be empty if it is not a plugin (i.e. the framework)</p><p><b>Exemple d&#039;appel :</b></p><p style='padding-left:30px;'><code>string getPluginID () ; </code></p></span>
+								</td>
+							</tr> 
+							<tr class="" valign="top" id="ligne1"> 
+								<td class="column-columnname">
+									<span id="cell_1_1" ><a name='pluginSedLex_get_param'><p><b>get_param</b><span class='desc_phpDoc'>[METHODE]</span></p><p>Get the value of an option of the plugin</p><p>For instance: <code> echo $this-&gt;get_param('opt1') </code> will return the value of the option 'opt1' stored for this plugin. Please note that two different plugins may have options with the same name without any conflict.</p></span>
+								</td>
+								<td class="column-columnname">
+									<span id="cell_1_2" ><p><b>Paramètres :</b></p><p style='padding-left:30px;'><b>$option</b> (<i>string</i>) the name of the option</p><p><b>Valeur de retour :</b></p><p style='padding-left:30px;'><b>mixed</b> the value of the option requested</p><p><b>Exemple d&#039;appel :</b></p><p style='padding-left:30px;'><code>mixed get_param ($option) ; </code></p><p><b>Voir aussi :</b></p><p style='padding-left:30px;'><a href='#parametersSedLex_parametersSedLex'>parametersSedLex::parametersSedLex</a></p><p style='padding-left:30px;'><a href='#pluginSedLex_del_param'>pluginSedLex::del_param</a></p><p style='padding-left:30px;'><a href='#pluginSedLex_get_name_params'>pluginSedLex::get_name_params</a></p><p style='padding-left:30px;'><a href='#pluginSedLex_set_param'>pluginSedLex::set_param</a></p></span>
+								</td>
+							</tr> 
+							<tr class="alternate" valign="top" id="ligne1"> 
+								<td class="column-columnname">
+									<span id="cell_1_1" ><a name='pluginSedLex_get_name_params'><p><b>get_name_params</b><span class='desc_phpDoc'>[METHODE]</span></p><p>Get name of all options</p><p>For instance: <code> echo $this-&gt;get_name_params() </code> will return an array with the name of all the options of the plugin</p></span>
+								</td>
+								<td class="column-columnname">
+									<span id="cell_1_2" ><p><b>Paramètres : </b></p><p style='padding-left:30px;'>Pas de paramètre</p><p><b>Valeur de retour :</b></p><p style='padding-left:30px;'><b>array</b> an array with all option names</p><p><b>Exemple d&#039;appel :</b></p><p style='padding-left:30px;'><code>array get_name_params () ; </code></p><p><b>Voir aussi :</b></p><p style='padding-left:30px;'><a href='#parametersSedLex_parametersSedLex'>parametersSedLex::parametersSedLex</a></p><p style='padding-left:30px;'><a href='#pluginSedLex_del_param'>pluginSedLex::del_param</a></p><p style='padding-left:30px;'><a href='#pluginSedLex_get_param'>pluginSedLex::get_param</a></p><p style='padding-left:30px;'><a href='#pluginSedLex_set_param'>pluginSedLex::set_param</a></p></span>
+								</td>
+							</tr> 
+							<tr class="" valign="top" id="ligne1"> 
+								<td class="column-columnname">
+									<span id="cell_1_1" ><a name='pluginSedLex_del_param'><p><b>del_param</b><span class='desc_phpDoc'>[METHODE]</span></p><p>Delete an option of the plugin</p><p>For instance: <code> echo $this-&gt;get_param('opt1') </code> will return the value of the option 'opt1' stored for this plugin. Please note that two different plugins may have options with the same name without any conflict.</p></span>
+								</td>
+								<td class="column-columnname">
+									<span id="cell_1_2" ><p><b>Paramètres :</b></p><p style='padding-left:30px;'><b>$option</b> (<i>string</i>) the name of the option</p><p><b>Valeur de retour :</b></p><p style='padding-left:30px;'><b>void</b> </p><p><b>Exemple d&#039;appel :</b></p><p style='padding-left:30px;'><code>void del_param ($option) ; </code></p><p><b>Voir aussi :</b></p><p style='padding-left:30px;'><a href='#parametersSedLex_parametersSedLex'>parametersSedLex::parametersSedLex</a></p><p style='padding-left:30px;'><a href='#pluginSedLex_gel_param'>pluginSedLex::gel_param</a></p><p style='padding-left:30px;'><a href='#pluginSedLex_get_name_params'>pluginSedLex::get_name_params</a></p><p style='padding-left:30px;'><a href='#pluginSedLex_set_param'>pluginSedLex::set_param</a></p></span>
+								</td>
+							</tr> 
+							<tr class="alternate" valign="top" id="ligne1"> 
+								<td class="column-columnname">
+									<span id="cell_1_1" ><a name='pluginSedLex_set_param'><p><b>set_param</b><span class='desc_phpDoc'>[METHODE]</span></p><p>Set the option of the plugin</p><p>For instance, <code>$this-&gt;set_param('opt1', 'val1')</code> will store the string 'val1' for the option 'opt1'. Any object may be stored in the options</p></span>
+								</td>
+								<td class="column-columnname">
+									<span id="cell_1_2" ><p><b>Paramètres :</b></p><p style='padding-left:30px;'><b>$option</b> (<i>string</i>) the name of the option</p><p style='padding-left:30px;'><b>$value</b> (<i>mixed</i>) the value of the option to be saved</p><p><b>Valeur de retour :</b></p><p style='padding-left:30px;'><b>void</b> </p><p><b>Exemple d&#039;appel :</b></p><p style='padding-left:30px;'><code>void set_param ($option, $value) ; </code></p><p><b>Voir aussi :</b></p><p style='padding-left:30px;'><a href='#parametersSedLex_parametersSedLex'>parametersSedLex::parametersSedLex</a></p><p style='padding-left:30px;'><a href='#pluginSedLex_get_param'>pluginSedLex::get_param</a></p></span>
+								</td>
+							</tr> 
+							<tr class="" valign="top" id="ligne1"> 
+								<td class="column-columnname">
+									<span id="cell_1_1" ><a name='pluginSedLex_add_js'><p><b>add_js</b><span class='desc_phpDoc'>[METHODE]</span></p><p>Add a javascript file in the header</p><p>For instance, <code> $this-&gt;add_js('http://www.monserveur.com/wp-content/plugins/my_plugin/js/foo.js') ; </code> will add the 'my_plugin/js/foo.js' in the header.</p><p>In order to save bandwidth and boost your website, the framework will concat all the added javascript (by this function) and serve the browser with a single js file</p><p>Note : you have to call this function in function <code>your_function</code> called by <code>add_action('wp_print_scripts', array( $this, 'your_function'));</code></p></span>
+								</td>
+								<td class="column-columnname">
+									<span id="cell_1_2" ><p><b>Paramètres :</b></p><p style='padding-left:30px;'><b>$url</b> (<i>string</i>) the complete http url of the javascript (this javascript should be an internal javascript i.e. stored by your blog and not, for instance, stored by Google)</p><p><b>Valeur de retour :</b></p><p style='padding-left:30px;'><b>void</b> </p><p><b>Exemple d&#039;appel :</b></p><p style='padding-left:30px;'><code>void add_js ($url) ; </code></p><p><b>Voir aussi :</b></p><p style='padding-left:30px;'><a href='#pluginSedLex_flush_js'>pluginSedLex::flush_js</a></p><p style='padding-left:30px;'><a href='#pluginSedLex_add_inline_js'>pluginSedLex::add_inline_js</a></p></span>
+								</td>
+							</tr> 
+							<tr class="alternate" valign="top" id="ligne1"> 
+								<td class="column-columnname">
+									<span id="cell_1_1" ><a name='pluginSedLex_add_inline_js'><p><b>add_inline_js</b><span class='desc_phpDoc'>[METHODE]</span></p><p>Add inline javascript in the header</p><p>For instance <code> $this-&gt;add_inline_js('alert("foo");') ; </code></p><p>In order to save bandwidth and boost your website, the framework will concat all the added javascript (by this function) and serve the browser with a single js file</p><p>Note : you have to call this function in function <code>your_function</code> called by <code>add_action('wp_print_scripts', array( $this, 'your_function'));</code></p></span>
+								</td>
+								<td class="column-columnname">
+									<span id="cell_1_2" ><p><b>Paramètres :</b></p><p style='padding-left:30px;'><b>$text</b> (<i>string</i>) the javascript to be inserted in the header (without any &lt;script&gt; tags)</p><p><b>Valeur de retour :</b></p><p style='padding-left:30px;'><b>void</b> </p><p><b>Exemple d&#039;appel :</b></p><p style='padding-left:30px;'><code>void add_inline_js ($text) ; </code></p><p><b>Voir aussi :</b></p><p style='padding-left:30px;'><a href='#pluginSedLex_flush_js'>pluginSedLex::flush_js</a></p><p style='padding-left:30px;'><a href='#pluginSedLex_add_js'>pluginSedLex::add_js</a></p></span>
+								</td>
+							</tr> 
+							<tr class="" valign="top" id="ligne1"> 
+								<td class="column-columnname">
+									<span id="cell_1_1" ><a name='pluginSedLex_add_css'><p><b>add_css</b><span class='desc_phpDoc'>[METHODE]</span></p><p>Add a CSS file in the header</p><p>For instance,  <code>$this-&gt;add_css('http://www.monserveur.com/wp-content/plugins/my_plugin/js/foo.css') ;</code> will add the 'my_plugin/js/foo.css' in the header.</p><p>In order to save bandwidth and boost your website, the framework will concat all the added css (by this function) and serve the browser with a single css file</p><p>Note : you have to call this function in function <code>your_function</code> called by <code>add_action('wp_print_styles', array( $this, 'your_function'));</code></p></span>
+								</td>
+								<td class="column-columnname">
+									<span id="cell_1_2" ><p><b>Paramètres :</b></p><p style='padding-left:30px;'><b>$url</b> (<i>string</i>) the complete http url of the css file (this css should be an internal javascript i.e. stored by your blog and not, for instance, stored by Google)</p><p><b>Valeur de retour :</b></p><p style='padding-left:30px;'><b>void</b> </p><p><b>Exemple d&#039;appel :</b></p><p style='padding-left:30px;'><code>void add_css ($url) ; </code></p><p><b>Voir aussi :</b></p><p style='padding-left:30px;'><a href='#pluginSedLex_flush_css'>pluginSedLex::flush_css</a></p><p style='padding-left:30px;'><a href='#pluginSedLex_add_inline_css'>pluginSedLex::add_inline_css</a></p></span>
+								</td>
+							</tr> 
+							<tr class="alternate" valign="top" id="ligne1"> 
+								<td class="column-columnname">
+									<span id="cell_1_1" ><a name='pluginSedLex_add_inline_css'><p><b>add_inline_css</b><span class='desc_phpDoc'>[METHODE]</span></p><p>Add inline CSS in the header</p><p>For instance,  <code> $this-&gt;add_inline_css('.head { color:#FFFFFF; }') ; </code></p><p>In order to save bandwidth and boost your website, the framework will concat all the added css (by this function) and serve the browser with a single css file</p><p>Note : you have to call this function in function <code>your_function</code> called by <code>add_action('wp_print_styles', array( $this, 'your_function'));</code></p></span>
+								</td>
+								<td class="column-columnname">
+									<span id="cell_1_2" ><p><b>Paramètres :</b></p><p style='padding-left:30px;'><b>$text</b> (<i>string</i>) the css to be inserted in the header (without any &lt;style&gt; tags)</p><p><b>Valeur de retour :</b></p><p style='padding-left:30px;'><b>void</b> </p><p><b>Exemple d&#039;appel :</b></p><p style='padding-left:30px;'><code>void add_inline_css ($text) ; </code></p><p><b>Voir aussi :</b></p><p style='padding-left:30px;'><a href='#pluginSedLex_flush_css'>pluginSedLex::flush_css</a></p><p style='padding-left:30px;'><a href='#pluginSedLex_add_css'>pluginSedLex::add_css</a></p></span>
+								</td>
+							</tr> 
+							<tr class="" valign="top" id="ligne1"> 
+								<td class="column-columnname">
+									<span id="cell_1_1" ><a name='pluginSedLex_get_plugins_data'><p><b>get_plugins_data</b><span class='desc_phpDoc'>[METHODE]</span></p><p>Get information on the plugin</p><p>For instance <code> $info = pluginSedlex::get_plugins_data(WP_PLUGIN_DIR.'/my-plugin/my-plugin.php')</code> will return an array with</p><p>- the folder of the plugin : <code>$info['Dir_Plugin']</code></p><p>- the name of the plugin : <code>$info['Plugin_Name']</code></p><p>- the tags of the plugin : <code>$info['Plugin_Tag']</code></p><p>- the url of the plugin : <code>$info['Plugin_URI']</code></p><p>- the description of the plugin : <code>$info['Description']</code></p><p>- the name of the author : <code>$info['Author']</code></p><p>- the url of the author : <code>$info['Author_URI']</code></p><p>- the version number : <code>$info['Version']</code></p><p>- the email of the Author : <code>$info['Email']</code></p></span>
+								</td>
+								<td class="column-columnname">
+									<span id="cell_1_2" ><p><b>Paramètres :</b></p><p style='padding-left:30px;'><b>$plugin_file</b> [optionnelle] (<i>string</i>) path of the plugin main file. If no paramater is provided, the file is the current plugin main file. (par défaut, sa valeur est : ) </p><p><b>Valeur de retour :</b></p><p style='padding-left:30px;'><b>array</b> information on Name, Author, Description ...</p><p><b>Exemple d&#039;appel :</b></p><p style='padding-left:30px;'><code>array get_plugins_data ([$plugin_file]) ; </code></p></span>
+								</td>
+							</tr> 
+							<tr class="alternate" valign="top" id="ligne1"> 
+								<td class="column-columnname">
+									<span id="cell_1_1" ><a name='pluginSedLex_check_folder_rights'><p><b>check_folder_rights</b><span class='desc_phpDoc'>[METHODE]</span></p><p>Ensure that the needed folders are writable by the webserver.</p><p>Will check usual folders and files.</p><p>You may add this in your configuration page <code>$this-&gt;check_folder_rights( array(array($theFolderToCheck, "rw")) ) ;</code></p><p>If not a error msg is printed</p></span>
+								</td>
+								<td class="column-columnname">
+									<span id="cell_1_2" ><p><b>Paramètres :</b></p><p style='padding-left:30px;'><b>$folders</b> (<i>array</i>) list of array with a first element (the complete path of the folder to check) and a second element (the needed rights &quot;r&quot;, &quot;w&quot; [or a combination of those])</p><p><b>Valeur de retour :</b></p><p style='padding-left:30px;'><b>void</b> </p><p><b>Exemple d&#039;appel :</b></p><p style='padding-left:30px;'><code>void check_folder_rights ($folders) ; </code></p></span>
+								</td>
+							</tr> 
+							<tr class="" valign="top" id="ligne1"> 
+								<td class="column-columnname">
+									<span id="cell_1_1" ><a name='pluginSedLex_the_content_SL'><p><b>the_content_SL</b><span class='desc_phpDoc'>[METHODE]</span></p><p>Get the displayed content</p></span>
+								</td>
+								<td class="column-columnname">
+									<span id="cell_1_2" ><p><b>Paramètres :</b></p><p style='padding-left:30px;'><b>$content</b> (<i>??</i>) ??</p><p><b>Valeur de retour :</b></p><p style='padding-left:30px;'><b>void</b> </p><p><b>Exemple d&#039;appel :</b></p><p style='padding-left:30px;'><code>void the_content_SL ($content) ; </code></p></span>
+								</td>
+							</tr> 
+							<tr class="alternate" valign="top" id="ligne1"> 
+								<td class="column-columnname">
+									<span id="cell_1_1" ><a name='pluginSedLex_the_excerpt_ante_SL'><p><b>the_excerpt_ante_SL</b><span class='desc_phpDoc'>[METHODE]</span></p><p>Get the excerpt content</p></span>
+								</td>
+								<td class="column-columnname">
+									<span id="cell_1_2" ><p><b>Paramètres :</b></p><p style='padding-left:30px;'><b>$content</b> (<i>??</i>) ??</p><p><b>Valeur de retour :</b></p><p style='padding-left:30px;'><b>void</b> </p><p><b>Exemple d&#039;appel :</b></p><p style='padding-left:30px;'><code>void the_excerpt_ante_SL ($content) ; </code></p></span>
+								</td>
+							</tr> 
+						</tbody>
+					</table>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+			<a name='class_adminTable'></a>			<div class="metabox-holder" style="width: 100%">
+				<div class="meta-box-sortables">
+					<div class="postbox">
+						<h3 class="hndle"><span>adminTable<span class='desc_phpDoc'>[CLASSE]</span></span></h3>
+						<div class="inside" style="padding: 5px 10px 5px 20px;">
+							<p>This PHP class enables the creation of tables in the admin backend</p><p>Voici les méthodes de la classe:</p><ul><li class='li_class'><b><a href='#adminTable_adminTable'>adminTable::adminTable</a></b>: Constructor of the class</li><li class='li_class'><b><a href='#adminTable_title'>adminTable::title</a></b>: Set the titles of the columns</li><li class='li_class'><b><a href='#adminTable_current_page'>adminTable::current_page</a></b>: Get the current page of the table.</li><li class='li_class'><b><a href='#adminTable_set_nb_all_Items'>adminTable::set_nb_all_Items</a></b>: Set the number of items (all).</li><li class='li_class'><b><a href='#adminTable_current_filter'>adminTable::current_filter</a></b>: Get the currentfilter of the table.</li><li class='li_class'><b><a href='#adminTable_current_ordercolumn'>adminTable::current_ordercolumn</a></b>: Get the current column order of the table.</li><li class='li_class'><b><a href='#adminTable_current_orderdir'>adminTable::current_orderdir</a></b>: Get the current column direction of the table.</li><li class='li_class'><b><a href='#adminTable_removeFooter'>adminTable::removeFooter</a></b>: Remove the showed title at the footer of the table</li><li class='li_class'><b><a href='#adminTable_add_line'>adminTable::add_line</a></b>: Add a line in your table</li><li class='li_class'><b><a href='#adminTable_flush'>adminTable::flush</a></b>: Return the table HTML code. You just have to echo it</li></ul>					<table class="widefat fixed" cellspacing="0">
+						<thead>
+							<tr>
+								<tr>
+									<th class="manage-column column-columnname" scope="col">Méthodes</th>
+									<th class="manage-column column-columnname" scope="col">Détails</th>
+								</tr>
+							</tr>
+						</thead>
+						<tfoot>
+							<tr>
+								<tr>
+									<th class="manage-column column-columnname" scope="col">Méthodes</th>
+									<th class="manage-column column-columnname" scope="col">Détails</th>
+								</tr>
+							</tr>
+						</tfoot>
+						<tbody>
+							<tr class="alternate" valign="top" id="ligne1"> 
+								<td class="column-columnname">
+									<span id="cell_1_1" ><a name='adminTable_adminTable'><p><b>adminTable</b><span class='desc_phpDoc'>[METHODE]</span></p><p>Constructor of the class</p></span>
+								</td>
+								<td class="column-columnname">
+									<span id="cell_1_2" ><p><b>Paramètres :</b></p><p style='padding-left:30px;'><b>$nb_all_Items</b> [optionnelle] (<i>integer</i>) the number of all items. If the number of submitted lines are less than this number, a navigation bar will be added at the top of the table (par défaut, sa valeur est : 0) </p><p style='padding-left:30px;'><b>$nb_max_per_page</b> [optionnelle] (<i>integer</i>) the number of item per page. This parameter is useful if you have submitted the previous parameter. (par défaut, sa valeur est : 0) </p><p style='padding-left:30px;'><b>$order</b> [optionnelle] (<i>boolean</i>) allow the ordering of the columns with small arrows (par défaut, sa valeur est : ) </p><p style='padding-left:30px;'><b>$search</b> [optionnelle] (<i>??</i>) ?? (par défaut, sa valeur est : ) </p><p><b>Valeur de retour :</b></p><p style='padding-left:30px;'><b>adminTable</b> the table</p><p><b>Exemple d&#039;appel :</b></p><p style='padding-left:30px;'><code>adminTable adminTable ([$nb_all_Items], [$nb_max_per_page], [$order], [$search]) ; </code></p></span>
+								</td>
+							</tr> 
+							<tr class="" valign="top" id="ligne1"> 
+								<td class="column-columnname">
+									<span id="cell_1_1" ><a name='adminTable_title'><p><b>title</b><span class='desc_phpDoc'>[METHODE]</span></p><p>Set the titles of the columns</p></span>
+								</td>
+								<td class="column-columnname">
+									<span id="cell_1_2" ><p><b>Paramètres :</b></p><p style='padding-left:30px;'><b>$array</b> (<i>array</i>) it is an array of string which is of the size of the number of columns. Each string is the title for a different column</p><p><b>Valeur de retour :</b></p><p style='padding-left:30px;'><b>void</b> </p><p><b>Exemple d&#039;appel :</b></p><p style='padding-left:30px;'><code>void title ($array) ; </code></p></span>
+								</td>
+							</tr> 
+							<tr class="alternate" valign="top" id="ligne1"> 
+								<td class="column-columnname">
+									<span id="cell_1_1" ><a name='adminTable_current_page'><p><b>current_page</b><span class='desc_phpDoc'>[METHODE]</span></p><p>Get the current page of the table.</p><p>This is relevant if the number of your items is greater than the number of lines</p></span>
+								</td>
+								<td class="column-columnname">
+									<span id="cell_1_2" ><p><b>Paramètres : </b></p><p style='padding-left:30px;'>Pas de paramètre</p><p><b>Valeur de retour :</b></p><p style='padding-left:30px;'><b>integer</b> the page number</p><p><b>Exemple d&#039;appel :</b></p><p style='padding-left:30px;'><code>integer current_page () ; </code></p></span>
+								</td>
+							</tr> 
+							<tr class="" valign="top" id="ligne1"> 
+								<td class="column-columnname">
+									<span id="cell_1_1" ><a name='adminTable_set_nb_all_Items'><p><b>set_nb_all_Items</b><span class='desc_phpDoc'>[METHODE]</span></p><p>Set the number of items (all).</p></span>
+								</td>
+								<td class="column-columnname">
+									<span id="cell_1_2" ><p><b>Paramètres :</b></p><p style='padding-left:30px;'><b>$nb</b> (<i>??</i>) ??</p><p><b>Valeur de retour :</b></p><p style='padding-left:30px;'><b>void</b> </p><p><b>Exemple d&#039;appel :</b></p><p style='padding-left:30px;'><code>void set_nb_all_Items ($nb) ; </code></p></span>
+								</td>
+							</tr> 
+							<tr class="alternate" valign="top" id="ligne1"> 
+								<td class="column-columnname">
+									<span id="cell_1_1" ><a name='adminTable_current_filter'><p><b>current_filter</b><span class='desc_phpDoc'>[METHODE]</span></p><p>Get the currentfilter of the table.</p></span>
+								</td>
+								<td class="column-columnname">
+									<span id="cell_1_2" ><p><b>Paramètres : </b></p><p style='padding-left:30px;'>Pas de paramètre</p><p><b>Valeur de retour :</b></p><p style='padding-left:30px;'><b>string</b> the filter</p><p><b>Exemple d&#039;appel :</b></p><p style='padding-left:30px;'><code>string current_filter () ; </code></p></span>
+								</td>
+							</tr> 
+							<tr class="" valign="top" id="ligne1"> 
+								<td class="column-columnname">
+									<span id="cell_1_1" ><a name='adminTable_current_ordercolumn'><p><b>current_ordercolumn</b><span class='desc_phpDoc'>[METHODE]</span></p><p>Get the current column order of the table.</p></span>
+								</td>
+								<td class="column-columnname">
+									<span id="cell_1_2" ><p><b>Paramètres : </b></p><p style='padding-left:30px;'>Pas de paramètre</p><p><b>Valeur de retour :</b></p><p style='padding-left:30px;'><b>integer</b> the column number</p><p><b>Exemple d&#039;appel :</b></p><p style='padding-left:30px;'><code>integer current_ordercolumn () ; </code></p></span>
+								</td>
+							</tr> 
+							<tr class="alternate" valign="top" id="ligne1"> 
+								<td class="column-columnname">
+									<span id="cell_1_1" ><a name='adminTable_current_orderdir'><p><b>current_orderdir</b><span class='desc_phpDoc'>[METHODE]</span></p><p>Get the current column direction of the table.</p></span>
+								</td>
+								<td class="column-columnname">
+									<span id="cell_1_2" ><p><b>Paramètres : </b></p><p style='padding-left:30px;'>Pas de paramètre</p><p><b>Valeur de retour :</b></p><p style='padding-left:30px;'><b>string</b> the column direction &quot;ASC&quot; or &quot;DESC&quot;</p><p><b>Exemple d&#039;appel :</b></p><p style='padding-left:30px;'><code>string current_orderdir () ; </code></p></span>
+								</td>
+							</tr> 
+							<tr class="" valign="top" id="ligne1"> 
+								<td class="column-columnname">
+									<span id="cell_1_1" ><a name='adminTable_removeFooter'><p><b>removeFooter</b><span class='desc_phpDoc'>[METHODE]</span></p><p>Remove the showed title at the footer of the table</p><p>By default, titles of the columns are displayed at the top of the table and at its footer.</p></span>
+								</td>
+								<td class="column-columnname">
+									<span id="cell_1_2" ><p><b>Paramètres : </b></p><p style='padding-left:30px;'>Pas de paramètre</p><p><b>Valeur de retour :</b></p><p style='padding-left:30px;'><b>void</b> </p><p><b>Exemple d&#039;appel :</b></p><p style='padding-left:30px;'><code>void removeFooter () ; </code></p></span>
+								</td>
+							</tr> 
+							<tr class="alternate" valign="top" id="ligne1"> 
+								<td class="column-columnname">
+									<span id="cell_1_1" ><a name='adminTable_add_line'><p><b>add_line</b><span class='desc_phpDoc'>[METHODE]</span></p><p>Add a line in your table</p><p>For instance</p><p><code>$table = new adminTable() ; <br /> $table-&gt;title(array("Col1", "Col2", "Col3") ) ; <br /> $cel1 = new adminCell("Cel1-1") ; <br /> $cel2 = new adminCell("Cel1-2") ; <br /> $cel3 = new adminCell("Cel1-3") ; <br /> $table-&gt;add_line(array($cel1, $cel2, $cel3), '1') ; <br /> echo $table-&gt;flush() ; </code></p><p>This code will display a table with a unique line</p></span>
+								</td>
+								<td class="column-columnname">
+									<span id="cell_1_2" ><p><b>Paramètres :</b></p><p style='padding-left:30px;'><b>$array</b> (<i>array</i>) it is an array of adminCell object. The length of this array is the same size of the number of your columns</p><p style='padding-left:30px;'><b>$id</b> (<i>id</i>) it is the id of this line. It is useful when you add an action on a cell</p><p><b>Valeur de retour :</b></p><p style='padding-left:30px;'><b>void</b> </p><p><b>Exemple d&#039;appel :</b></p><p style='padding-left:30px;'><code>void add_line ($array, $id) ; </code></p><p><b>Voir aussi :</b></p><p style='padding-left:30px;'><a href='#adminCell:add_action'>adminCell:add_action</a></p><p style='padding-left:30px;'><a href='#adminCell_adminCell'>adminCell::adminCell</a></p></span>
+								</td>
+							</tr> 
+							<tr class="" valign="top" id="ligne1"> 
+								<td class="column-columnname">
+									<span id="cell_1_1" ><a name='adminTable_flush'><p><b>flush</b><span class='desc_phpDoc'>[METHODE]</span></p><p>Return the table HTML code. You just have to echo it</p></span>
+								</td>
+								<td class="column-columnname">
+									<span id="cell_1_2" ><p><b>Paramètres : </b></p><p style='padding-left:30px;'>Pas de paramètre</p><p><b>Valeur de retour :</b></p><p style='padding-left:30px;'><b>string</b> the HTML code of the table</p><p><b>Exemple d&#039;appel :</b></p><p style='padding-left:30px;'><code>string flush () ; </code></p></span>
+								</td>
+							</tr> 
+						</tbody>
+					</table>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+			<a name='class_adminCell'></a>			<div class="metabox-holder" style="width: 100%">
+				<div class="meta-box-sortables">
+					<div class="postbox">
+						<h3 class="hndle"><span>adminCell<span class='desc_phpDoc'>[CLASSE]</span></span></h3>
+						<div class="inside" style="padding: 5px 10px 5px 20px;">
+							<p>This PHP class create cells to be used with the adminTable::add_line method</p><p>Voici les méthodes de la classe:</p><ul><li class='li_class'><b><a href='#adminCell_adminCell'>adminCell::adminCell</a></b>: Create the cells object</li><li class='li_class'><b><a href='#adminCell_add_action'>adminCell::add_action</a></b>: To add a javascript action on this cell.</li></ul>					<table class="widefat fixed" cellspacing="0">
+						<thead>
+							<tr>
+								<tr>
+									<th class="manage-column column-columnname" scope="col">Méthodes</th>
+									<th class="manage-column column-columnname" scope="col">Détails</th>
+								</tr>
+							</tr>
+						</thead>
+						<tfoot>
+							<tr>
+								<tr>
+									<th class="manage-column column-columnname" scope="col">Méthodes</th>
+									<th class="manage-column column-columnname" scope="col">Détails</th>
+								</tr>
+							</tr>
+						</tfoot>
+						<tbody>
+							<tr class="alternate" valign="top" id="ligne1"> 
+								<td class="column-columnname">
+									<span id="cell_1_1" ><a name='adminCell_adminCell'><p><b>adminCell</b><span class='desc_phpDoc'>[METHODE]</span></p><p>Create the cells object</p></span>
+								</td>
+								<td class="column-columnname">
+									<span id="cell_1_2" ><p><b>Paramètres :</b></p><p style='padding-left:30px;'><b>$content</b> (<i>string</i>) the HTML code to be displayed in the cell</p><p><b>Valeur de retour :</b></p><p style='padding-left:30px;'><b>adminCell</b> the object</p><p><b>Exemple d&#039;appel :</b></p><p style='padding-left:30px;'><code>adminCell adminCell ($content) ; </code></p></span>
+								</td>
+							</tr> 
+							<tr class="" valign="top" id="ligne1"> 
+								<td class="column-columnname">
+									<span id="cell_1_1" ><a name='adminCell_add_action'><p><b>add_action</b><span class='desc_phpDoc'>[METHODE]</span></p><p>To add a javascript action on this cell.</p><p>An action a small link at the bottom of the cell which call a javascript action when it is clicked</p><p>For instance :</p><p><code>$cel1 = new adminCell("content cell") ; <br /> $cel1-&gt;add_action("Delete", "deleteFunction") ; </code></p><p>with the following javascript code in the js/js_admin.js file to call a PHP function (deletePHP) in AJAX</p><p><code>function deleteFunction (element) { <br />&nbsp; &nbsp; &nbsp;// Get the id of the line <br />&nbsp; &nbsp; &nbsp;var idLine = element.getAttribute("id"); <br />&nbsp; &nbsp; &nbsp;// Prepare the argument for the AJAX call <br />&nbsp; &nbsp; &nbsp;var arguments = { <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;action: 'deletePHP',  <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;id : idLine <br />&nbsp; &nbsp; &nbsp;}  <br />&nbsp; &nbsp; &nbsp;//POST the data  <br />&nbsp; &nbsp; &nbsp;jQuery.post(ajaxurl, arguments, function(response) { <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;// The call is finished <br />&nbsp; &nbsp; &nbsp;});  <br />}</code></p><p>and do not forget to add a <code>add_action('wp_ajax_deletePHP', array($this,'deletePHP'));</code> in the <code>_init</code> function of your plugin</p><p>If the function is only a string with no parantehsis (i.e. <code>the_function</code>), thus the id of the line will be passed in argument</p><p>If the function is a function name with arguments (i.e. <code>the_function(arg1, arg2)</code>), thus this function will be called directly</p></span>
+								</td>
+								<td class="column-columnname">
+									<span id="cell_1_2" ><p><b>Paramètres :</b></p><p style='padding-left:30px;'><b>$name</b> (<i>string</i>) the text of the link to be displayed</p><p style='padding-left:30px;'><b>$javascript_function</b> (<i>string</i>) the name of the function to be called when the link is clicked</p><p><b>Valeur de retour :</b></p><p style='padding-left:30px;'><b>adminCell</b> the cell object</p><p><b>Exemple d&#039;appel :</b></p><p style='padding-left:30px;'><code>adminCell add_action ($name, $javascript_function) ; </code></p></span>
+								</td>
+							</tr> 
+						</tbody>
+					</table>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+			<a name='class_adminTabs'></a>			<div class="metabox-holder" style="width: 100%">
+				<div class="meta-box-sortables">
+					<div class="postbox">
+						<h3 class="hndle"><span>adminTabs<span class='desc_phpDoc'>[CLASSE]</span></span></h3>
+						<div class="inside" style="padding: 5px 10px 5px 20px;">
+							<p>This PHP class enables the creation of tabulation in the admin backend</p><p>Voici les méthodes de la classe:</p><ul><li class='li_class'><b><a href='#adminTabs_adminTabs'>adminTabs::adminTabs</a></b>: Constructor of the class</li><li class='li_class'><b><a href='#adminTabs_add_tab'>adminTabs::add_tab</a></b>: Add a tabulation</li><li class='li_class'><b><a href='#adminTabs_activate'>adminTabs::activate</a></b>: Change the tabs activated by default (normally it is the first tab i.e. 1)</li><li class='li_class'><b><a href='#adminTabs_flush'>adminTabs::flush</a></b>: Print the tabulation HTML code.</li></ul>					<table class="widefat fixed" cellspacing="0">
+						<thead>
+							<tr>
+								<tr>
+									<th class="manage-column column-columnname" scope="col">Méthodes</th>
+									<th class="manage-column column-columnname" scope="col">Détails</th>
+								</tr>
+							</tr>
+						</thead>
+						<tfoot>
+							<tr>
+								<tr>
+									<th class="manage-column column-columnname" scope="col">Méthodes</th>
+									<th class="manage-column column-columnname" scope="col">Détails</th>
+								</tr>
+							</tr>
+						</tfoot>
+						<tbody>
+							<tr class="alternate" valign="top" id="ligne1"> 
+								<td class="column-columnname">
+									<span id="cell_1_1" ><a name='adminTabs_adminTabs'><p><b>adminTabs</b><span class='desc_phpDoc'>[METHODE]</span></p><p>Constructor of the class</p></span>
+								</td>
+								<td class="column-columnname">
+									<span id="cell_1_2" ><p><b>Paramètres : </b></p><p style='padding-left:30px;'>Pas de paramètre</p><p><b>Valeur de retour :</b></p><p style='padding-left:30px;'><b>adminTabs</b> the tabs</p><p><b>Exemple d&#039;appel :</b></p><p style='padding-left:30px;'><code>adminTabs adminTabs () ; </code></p></span>
+								</td>
+							</tr> 
+							<tr class="" valign="top" id="ligne1"> 
+								<td class="column-columnname">
+									<span id="cell_1_1" ><a name='adminTabs_add_tab'><p><b>add_tab</b><span class='desc_phpDoc'>[METHODE]</span></p><p>Add a tabulation</p><p>For instance,</p><p><code>$tabs = new adminTabs() ; <br /> ob_start() ;  <br /> echo "Content 1" ;  <br /> $tabs-&gt;add_tab("Tab1", ob_get_clean() ) ; 	 <br /> ob_start() ;  <br /> echo "Content 2" ;  <br /> $tabs-&gt;add_tab("Tab2", ob_get_clean() ) ;  <br /> echo $tabs-&gt;flush() ; </code></p><p>will create to basic tabulation.</p></span>
+								</td>
+								<td class="column-columnname">
+									<span id="cell_1_2" ><p><b>Paramètres :</b></p><p style='padding-left:30px;'><b>$title</b> (<i>string</i>) the title of the tabulation</p><p style='padding-left:30px;'><b>$content</b> (<i>string</i>) the HTML content of the tab</p><p style='padding-left:30px;'><b>$image</b> [optionnelle] (<i>string</i>) the path of an image that will be display before the title. Please indicate a 20x20px image. (par défaut, sa valeur est : ) </p><p><b>Valeur de retour :</b></p><p style='padding-left:30px;'><b>void</b> </p><p><b>Exemple d&#039;appel :</b></p><p style='padding-left:30px;'><code>void add_tab ($title, $content, [$image]) ; </code></p></span>
+								</td>
+							</tr> 
+							<tr class="alternate" valign="top" id="ligne1"> 
+								<td class="column-columnname">
+									<span id="cell_1_1" ><a name='adminTabs_activate'><p><b>activate</b><span class='desc_phpDoc'>[METHODE]</span></p><p>Change the tabs activated by default (normally it is the first tab i.e. 1)</p><p>1 is the first, 2 is the second, etc.</p></span>
+								</td>
+								<td class="column-columnname">
+									<span id="cell_1_2" ><p><b>Paramètres :</b></p><p style='padding-left:30px;'><b>$nb</b> (<i>integer</i>) the tabultaion index to activate</p><p><b>Valeur de retour :</b></p><p style='padding-left:30px;'><b>void</b> </p><p><b>Exemple d&#039;appel :</b></p><p style='padding-left:30px;'><code>void activate ($nb) ; </code></p></span>
+								</td>
+							</tr> 
+							<tr class="" valign="top" id="ligne1"> 
+								<td class="column-columnname">
+									<span id="cell_1_1" ><a name='adminTabs_flush'><p><b>flush</b><span class='desc_phpDoc'>[METHODE]</span></p><p>Print the tabulation HTML code.</p></span>
+								</td>
+								<td class="column-columnname">
+									<span id="cell_1_2" ><p><b>Paramètres : </b></p><p style='padding-left:30px;'>Pas de paramètre</p><p><b>Valeur de retour :</b></p><p style='padding-left:30px;'><b>void</b> </p><p><b>Exemple d&#039;appel :</b></p><p style='padding-left:30px;'><code>void flush () ; </code></p></span>
+								</td>
+							</tr> 
+						</tbody>
+					</table>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+			<a name='class_boxAdmin'></a>			<div class="metabox-holder" style="width: 100%">
+				<div class="meta-box-sortables">
+					<div class="postbox">
+						<h3 class="hndle"><span>boxAdmin<span class='desc_phpDoc'>[CLASSE]</span></span></h3>
+						<div class="inside" style="padding: 5px 10px 5px 20px;">
+							<p>This PHP class enables the creation of a box in the admin backend</p><p>Voici les méthodes de la classe:</p><ul><li class='li_class'><b><a href='#boxAdmin_boxAdmin'>boxAdmin::boxAdmin</a></b>: Constructor of the class</li><li class='li_class'><b><a href='#boxAdmin_flush'>boxAdmin::flush</a></b>: Print the box HTML code.</li></ul>					<table class="widefat fixed" cellspacing="0">
+						<thead>
+							<tr>
+								<tr>
+									<th class="manage-column column-columnname" scope="col">Méthodes</th>
+									<th class="manage-column column-columnname" scope="col">Détails</th>
+								</tr>
+							</tr>
+						</thead>
+						<tfoot>
+							<tr>
+								<tr>
+									<th class="manage-column column-columnname" scope="col">Méthodes</th>
+									<th class="manage-column column-columnname" scope="col">Détails</th>
+								</tr>
+							</tr>
+						</tfoot>
+						<tbody>
+							<tr class="alternate" valign="top" id="ligne1"> 
+								<td class="column-columnname">
+									<span id="cell_1_1" ><a name='boxAdmin_boxAdmin'><p><b>boxAdmin</b><span class='desc_phpDoc'>[METHODE]</span></p><p>Constructor of the class</p></span>
+								</td>
+								<td class="column-columnname">
+									<span id="cell_1_2" ><p><b>Paramètres :</b></p><p style='padding-left:30px;'><b>$title</b> (<i>string</i>) the title of the box</p><p style='padding-left:30px;'><b>$content</b> (<i>string</i>) the HTML code of the content of the box</p><p><b>Valeur de retour :</b></p><p style='padding-left:30px;'><b>boxAdmin</b> the box object</p><p><b>Exemple d&#039;appel :</b></p><p style='padding-left:30px;'><code>boxAdmin boxAdmin ($title, $content) ; </code></p></span>
+								</td>
+							</tr> 
+							<tr class="" valign="top" id="ligne1"> 
+								<td class="column-columnname">
+									<span id="cell_1_1" ><a name='boxAdmin_flush'><p><b>flush</b><span class='desc_phpDoc'>[METHODE]</span></p><p>Print the box HTML code.</p></span>
+								</td>
+								<td class="column-columnname">
+									<span id="cell_1_2" ><p><b>Paramètres : </b></p><p style='padding-left:30px;'>Pas de paramètre</p><p><b>Valeur de retour :</b></p><p style='padding-left:30px;'><b>void</b> </p><p><b>Exemple d&#039;appel :</b></p><p style='padding-left:30px;'><code>void flush () ; </code></p></span>
+								</td>
+							</tr> 
+						</tbody>
+					</table>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+			<a name='class_browsersOsDetection'></a>			<div class="metabox-holder" style="width: 100%">
+				<div class="meta-box-sortables">
+					<div class="postbox">
+						<h3 class="hndle"><span>browsersOsDetection<span class='desc_phpDoc'>[CLASSE]</span></span></h3>
+						<div class="inside" style="padding: 5px 10px 5px 20px;">
+							<p>This PHP class enables the Browser and OS detection</p><p>Voici les méthodes de la classe:</p><ul><li class='li_class'><b><a href='#browsersOsDetection_browsersOsDetection'>browsersOsDetection::browsersOsDetection</a></b>: Constructor of the class</li><li class='li_class'><b><a href='#browsersOsDetection_getBrowserName'>browsersOsDetection::getBrowserName</a></b>: Get the browser name</li><li class='li_class'><b><a href='#browsersOsDetection_getBrowserVersion'>browsersOsDetection::getBrowserVersion</a></b>: Get the browser version</li><li class='li_class'><b><a href='#browsersOsDetection_getPlatformName'>browsersOsDetection::getPlatformName</a></b>: Get the platform name</li><li class='li_class'><b><a href='#browsersOsDetection_getPlatformVersion'>browsersOsDetection::getPlatformVersion</a></b>: Get the platform version</li></ul>					<table class="widefat fixed" cellspacing="0">
+						<thead>
+							<tr>
+								<tr>
+									<th class="manage-column column-columnname" scope="col">Méthodes</th>
+									<th class="manage-column column-columnname" scope="col">Détails</th>
+								</tr>
+							</tr>
+						</thead>
+						<tfoot>
+							<tr>
+								<tr>
+									<th class="manage-column column-columnname" scope="col">Méthodes</th>
+									<th class="manage-column column-columnname" scope="col">Détails</th>
+								</tr>
+							</tr>
+						</tfoot>
+						<tbody>
+							<tr class="alternate" valign="top" id="ligne1"> 
+								<td class="column-columnname">
+									<span id="cell_1_1" ><a name='browsersOsDetection_browsersOsDetection'><p><b>browsersOsDetection</b><span class='desc_phpDoc'>[METHODE]</span></p><p>Constructor of the class</p></span>
+								</td>
+								<td class="column-columnname">
+									<span id="cell_1_2" ><p><b>Paramètres :</b></p><p style='padding-left:30px;'><b>$agent</b> (<i>??</i>) ??</p><p><b>Valeur de retour :</b></p><p style='padding-left:30px;'><b>browsersOsDetection</b> </p><p><b>Exemple d&#039;appel :</b></p><p style='padding-left:30px;'><code>browsersOsDetection browsersOsDetection ($agent) ; </code></p></span>
+								</td>
+							</tr> 
+							<tr class="" valign="top" id="ligne1"> 
+								<td class="column-columnname">
+									<span id="cell_1_1" ><a name='browsersOsDetection_getBrowserName'><p><b>getBrowserName</b><span class='desc_phpDoc'>[METHODE]</span></p><p>Get the browser name</p></span>
+								</td>
+								<td class="column-columnname">
+									<span id="cell_1_2" ><p><b>Paramètres : </b></p><p style='padding-left:30px;'>Pas de paramètre</p><p><b>Valeur de retour :</b></p><p style='padding-left:30px;'><b>string</b> The browser name</p><p><b>Exemple d&#039;appel :</b></p><p style='padding-left:30px;'><code>string getBrowserName () ; </code></p></span>
+								</td>
+							</tr> 
+							<tr class="alternate" valign="top" id="ligne1"> 
+								<td class="column-columnname">
+									<span id="cell_1_1" ><a name='browsersOsDetection_getBrowserVersion'><p><b>getBrowserVersion</b><span class='desc_phpDoc'>[METHODE]</span></p><p>Get the browser version</p></span>
+								</td>
+								<td class="column-columnname">
+									<span id="cell_1_2" ><p><b>Paramètres : </b></p><p style='padding-left:30px;'>Pas de paramètre</p><p><b>Valeur de retour :</b></p><p style='padding-left:30px;'><b>string</b> The browser version</p><p><b>Exemple d&#039;appel :</b></p><p style='padding-left:30px;'><code>string getBrowserVersion () ; </code></p></span>
+								</td>
+							</tr> 
+							<tr class="" valign="top" id="ligne1"> 
+								<td class="column-columnname">
+									<span id="cell_1_1" ><a name='browsersOsDetection_getPlatformName'><p><b>getPlatformName</b><span class='desc_phpDoc'>[METHODE]</span></p><p>Get the platform name</p></span>
+								</td>
+								<td class="column-columnname">
+									<span id="cell_1_2" ><p><b>Paramètres : </b></p><p style='padding-left:30px;'>Pas de paramètre</p><p><b>Valeur de retour :</b></p><p style='padding-left:30px;'><b>string</b> The platform name</p><p><b>Exemple d&#039;appel :</b></p><p style='padding-left:30px;'><code>string getPlatformName () ; </code></p></span>
+								</td>
+							</tr> 
+							<tr class="alternate" valign="top" id="ligne1"> 
+								<td class="column-columnname">
+									<span id="cell_1_1" ><a name='browsersOsDetection_getPlatformVersion'><p><b>getPlatformVersion</b><span class='desc_phpDoc'>[METHODE]</span></p><p>Get the platform version</p></span>
+								</td>
+								<td class="column-columnname">
+									<span id="cell_1_2" ><p><b>Paramètres : </b></p><p style='padding-left:30px;'>Pas de paramètre</p><p><b>Valeur de retour :</b></p><p style='padding-left:30px;'><b>string</b> The platform version</p><p><b>Exemple d&#039;appel :</b></p><p style='padding-left:30px;'><code>string getPlatformVersion () ; </code></p></span>
+								</td>
+							</tr> 
+						</tbody>
+					</table>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+			<a name='class_SL_Database'></a>			<div class="metabox-holder" style="width: 100%">
+				<div class="meta-box-sortables">
+					<div class="postbox">
+						<h3 class="hndle"><span>SL_Database<span class='desc_phpDoc'>[CLASSE]</span></span></h3>
+						<div class="inside" style="padding: 5px 10px 5px 20px;">
+							<p>This PHP class creates an export of the database</p><p>Voici les méthodes de la classe:</p><ul><li class='li_class'><b><a href='#SL_Database_progress'>SL_Database::progress</a></b>: Return the progression ratio</li><li class='li_class'><b><a href='#SL_Database_reset'>SL_Database::reset</a></b>: Reset the process</li><li class='li_class'><b><a href='#SL_Database_createSQL'>SL_Database::createSQL</a></b>: Create the sql file</li></ul>					<table class="widefat fixed" cellspacing="0">
+						<thead>
+							<tr>
+								<tr>
+									<th class="manage-column column-columnname" scope="col">Méthodes</th>
+									<th class="manage-column column-columnname" scope="col">Détails</th>
+								</tr>
+							</tr>
+						</thead>
+						<tfoot>
+							<tr>
+								<tr>
+									<th class="manage-column column-columnname" scope="col">Méthodes</th>
+									<th class="manage-column column-columnname" scope="col">Détails</th>
+								</tr>
+							</tr>
+						</tfoot>
+						<tbody>
+							<tr class="alternate" valign="top" id="ligne1"> 
+								<td class="column-columnname">
+									<span id="cell_1_1" ><a name='SL_Database_progress'><p><b>progress</b><span class='desc_phpDoc'>[METHODE]</span></p><p>Return the progression ratio</p></span>
+								</td>
+								<td class="column-columnname">
+									<span id="cell_1_2" ><p><b>Paramètres :</b></p><p style='padding-left:30px;'><b>$file</b> (<i>string</i>) the sql file that is being created</p><p><b>Valeur de retour :</b></p><p style='padding-left:30px;'><b>string</b> the progress nb_table_extracted/nb_table</p><p><b>Exemple d&#039;appel :</b></p><p style='padding-left:30px;'><code>string progress ($file) ; </code></p></span>
+								</td>
+							</tr> 
+							<tr class="" valign="top" id="ligne1"> 
+								<td class="column-columnname">
+									<span id="cell_1_1" ><a name='SL_Database_reset'><p><b>reset</b><span class='desc_phpDoc'>[METHODE]</span></p><p>Reset the process</p></span>
+								</td>
+								<td class="column-columnname">
+									<span id="cell_1_2" ><p><b>Paramètres :</b></p><p style='padding-left:30px;'><b>$path</b> (<i>string</i>) the path in which the database sql file should be created</p><p><b>Valeur de retour :</b></p><p style='padding-left:30px;'><b>void</b> </p><p><b>Exemple d&#039;appel :</b></p><p style='padding-left:30px;'><code>void reset ($path) ; </code></p></span>
+								</td>
+							</tr> 
+							<tr class="alternate" valign="top" id="ligne1"> 
+								<td class="column-columnname">
+									<span id="cell_1_1" ><a name='SL_Database_createSQL'><p><b>createSQL</b><span class='desc_phpDoc'>[METHODE]</span></p><p>Create the sql file</p></span>
+								</td>
+								<td class="column-columnname">
+									<span id="cell_1_2" ><p><b>Paramètres :</b></p><p style='padding-left:30px;'><b>$sqlfilename</b> (<i>string</i>) the path of the sql file to create</p><p style='padding-left:30px;'><b>$maxExecutionTime</b> [optionnelle] (<i>integer</i>) the maximum execution time (in second) (par défaut, sa valeur est : 20) </p><p style='padding-left:30px;'><b>$maxAllocatedMemory</b> [optionnelle] (<i>integer</i>) the maximum memory allocated by the process (in bytes) (par défaut, sa valeur est : 4000000) </p><p><b>Valeur de retour :</b></p><p style='padding-left:30px;'><b>array</b> with the name of the file (or 'finished' =&gt; false and if an error occured see 'error' for the error message)</p><p><b>Exemple d&#039;appel :</b></p><p style='padding-left:30px;'><code>array createSQL ($sqlfilename, [$maxExecutionTime], [$maxAllocatedMemory]) ; </code></p></span>
+								</td>
+							</tr> 
+						</tbody>
+					</table>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+			<a name='class_SL_Debug'></a>			<div class="metabox-holder" style="width: 100%">
+				<div class="meta-box-sortables">
+					<div class="postbox">
+						<h3 class="hndle"><span>SL_Debug<span class='desc_phpDoc'>[CLASSE]</span></span></h3>
+						<div class="inside" style="padding: 5px 10px 5px 20px;">
+							<p>This PHP class allow to log debug information regarding the execution of plugins</p><p>For instance :</p><p><code>SL_Debug::log(get_class(), "An error occurred!", $error_level);</code></p><p>the error_level may be 1=critical ; 2=error ; 3=warning ; 4=information ; 5=verbose.</p><p>Voici les méthodes de la classe:</p><ul><li class='li_class'><b><a href='#SL_Debug_get_log_path'>SL_Debug::get_log_path</a></b>: Get log file</li><li class='li_class'><b><a href='#SL_Debug_log'>SL_Debug::log</a></b>: Log function</li></ul>					<table class="widefat fixed" cellspacing="0">
+						<thead>
+							<tr>
+								<tr>
+									<th class="manage-column column-columnname" scope="col">Méthodes</th>
+									<th class="manage-column column-columnname" scope="col">Détails</th>
+								</tr>
+							</tr>
+						</thead>
+						<tfoot>
+							<tr>
+								<tr>
+									<th class="manage-column column-columnname" scope="col">Méthodes</th>
+									<th class="manage-column column-columnname" scope="col">Détails</th>
+								</tr>
+							</tr>
+						</tfoot>
+						<tbody>
+							<tr class="alternate" valign="top" id="ligne1"> 
+								<td class="column-columnname">
+									<span id="cell_1_1" ><a name='SL_Debug_get_log_path'><p><b>get_log_path</b><span class='desc_phpDoc'>[METHODE]</span></p><p>Get log file</p></span>
+								</td>
+								<td class="column-columnname">
+									<span id="cell_1_2" ><p><b>Paramètres : </b></p><p style='padding-left:30px;'>Pas de paramètre</p><p><b>Valeur de retour :</b></p><p style='padding-left:30px;'><b>string</b> the path of the log file</p><p><b>Exemple d&#039;appel :</b></p><p style='padding-left:30px;'><code>string get_log_path () ; </code></p></span>
+								</td>
+							</tr> 
+							<tr class="" valign="top" id="ligne1"> 
+								<td class="column-columnname">
+									<span id="cell_1_1" ><a name='SL_Debug_log'><p><b>log</b><span class='desc_phpDoc'>[METHODE]</span></p><p>Log function</p></span>
+								</td>
+								<td class="column-columnname">
+									<span id="cell_1_2" ><p><b>Paramètres :</b></p><p style='padding-left:30px;'><b>$where</b> (<i>string</i>) the name of the plugin which call the log function</p><p style='padding-left:30px;'><b>$text</b> (<i>string</i>) the text to be logged</p><p style='padding-left:30px;'><b>$error_level</b> [optionnelle] (<i>integer</i>) 1=critical ; 2=error ; 3=warning ; 4=information ; 5=verbose (par défaut, sa valeur est : 5) </p><p><b>Valeur de retour :</b></p><p style='padding-left:30px;'><b>void</b> </p><p><b>Exemple d&#039;appel :</b></p><p style='padding-left:30px;'><code>void log ($where, $text, [$error_level]) ; </code></p></span>
+								</td>
+							</tr> 
+						</tbody>
+					</table>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+			<a name='class_deprecatedSL'></a>			<div class="metabox-holder" style="width: 100%">
+				<div class="meta-box-sortables">
+					<div class="postbox">
+						<h3 class="hndle"><span>deprecatedSL<span class='desc_phpDoc'>[CLASSE]</span></span></h3>
+						<div class="inside" style="padding: 5px 10px 5px 20px;">
+							<p>This PHP class enables the creation of a box in the admin backend</p><p>Voici les méthodes de la classe:</p><ul></ul>					<table class="widefat fixed" cellspacing="0">
+						<thead>
+							<tr>
+								<tr>
+									<th class="manage-column column-columnname" scope="col">Méthodes</th>
+									<th class="manage-column column-columnname" scope="col">Détails</th>
+								</tr>
+							</tr>
+						</thead>
+						<tfoot>
+							<tr>
+								<tr>
+									<th class="manage-column column-columnname" scope="col">Méthodes</th>
+									<th class="manage-column column-columnname" scope="col">Détails</th>
+								</tr>
+							</tr>
+						</tfoot>
+						<tbody>
+						</tbody>
+					</table>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+			<a name='class_feedbackSL'></a>			<div class="metabox-holder" style="width: 100%">
+				<div class="meta-box-sortables">
+					<div class="postbox">
+						<h3 class="hndle"><span>feedbackSL<span class='desc_phpDoc'>[CLASSE]</span></span></h3>
+						<div class="inside" style="padding: 5px 10px 5px 20px;">
+							<p>This PHP class enables the translation of the plugin using the framework</p><p>Voici les méthodes de la classe:</p><ul><li class='li_class'><b><a href='#feedbackSL_feedbackSL'>feedbackSL::feedbackSL</a></b>: Constructor of the class</li><li class='li_class'><b><a href='#feedbackSL_enable_feedback'>feedbackSL::enable_feedback</a></b>: Display the feedback form</li></ul>					<table class="widefat fixed" cellspacing="0">
+						<thead>
+							<tr>
+								<tr>
+									<th class="manage-column column-columnname" scope="col">Méthodes</th>
+									<th class="manage-column column-columnname" scope="col">Détails</th>
+								</tr>
+							</tr>
+						</thead>
+						<tfoot>
+							<tr>
+								<tr>
+									<th class="manage-column column-columnname" scope="col">Méthodes</th>
+									<th class="manage-column column-columnname" scope="col">Détails</th>
+								</tr>
+							</tr>
+						</tfoot>
+						<tbody>
+							<tr class="alternate" valign="top" id="ligne1"> 
+								<td class="column-columnname">
+									<span id="cell_1_1" ><a name='feedbackSL_feedbackSL'><p><b>feedbackSL</b><span class='desc_phpDoc'>[METHODE]</span></p><p>Constructor of the class</p></span>
+								</td>
+								<td class="column-columnname">
+									<span id="cell_1_2" ><p><b>Paramètres :</b></p><p style='padding-left:30px;'><b>$plugin</b> (<i>string</i>) the name of the plugin (probably &lt;code&gt;str_replace(&quot;/&quot;,&quot;&quot;,str_replace(basename(__FILE__),&quot;&quot;,plugin_basename( __FILE__)))&lt;/code&gt;)</p><p style='padding-left:30px;'><b>$pluginID</b> (<i>string</i>) the pluginID of the plugin (probably &lt;code&gt;$this-&gt;pluginID&lt;/code&gt;)</p><p><b>Valeur de retour :</b></p><p style='padding-left:30px;'><b>feedbackSL</b> the feedbackSL object</p><p><b>Exemple d&#039;appel :</b></p><p style='padding-left:30px;'><code>feedbackSL feedbackSL ($plugin, $pluginID) ; </code></p></span>
+								</td>
+							</tr> 
+							<tr class="" valign="top" id="ligne1"> 
+								<td class="column-columnname">
+									<span id="cell_1_1" ><a name='feedbackSL_enable_feedback'><p><b>enable_feedback</b><span class='desc_phpDoc'>[METHODE]</span></p><p>Display the feedback form</p><p>Please note that the users will send you their comments/feedback at the email used is in the header of the main file of your plugin <code>Author Email : name@domain.tld</code></p></span>
+								</td>
+								<td class="column-columnname">
+									<span id="cell_1_2" ><p><b>Paramètres : </b></p><p style='padding-left:30px;'>Pas de paramètre</p><p><b>Valeur de retour :</b></p><p style='padding-left:30px;'><b>void</b> </p><p><b>Exemple d&#039;appel :</b></p><p style='padding-left:30px;'><code>void enable_feedback () ; </code></p></span>
+								</td>
+							</tr> 
+						</tbody>
+					</table>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+			<a name='class_foldDiff'></a>			<div class="metabox-holder" style="width: 100%">
+				<div class="meta-box-sortables">
+					<div class="postbox">
+						<h3 class="hndle"><span>foldDiff<span class='desc_phpDoc'>[CLASSE]</span></span></h3>
+						<div class="inside" style="padding: 5px 10px 5px 20px;">
+							<p>This PHP class allows to compare two folder to find differences</p><p>Voici les méthodes de la classe:</p><ul><li class='li_class'><b><a href='#foldDiff_diff'>foldDiff::diff</a></b>: Compute differences between the two folders</li><li class='li_class'><b><a href='#foldDiff_render'>foldDiff::render</a></b>: Display the difference</li></ul>					<table class="widefat fixed" cellspacing="0">
+						<thead>
+							<tr>
+								<tr>
+									<th class="manage-column column-columnname" scope="col">Méthodes</th>
+									<th class="manage-column column-columnname" scope="col">Détails</th>
+								</tr>
+							</tr>
+						</thead>
+						<tfoot>
+							<tr>
+								<tr>
+									<th class="manage-column column-columnname" scope="col">Méthodes</th>
+									<th class="manage-column column-columnname" scope="col">Détails</th>
+								</tr>
+							</tr>
+						</tfoot>
+						<tbody>
+							<tr class="alternate" valign="top" id="ligne1"> 
+								<td class="column-columnname">
+									<span id="cell_1_1" ><a name='foldDiff_diff'><p><b>diff</b><span class='desc_phpDoc'>[METHODE]</span></p><p>Compute differences between the two folders</p></span>
+								</td>
+								<td class="column-columnname">
+									<span id="cell_1_2" ><p><b>Paramètres :</b></p><p style='padding-left:30px;'><b>$path1</b> (<i>string</i>) the path of the first folder</p><p style='padding-left:30px;'><b>$path2</b> (<i>string</i>) the path of the second folder</p><p style='padding-left:30px;'><b>$racine</b> [optionnelle] (<i>boolean</i>) true if it the the first level (par défaut, sa valeur est : 1) </p><p><b>Valeur de retour :</b></p><p style='padding-left:30px;'><b>void</b> </p><p><b>Exemple d&#039;appel :</b></p><p style='padding-left:30px;'><code>void diff ($path1, $path2, [$racine]) ; </code></p></span>
+								</td>
+							</tr> 
+							<tr class="" valign="top" id="ligne1"> 
+								<td class="column-columnname">
+									<span id="cell_1_1" ><a name='foldDiff_render'><p><b>render</b><span class='desc_phpDoc'>[METHODE]</span></p><p>Display the difference</p></span>
+								</td>
+								<td class="column-columnname">
+									<span id="cell_1_2" ><p><b>Paramètres :</b></p><p style='padding-left:30px;'><b>$closeNotModifiedFolders</b> [optionnelle] (<i>boolean</i>) close folders if their contents have not been modified (par défaut, sa valeur est : 1) </p><p style='padding-left:30px;'><b>$withTick</b> [optionnelle] (<i>boolean</i>) display ticks (par défaut, sa valeur est : ) </p><p style='padding-left:30px;'><b>$withRandom</b> [optionnelle] (<i>boolean</i>) set to true if there are a plurality of rendering (par défaut, sa valeur est : ) </p><p><b>Valeur de retour :</b></p><p style='padding-left:30px;'><b>string</b> the random number that should be used to know which button has been clicked</p><p><b>Exemple d&#039;appel :</b></p><p style='padding-left:30px;'><code>string render ([$closeNotModifiedFolders], [$withTick], [$withRandom]) ; </code></p></span>
+								</td>
+							</tr> 
+						</tbody>
+					</table>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+			<a name='class_otherPlugins'></a>			<div class="metabox-holder" style="width: 100%">
+				<div class="meta-box-sortables">
+					<div class="postbox">
+						<h3 class="hndle"><span>otherPlugins<span class='desc_phpDoc'>[CLASSE]</span></span></h3>
+						<div class="inside" style="padding: 5px 10px 5px 20px;">
+							<p>This PHP class create a page with the other plugins of the author referenced</p><p>Voici les méthodes de la classe:</p><ul><li class='li_class'><b><a href='#otherPlugins_otherPlugins'>otherPlugins::otherPlugins</a></b>: Constructor of the class</li><li class='li_class'><b><a href='#otherPlugins_list_plugins'>otherPlugins::list_plugins</a></b>: Display the list of plugins</li><li class='li_class'><b><a href='#otherPlugins_get_list_plugins'>otherPlugins::get_list_plugins</a></b>: Get the list of plugins and save it on the disk</li><li class='li_class'><b><a href='#otherPlugins_pluginInfo'>otherPlugins::pluginInfo</a></b>: Display the plugin Info</li></ul>					<table class="widefat fixed" cellspacing="0">
+						<thead>
+							<tr>
+								<tr>
+									<th class="manage-column column-columnname" scope="col">Méthodes</th>
+									<th class="manage-column column-columnname" scope="col">Détails</th>
+								</tr>
+							</tr>
+						</thead>
+						<tfoot>
+							<tr>
+								<tr>
+									<th class="manage-column column-columnname" scope="col">Méthodes</th>
+									<th class="manage-column column-columnname" scope="col">Détails</th>
+								</tr>
+							</tr>
+						</tfoot>
+						<tbody>
+							<tr class="alternate" valign="top" id="ligne1"> 
+								<td class="column-columnname">
+									<span id="cell_1_1" ><a name='otherPlugins_otherPlugins'><p><b>otherPlugins</b><span class='desc_phpDoc'>[METHODE]</span></p><p>Constructor of the class</p></span>
+								</td>
+								<td class="column-columnname">
+									<span id="cell_1_2" ><p><b>Paramètres :</b></p><p style='padding-left:30px;'><b>$nameAuthor</b> [optionnelle] (<i>string</i>) the name of the author for which the plugins has to be listed (par défaut, sa valeur est : ) </p><p style='padding-left:30px;'><b>$exclu</b> [optionnelle] (<i>array</i>) a list of excluded plugin (slug name) (par défaut, sa valeur est : []) </p><p><b>Valeur de retour :</b></p><p style='padding-left:30px;'><b>void</b> </p><p><b>Exemple d&#039;appel :</b></p><p style='padding-left:30px;'><code>void otherPlugins ([$nameAuthor], [$exclu]) ; </code></p></span>
+								</td>
+							</tr> 
+							<tr class="" valign="top" id="ligne1"> 
+								<td class="column-columnname">
+									<span id="cell_1_1" ><a name='otherPlugins_list_plugins'><p><b>list_plugins</b><span class='desc_phpDoc'>[METHODE]</span></p><p>Display the list of plugins</p></span>
+								</td>
+								<td class="column-columnname">
+									<span id="cell_1_2" ><p><b>Paramètres : </b></p><p style='padding-left:30px;'>Pas de paramètre</p><p><b>Valeur de retour :</b></p><p style='padding-left:30px;'><b>void</b> </p><p><b>Exemple d&#039;appel :</b></p><p style='padding-left:30px;'><code>void list_plugins () ; </code></p></span>
+								</td>
+							</tr> 
+							<tr class="alternate" valign="top" id="ligne1"> 
+								<td class="column-columnname">
+									<span id="cell_1_1" ><a name='otherPlugins_get_list_plugins'><p><b>get_list_plugins</b><span class='desc_phpDoc'>[METHODE]</span></p><p>Get the list of plugins and save it on the disk</p></span>
+								</td>
+								<td class="column-columnname">
+									<span id="cell_1_2" ><p><b>Paramètres : </b></p><p style='padding-left:30px;'>Pas de paramètre</p><p><b>Valeur de retour :</b></p><p style='padding-left:30px;'><b>void</b> </p><p><b>Exemple d&#039;appel :</b></p><p style='padding-left:30px;'><code>void get_list_plugins () ; </code></p></span>
+								</td>
+							</tr> 
+							<tr class="" valign="top" id="ligne1"> 
+								<td class="column-columnname">
+									<span id="cell_1_1" ><a name='otherPlugins_pluginInfo'><p><b>pluginInfo</b><span class='desc_phpDoc'>[METHODE]</span></p><p>Display the plugin Info</p></span>
+								</td>
+								<td class="column-columnname">
+									<span id="cell_1_2" ><p><b>Paramètres :</b></p><p style='padding-left:30px;'><b>$plugin</b> (<i>string</i>) the name of the plugin (slug name)</p><p><b>Valeur de retour :</b></p><p style='padding-left:30px;'><b>array</b> the first cell is for the synthesis, the second is for the description and the screenshot</p><p><b>Exemple d&#039;appel :</b></p><p style='padding-left:30px;'><code>array pluginInfo ($plugin) ; </code></p></span>
+								</td>
+							</tr> 
+						</tbody>
+					</table>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+			<a name='class_parametersSedLex'></a>			<div class="metabox-holder" style="width: 100%">
+				<div class="meta-box-sortables">
+					<div class="postbox">
+						<h3 class="hndle"><span>parametersSedLex<span class='desc_phpDoc'>[CLASSE]</span></span></h3>
+						<div class="inside" style="padding: 5px 10px 5px 20px;">
+							<p>This PHP class enable the creation of form to manage the parameter of your plugin</p><p>Voici les méthodes de la classe:</p><ul><li class='li_class'><b><a href='#parametersSedLex_parametersSedLex'>parametersSedLex::parametersSedLex</a></b>: Constructor of the object</li><li class='li_class'><b><a href='#parametersSedLex_add_title'>parametersSedLex::add_title</a></b>: Add title in the form</li><li class='li_class'><b><a href='#parametersSedLex_add_comment'>parametersSedLex::add_comment</a></b>: Add a comment in the form</li><li class='li_class'><b><a href='#parametersSedLex_add_comment_default_value'>parametersSedLex::add_comment_default_value</a></b>: Add a comment in the form which display the default value of the param</li><li class='li_class'><b><a href='#parametersSedLex_add_param'>parametersSedLex::add_param</a></b>: Add a textarea, input, checkbox, etc. in the form to enable the modification of parameter of the plugin</li><li class='li_class'><b><a href='#parametersSedLex_get_new_value'>parametersSedLex::get_new_value</a></b>: Get the new value of the parameter after its update (with happen upon calling <code>flush</code>)</li><li class='li_class'><b><a href='#parametersSedLex_remove_param'>parametersSedLex::remove_param</a></b>: Remove a parameter of the plugin which has been previously added through add_param (then it can be useful if you want to update a parameter without printing the form)</li><li class='li_class'><b><a href='#parametersSedLex_flush'>parametersSedLex::flush</a></b>: Print the form with parameters</li></ul>					<table class="widefat fixed" cellspacing="0">
+						<thead>
+							<tr>
+								<tr>
+									<th class="manage-column column-columnname" scope="col">Méthodes</th>
+									<th class="manage-column column-columnname" scope="col">Détails</th>
+								</tr>
+							</tr>
+						</thead>
+						<tfoot>
+							<tr>
+								<tr>
+									<th class="manage-column column-columnname" scope="col">Méthodes</th>
+									<th class="manage-column column-columnname" scope="col">Détails</th>
+								</tr>
+							</tr>
+						</tfoot>
+						<tbody>
+							<tr class="alternate" valign="top" id="ligne1"> 
+								<td class="column-columnname">
+									<span id="cell_1_1" ><a name='parametersSedLex_parametersSedLex'><p><b>parametersSedLex</b><span class='desc_phpDoc'>[METHODE]</span></p><p>Constructor of the object</p></span>
+								</td>
+								<td class="column-columnname">
+									<span id="cell_1_2" ><p><b>Paramètres :</b></p><p style='padding-left:30px;'><b>$obj</b> (<i>class</i>) a reference to the object containing the parameter (usually, you need to provide &quot;$this&quot;). If it is &quot;new rootSLframework()&quot;, it means that it is the framework parameters.</p><p style='padding-left:30px;'><b>$tab</b> [optionnelle] (<i>string</i>) if you want to activate a tabulation after the submission of the form (par défaut, sa valeur est : ) </p><p><b>Valeur de retour :</b></p><p style='padding-left:30px;'><b>parametersSedLex</b> the form class to manage parameter/options of your plugin</p><p><b>Exemple d&#039;appel :</b></p><p style='padding-left:30px;'><code>parametersSedLex parametersSedLex ($obj, [$tab]) ; </code></p><p><b>Voir aussi :</b></p><p style='padding-left:30px;'><a href='#pluginSedLex_set_param'>pluginSedLex::set_param</a></p><p style='padding-left:30px;'><a href='#pluginSedLex_get_param'>pluginSedLex::get_param</a></p></span>
+								</td>
+							</tr> 
+							<tr class="" valign="top" id="ligne1"> 
+								<td class="column-columnname">
+									<span id="cell_1_1" ><a name='parametersSedLex_add_title'><p><b>add_title</b><span class='desc_phpDoc'>[METHODE]</span></p><p>Add title in the form</p></span>
+								</td>
+								<td class="column-columnname">
+									<span id="cell_1_2" ><p><b>Paramètres :</b></p><p style='padding-left:30px;'><b>$title</b> (<i>string</i>) the title to add</p><p><b>Valeur de retour :</b></p><p style='padding-left:30px;'><b>void</b> </p><p><b>Exemple d&#039;appel :</b></p><p style='padding-left:30px;'><code>void add_title ($title) ; </code></p></span>
+								</td>
+							</tr> 
+							<tr class="alternate" valign="top" id="ligne1"> 
+								<td class="column-columnname">
+									<span id="cell_1_1" ><a name='parametersSedLex_add_comment'><p><b>add_comment</b><span class='desc_phpDoc'>[METHODE]</span></p><p>Add a comment in the form</p></span>
+								</td>
+								<td class="column-columnname">
+									<span id="cell_1_2" ><p><b>Paramètres :</b></p><p style='padding-left:30px;'><b>$comment</b> (<i>string</i>) the comment to add</p><p><b>Valeur de retour :</b></p><p style='padding-left:30px;'><b>void</b> </p><p><b>Exemple d&#039;appel :</b></p><p style='padding-left:30px;'><code>void add_comment ($comment) ; </code></p></span>
+								</td>
+							</tr> 
+							<tr class="" valign="top" id="ligne1"> 
+								<td class="column-columnname">
+									<span id="cell_1_1" ><a name='parametersSedLex_add_comment_default_value'><p><b>add_comment_default_value</b><span class='desc_phpDoc'>[METHODE]</span></p><p>Add a comment in the form which display the default value of the param</p></span>
+								</td>
+								<td class="column-columnname">
+									<span id="cell_1_2" ><p><b>Paramètres :</b></p><p style='padding-left:30px;'><b>$param</b> (<i>??</i>) ??</p><p><b>Valeur de retour :</b></p><p style='padding-left:30px;'><b>void</b> </p><p><b>Exemple d&#039;appel :</b></p><p style='padding-left:30px;'><code>void add_comment_default_value ($param) ; </code></p></span>
+								</td>
+							</tr> 
+							<tr class="alternate" valign="top" id="ligne1"> 
+								<td class="column-columnname">
+									<span id="cell_1_1" ><a name='parametersSedLex_add_param'><p><b>add_param</b><span class='desc_phpDoc'>[METHODE]</span></p><p>Add a textarea, input, checkbox, etc. in the form to enable the modification of parameter of the plugin</p><p>Please note that the default value of the parameter (defined in the  <code>get_default_option</code> function) will define the type of input form. If the default  value is a: <br />&nbsp; &nbsp; &nbsp; - string, the input form will be an input text <br />&nbsp; &nbsp; &nbsp; - integer, the input form will be an input text accepting only integer <br />&nbsp; &nbsp; &nbsp; - string beggining with a '*', the input form will be a textarea <br />&nbsp; &nbsp; &nbsp; - string equals to '[file]$path', the input form will be a file input and the file will be stored at $path (relative to the upload folder)<br />&nbsp; &nbsp; &nbsp; - string equals to '[password]$password', the input form will be a password input ; <br />&nbsp; &nbsp; &nbsp; - array of string, the input form will be a dropdown list<br />&nbsp; &nbsp; &nbsp; - boolean, the input form will be a checkbox</p></span>
+								</td>
+								<td class="column-columnname">
+									<span id="cell_1_2" ><p><b>Paramètres :</b></p><p style='padding-left:30px;'><b>$param</b> (<i>string</i>) the name of the parameter/option as defined in your plugin and especially in the &lt;code&gt;get_default_option&lt;/code&gt; of your plugin</p><p style='padding-left:30px;'><b>$name</b> (<i>string</i>) the displayed name of the parameter in the form</p><p style='padding-left:30px;'><b>$forbid</b> [optionnelle] (<i>string</i>) regexp which will delete some characters in the submitted string (only a warning is raised) : For instance &lt;code&gt;$forbid = &quot;/[^a-zA-Z0-9]/&quot;&lt;/code&gt; will remove all the non alphanumeric value (par défaut, sa valeur est : ) </p><p style='padding-left:30px;'><b>$allow</b> [optionnelle] (<i>string</i>) regexp which will verify that the submitted string will respect this rexexp, if not, the submitted value is not saved  and an erreor is raised : For instance, &lt;code&gt;$allow = &quot;/^[a-zA-Z]/&quot;&lt;/code&gt; require that the submitted string begin with a nalpha character (par défaut, sa valeur est : ) </p><p style='padding-left:30px;'><b>$related</b> [optionnelle] (<i>array</i>) a list of the other params that will be actived/deactivated when this parameter is set to true/false (thus, this param should be a boolean) (par défaut, sa valeur est : []) </p><p><b>Valeur de retour :</b></p><p style='padding-left:30px;'><b>void</b> </p><p><b>Exemple d&#039;appel :</b></p><p style='padding-left:30px;'><code>void add_param ($param, $name, [$forbid], [$allow], [$related]) ; </code></p></span>
+								</td>
+							</tr> 
+							<tr class="" valign="top" id="ligne1"> 
+								<td class="column-columnname">
+									<span id="cell_1_1" ><a name='parametersSedLex_get_new_value'><p><b>get_new_value</b><span class='desc_phpDoc'>[METHODE]</span></p><p>Get the new value of the parameter after its update (with happen upon calling <code>flush</code>)</p></span>
+								</td>
+								<td class="column-columnname">
+									<span id="cell_1_2" ><p><b>Paramètres :</b></p><p style='padding-left:30px;'><b>$param</b> (<i>string</i>) the name of the parameter/option as defined in your plugin and especially in the &lt;code&gt;get_default_option&lt;/code&gt; of your plugin</p><p><b>Valeur de retour :</b></p><p style='padding-left:30px;'><b>mixed</b> the value of the param (array if there is an error or null if there is no new value)</p><p><b>Exemple d&#039;appel :</b></p><p style='padding-left:30px;'><code>mixed get_new_value ($param) ; </code></p></span>
+								</td>
+							</tr> 
+							<tr class="alternate" valign="top" id="ligne1"> 
+								<td class="column-columnname">
+									<span id="cell_1_1" ><a name='parametersSedLex_remove_param'><p><b>remove_param</b><span class='desc_phpDoc'>[METHODE]</span></p><p>Remove a parameter of the plugin which has been previously added through add_param (then it can be useful if you want to update a parameter without printing the form)</p><p>It will also remove any comment for the same</p></span>
+								</td>
+								<td class="column-columnname">
+									<span id="cell_1_2" ><p><b>Paramètres :</b></p><p style='padding-left:30px;'><b>$param</b> (<i>string</i>) the name of the parameter/option as defined in your plugin and especially in the &lt;code&gt;get_default_option&lt;/code&gt; of your plugin</p><p><b>Valeur de retour :</b></p><p style='padding-left:30px;'><b>void</b> </p><p><b>Exemple d&#039;appel :</b></p><p style='padding-left:30px;'><code>void remove_param ($param) ; </code></p></span>
+								</td>
+							</tr> 
+							<tr class="" valign="top" id="ligne1"> 
+								<td class="column-columnname">
+									<span id="cell_1_1" ><a name='parametersSedLex_flush'><p><b>flush</b><span class='desc_phpDoc'>[METHODE]</span></p><p>Print the form with parameters</p></span>
+								</td>
+								<td class="column-columnname">
+									<span id="cell_1_2" ><p><b>Paramètres : </b></p><p style='padding-left:30px;'>Pas de paramètre</p><p><b>Valeur de retour :</b></p><p style='padding-left:30px;'><b>void</b> </p><p><b>Exemple d&#039;appel :</b></p><p style='padding-left:30px;'><code>void flush () ; </code></p></span>
+								</td>
+							</tr> 
+						</tbody>
+					</table>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+			<a name='class_phpDoc'></a>			<div class="metabox-holder" style="width: 100%">
+				<div class="meta-box-sortables">
+					<div class="postbox">
+						<h3 class="hndle"><span>phpDoc<span class='desc_phpDoc'>[CLASSE]</span></span></h3>
+						<div class="inside" style="padding: 5px 10px 5px 20px;">
+							<p>This PHP class enables the generation of the documentation of the PHP files used for the framework</p><p>Please note that the methods of this class is not supposed to be called from your plugin. Thus, its methods are not displayed here.</p><p>Voici les méthodes de la classe:</p><ul></ul>					<table class="widefat fixed" cellspacing="0">
+						<thead>
+							<tr>
+								<tr>
+									<th class="manage-column column-columnname" scope="col">Méthodes</th>
+									<th class="manage-column column-columnname" scope="col">Détails</th>
+								</tr>
+							</tr>
+						</thead>
+						<tfoot>
+							<tr>
+								<tr>
+									<th class="manage-column column-columnname" scope="col">Méthodes</th>
+									<th class="manage-column column-columnname" scope="col">Détails</th>
+								</tr>
+							</tr>
+						</tfoot>
+						<tbody>
+						</tbody>
+					</table>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+			<a name='class_popupAdmin'></a>			<div class="metabox-holder" style="width: 100%">
+				<div class="meta-box-sortables">
+					<div class="postbox">
+						<h3 class="hndle"><span>popupAdmin<span class='desc_phpDoc'>[CLASSE]</span></span></h3>
+						<div class="inside" style="padding: 5px 10px 5px 20px;">
+							<p>This PHP class create a page with the other plugins of the author listed</p><p>Voici les méthodes de la classe:</p><ul><li class='li_class'><b><a href='#popupAdmin_popupAdmin'>popupAdmin::popupAdmin</a></b>: Constructor of the class</li><li class='li_class'><b><a href='#popupAdmin_render'>popupAdmin::render</a></b>: Display the popup</li></ul>					<table class="widefat fixed" cellspacing="0">
+						<thead>
+							<tr>
+								<tr>
+									<th class="manage-column column-columnname" scope="col">Méthodes</th>
+									<th class="manage-column column-columnname" scope="col">Détails</th>
+								</tr>
+							</tr>
+						</thead>
+						<tfoot>
+							<tr>
+								<tr>
+									<th class="manage-column column-columnname" scope="col">Méthodes</th>
+									<th class="manage-column column-columnname" scope="col">Détails</th>
+								</tr>
+							</tr>
+						</tfoot>
+						<tbody>
+							<tr class="alternate" valign="top" id="ligne1"> 
+								<td class="column-columnname">
+									<span id="cell_1_1" ><a name='popupAdmin_popupAdmin'><p><b>popupAdmin</b><span class='desc_phpDoc'>[METHODE]</span></p><p>Constructor of the class</p></span>
+								</td>
+								<td class="column-columnname">
+									<span id="cell_1_2" ><p><b>Paramètres :</b></p><p style='padding-left:30px;'><b>$title</b> (<i>string</i>) the title which will be displayed in the top of the popup</p><p style='padding-left:30px;'><b>$content</b> (<i>string</i>) the content of the popup</p><p style='padding-left:30px;'><b>$css</b> [optionnelle] (<i>string</i>) the css of the popup if needed. (par défaut, sa valeur est : ) </p><p style='padding-left:30px;'><b>$callback</b> [optionnelle] (<i>??</i>) ?? (par défaut, sa valeur est : ) </p><p><b>Valeur de retour :</b></p><p style='padding-left:30px;'><b>void</b> </p><p><b>Exemple d&#039;appel :</b></p><p style='padding-left:30px;'><code>void popupAdmin ($title, $content, [$css], [$callback]) ; </code></p></span>
+								</td>
+							</tr> 
+							<tr class="" valign="top" id="ligne1"> 
+								<td class="column-columnname">
+									<span id="cell_1_1" ><a name='popupAdmin_render'><p><b>render</b><span class='desc_phpDoc'>[METHODE]</span></p><p>Display the popup</p></span>
+								</td>
+								<td class="column-columnname">
+									<span id="cell_1_2" ><p><b>Paramètres : </b></p><p style='padding-left:30px;'>Pas de paramètre</p><p><b>Valeur de retour :</b></p><p style='padding-left:30px;'><b>void</b> </p><p><b>Exemple d&#039;appel :</b></p><p style='padding-left:30px;'><code>void render () ; </code></p></span>
+								</td>
+							</tr> 
+						</tbody>
+					</table>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+			<a name='class_progressBarAdmin'></a>			<div class="metabox-holder" style="width: 100%">
+				<div class="meta-box-sortables">
+					<div class="postbox">
+						<h3 class="hndle"><span>progressBarAdmin<span class='desc_phpDoc'>[CLASSE]</span></span></h3>
+						<div class="inside" style="padding: 5px 10px 5px 20px;">
+							<p>This PHP class enables the creation of a progress bar</p><p>Voici les méthodes de la classe:</p><ul><li class='li_class'><b><a href='#progressBarAdmin_progressBarAdmin'>progressBarAdmin::progressBarAdmin</a></b>: Constructor of the class</li><li class='li_class'><b><a href='#progressBarAdmin_flush'>progressBarAdmin::flush</a></b>: Print the progress bar code</li></ul>					<table class="widefat fixed" cellspacing="0">
+						<thead>
+							<tr>
+								<tr>
+									<th class="manage-column column-columnname" scope="col">Méthodes</th>
+									<th class="manage-column column-columnname" scope="col">Détails</th>
+								</tr>
+							</tr>
+						</thead>
+						<tfoot>
+							<tr>
+								<tr>
+									<th class="manage-column column-columnname" scope="col">Méthodes</th>
+									<th class="manage-column column-columnname" scope="col">Détails</th>
+								</tr>
+							</tr>
+						</tfoot>
+						<tbody>
+							<tr class="alternate" valign="top" id="ligne1"> 
+								<td class="column-columnname">
+									<span id="cell_1_1" ><a name='progressBarAdmin_progressBarAdmin'><p><b>progressBarAdmin</b><span class='desc_phpDoc'>[METHODE]</span></p><p>Constructor of the class</p></span>
+								</td>
+								<td class="column-columnname">
+									<span id="cell_1_2" ><p><b>Paramètres :</b></p><p style='padding-left:30px;'><b>$length</b> [optionnelle] (<i>integer</i>) the width in pixel of the progress bar (par défaut, sa valeur est : 300) </p><p style='padding-left:30px;'><b>$height</b> [optionnelle] (<i>integer</i>) the height in pixel of the progress bar (par défaut, sa valeur est : 20) </p><p style='padding-left:30px;'><b>$start</b> [optionnelle] (<i>integer</i>) the % of the start (progression) (par défaut, sa valeur est : 0) </p><p style='padding-left:30px;'><b>$insideText</b> [optionnelle] (<i>string</i>) the text to put in the progress bar (par défaut, sa valeur est : ) </p><p style='padding-left:30px;'><b>$id</b> [optionnelle] (<i>string</i>) the identifieur if there is a pluralitu of progress bar (the image which moves is named $id.&quot;_image&quot;, the text is named $id.&quot;_txt&quot;) (par défaut, sa valeur est : progressbar) </p><p><b>Valeur de retour :</b></p><p style='padding-left:30px;'><b>boxAdmin</b> the box object</p><p><b>Exemple d&#039;appel :</b></p><p style='padding-left:30px;'><code>boxAdmin progressBarAdmin ([$length], [$height], [$start], [$insideText], [$id]) ; </code></p></span>
+								</td>
+							</tr> 
+							<tr class="" valign="top" id="ligne1"> 
+								<td class="column-columnname">
+									<span id="cell_1_1" ><a name='progressBarAdmin_flush'><p><b>flush</b><span class='desc_phpDoc'>[METHODE]</span></p><p>Print the progress bar code</p><p>Once the progress bar is displayed, you may modify the progression by calling in javascript <code>progressBar_modifyProgression(25,"id")</code> which modify the progression to 25% for the ID "id" (the ID is not mandatory, by default the ID will be "progressbar")</p><p>Once the progress bar is displayed, you may modify the text by calling in javascript <code>progressBar_modifyText("new text","id")</code> which modify the text to "new text" for the ID "id" (the ID is not mandatory, by default the ID will be "progressbar")</p></span>
+								</td>
+								<td class="column-columnname">
+									<span id="cell_1_2" ><p><b>Paramètres : </b></p><p style='padding-left:30px;'>Pas de paramètre</p><p><b>Valeur de retour :</b></p><p style='padding-left:30px;'><b>void</b> </p><p><b>Exemple d&#039;appel :</b></p><p style='padding-left:30px;'><code>void flush () ; </code></p></span>
+								</td>
+							</tr> 
+						</tbody>
+					</table>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+			<a name='class_translationSL'></a>			<div class="metabox-holder" style="width: 100%">
+				<div class="meta-box-sortables">
+					<div class="postbox">
+						<h3 class="hndle"><span>translationSL<span class='desc_phpDoc'>[CLASSE]</span></span></h3>
+						<div class="inside" style="padding: 5px 10px 5px 20px;">
+							<p>This PHP class enables the translation of the plugin using the framework</p><p>Voici les méthodes de la classe:</p><ul><li class='li_class'><b><a href='#translationSL_translationSL'>translationSL::translationSL</a></b>: Constructor of the class</li><li class='li_class'><b><a href='#translationSL_enable_translation'>translationSL::enable_translation</a></b>: Enable the translation and display the management interface</li><li class='li_class'><b><a href='#translationSL_set_locale'>translationSL::set_locale</a></b>: Set the language ... according to the configuration</li></ul>					<table class="widefat fixed" cellspacing="0">
+						<thead>
+							<tr>
+								<tr>
+									<th class="manage-column column-columnname" scope="col">Méthodes</th>
+									<th class="manage-column column-columnname" scope="col">Détails</th>
+								</tr>
+							</tr>
+						</thead>
+						<tfoot>
+							<tr>
+								<tr>
+									<th class="manage-column column-columnname" scope="col">Méthodes</th>
+									<th class="manage-column column-columnname" scope="col">Détails</th>
+								</tr>
+							</tr>
+						</tfoot>
+						<tbody>
+							<tr class="alternate" valign="top" id="ligne1"> 
+								<td class="column-columnname">
+									<span id="cell_1_1" ><a name='translationSL_translationSL'><p><b>translationSL</b><span class='desc_phpDoc'>[METHODE]</span></p><p>Constructor of the class</p></span>
+								</td>
+								<td class="column-columnname">
+									<span id="cell_1_2" ><p><b>Paramètres :</b></p><p style='padding-left:30px;'><b>$domain</b> (<i>string</i>) the name of the domain (probably &lt;code&gt;$this-&gt;pluginID&lt;/code&gt;)</p><p style='padding-left:30px;'><b>$plugin</b> (<i>string</i>) the name of the plugin (probably &lt;code&gt;str_replace(&quot;/&quot;,&quot;&quot;,str_replace(basename(__FILE__),&quot;&quot;,plugin_basename( __FILE__)))&lt;/code&gt;)</p><p><b>Valeur de retour :</b></p><p style='padding-left:30px;'><b>translationSL</b> the translationSL object</p><p><b>Exemple d&#039;appel :</b></p><p style='padding-left:30px;'><code>translationSL translationSL ($domain, $plugin) ; </code></p></span>
+								</td>
+							</tr> 
+							<tr class="" valign="top" id="ligne1"> 
+								<td class="column-columnname">
+									<span id="cell_1_1" ><a name='translationSL_enable_translation'><p><b>enable_translation</b><span class='desc_phpDoc'>[METHODE]</span></p><p>Enable the translation and display the management interface</p><p>Please note that the translators will be able to send you their translation so that you can add them to your repository (the email used is in the header of the main file of your plugin <code>Author Email : name@domain.tld</code>)</p></span>
+								</td>
+								<td class="column-columnname">
+									<span id="cell_1_2" ><p><b>Paramètres : </b></p><p style='padding-left:30px;'>Pas de paramètre</p><p><b>Valeur de retour :</b></p><p style='padding-left:30px;'><b>void</b> </p><p><b>Exemple d&#039;appel :</b></p><p style='padding-left:30px;'><code>void enable_translation () ; </code></p></span>
+								</td>
+							</tr> 
+							<tr class="alternate" valign="top" id="ligne1"> 
+								<td class="column-columnname">
+									<span id="cell_1_1" ><a name='translationSL_set_locale'><p><b>set_locale</b><span class='desc_phpDoc'>[METHODE]</span></p><p>Set the language ... according to the configuration</p></span>
+								</td>
+								<td class="column-columnname">
+									<span id="cell_1_2" ><p><b>Paramètres :</b></p><p style='padding-left:30px;'><b>$loc</b> (<i>??</i>) ??</p><p><b>Valeur de retour :</b></p><p style='padding-left:30px;'><b>void</b> </p><p><b>Exemple d&#039;appel :</b></p><p style='padding-left:30px;'><code>void set_locale ($loc) ; </code></p></span>
+								</td>
+							</tr> 
+						</tbody>
+					</table>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+			<a name='class_textDiff'></a>			<div class="metabox-holder" style="width: 100%">
+				<div class="meta-box-sortables">
+					<div class="postbox">
+						<h3 class="hndle"><span>textDiff<span class='desc_phpDoc'>[CLASSE]</span></span></h3>
+						<div class="inside" style="padding: 5px 10px 5px 20px;">
+							<p>This PHP class allows to determine which part of a text has been removed and added</p><p>Voici les méthodes de la classe:</p><ul><li class='li_class'><b><a href='#textDiff_diff'>textDiff::diff</a></b>: Identify the added part</li></ul>					<table class="widefat fixed" cellspacing="0">
+						<thead>
+							<tr>
+								<tr>
+									<th class="manage-column column-columnname" scope="col">Méthodes</th>
+									<th class="manage-column column-columnname" scope="col">Détails</th>
+								</tr>
+							</tr>
+						</thead>
+						<tfoot>
+							<tr>
+								<tr>
+									<th class="manage-column column-columnname" scope="col">Méthodes</th>
+									<th class="manage-column column-columnname" scope="col">Détails</th>
+								</tr>
+							</tr>
+						</tfoot>
+						<tbody>
+							<tr class="alternate" valign="top" id="ligne1"> 
+								<td class="column-columnname">
+									<span id="cell_1_1" ><a name='textDiff_diff'><p><b>diff</b><span class='desc_phpDoc'>[METHODE]</span></p><p>Identify the added part</p></span>
+								</td>
+								<td class="column-columnname">
+									<span id="cell_1_2" ><p><b>Paramètres :</b></p><p style='padding-left:30px;'><b>$text1</b> (<i>string</i>) the reference text</p><p style='padding-left:30px;'><b>$text2</b> (<i>string</i>) the text to compare with</p><p><b>Valeur de retour :</b></p><p style='padding-left:30px;'><b>void</b> </p><p><b>Exemple d&#039;appel :</b></p><p style='padding-left:30px;'><code>void diff ($text1, $text2) ; </code></p></span>
+								</td>
+							</tr> 
+						</tbody>
+					</table>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+			<a name='class_treeList'></a>			<div class="metabox-holder" style="width: 100%">
+				<div class="meta-box-sortables">
+					<div class="postbox">
+						<h3 class="hndle"><span>treeList<span class='desc_phpDoc'>[CLASSE]</span></span></h3>
+						<div class="inside" style="padding: 5px 10px 5px 20px;">
+							<p>This PHP class allows to display hierachical list in a smart way</p><p>Voici les méthodes de la classe:</p><ul><li class='li_class'><b><a href='#treeList_render'>treeList::render</a></b>: Display the tree list according to the array given</li></ul>					<table class="widefat fixed" cellspacing="0">
+						<thead>
+							<tr>
+								<tr>
+									<th class="manage-column column-columnname" scope="col">Méthodes</th>
+									<th class="manage-column column-columnname" scope="col">Détails</th>
+								</tr>
+							</tr>
+						</thead>
+						<tfoot>
+							<tr>
+								<tr>
+									<th class="manage-column column-columnname" scope="col">Méthodes</th>
+									<th class="manage-column column-columnname" scope="col">Détails</th>
+								</tr>
+							</tr>
+						</tfoot>
+						<tbody>
+							<tr class="alternate" valign="top" id="ligne1"> 
+								<td class="column-columnname">
+									<span id="cell_1_1" ><a name='treeList_render'><p><b>render</b><span class='desc_phpDoc'>[METHODE]</span></p><p>Display the tree list according to the array given</p><p>For instance :</p><p><code>$array = array(<br />      array('first element', null),<br />      array('second element', array(<br />            array('sub1', null),<br />            array('sub2', null)<br />      )),<br />      array('third element', null)<br />) ;</code></p><p><code>treeList::render($array) ; </code></p><p>if the array have 1 elements i.e. array('title element') the first element is the title (no children)</p><p>if the array have 2 elements i.e. array('title element', "E45AF"), the second element will be considered as the id of the array</p><p>if the array have 3 elements i.e. array('title element', "E45AF", null) the third element is the children (array or null)</p><p>if the array have 4 elements i.e. array('title element', "E45AF", null, false), the fourth element will be considered as an indication whether the node is to be expanded or not (by default it is true)</p></span>
+								</td>
+								<td class="column-columnname">
+									<span id="cell_1_2" ><p><b>Paramètres :</b></p><p style='padding-left:30px;'><b>$array</b> (<i>array</i>) list to display, each item of the list is an array : array('title', null) if the node is the last one in the tree or array(title, array(...)) if there is other son nodes.</p><p style='padding-left:30px;'><b>$reduce_develop</b> [optionnelle] (<i>boolean</i>) to enable the reduction and the expansion of the tree with javascript (par défaut, sa valeur est : ) </p><p style='padding-left:30px;'><b>$reorder_callback</b> (<i>string</i>) if you want to make the tree (nested list) sortable, please indicate what is the ajax callback function to be called upon sort. This function will receive the array in the $_POST['result'] variable. This function should return &quot;OK&quot;. Otherwise, the return message will be 'alerted'</p><p style='padding-left:30px;'><b>$classPerso</b> [optionnelle] (<i>string</i>) a CSS custom class to customize the apparence of the tree (par défaut, sa valeur est : ) </p><p><b>Valeur de retour :</b></p><p style='padding-left:30px;'><b>void</b> </p><p><b>Exemple d&#039;appel :</b></p><p style='padding-left:30px;'><code>void render ($array, [$reduce_develop], $reorder_callback, [$classPerso]) ; </code></p></span>
+								</td>
+							</tr> 
+						</tbody>
+					</table>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+			<a name='class_svnAdmin'></a>			<div class="metabox-holder" style="width: 100%">
+				<div class="meta-box-sortables">
+					<div class="postbox">
+						<h3 class="hndle"><span>svnAdmin<span class='desc_phpDoc'>[CLASSE]</span></span></h3>
+						<div class="inside" style="padding: 5px 10px 5px 20px;">
+							<p>This PHP class enables the svn management of the plugin with the wordpress.org repository</p><p>Voici les méthodes de la classe:</p><ul><li class='li_class'><b><a href='#svnAdmin_svnAdmin'>svnAdmin::svnAdmin</a></b>: Constructor of the class</li><li class='li_class'><b><a href='#svnAdmin_listFilesInRepository'>svnAdmin::listFilesInRepository</a></b>: List the files and folder on the repository</li><li class='li_class'><b><a href='#svnAdmin_getActivityFolder'>svnAdmin::getActivityFolder</a></b>: Get the activity collection folder (required to put/delete file in the repo)</li><li class='li_class'><b><a href='#svnAdmin_getVCC'>svnAdmin::getVCC</a></b>: Get VCC (Version Controlled Resource)</li><li class='li_class'><b><a href='#svnAdmin_getRevision'>svnAdmin::getRevision</a></b>: Get Repository Revision</li><li class='li_class'><b><a href='#svnAdmin_createActivity'>svnAdmin::createActivity</a></b>: Create an activity</li><li class='li_class'><b><a href='#svnAdmin_getCommitCommentURL'>svnAdmin::getCommitCommentURL</a></b>: Get the commit comment URL</li><li class='li_class'><b><a href='#svnAdmin_setCommitComment'>svnAdmin::setCommitComment</a></b>: Set a commit comment</li><li class='li_class'><b><a href='#svnAdmin_getVersionFolder'>svnAdmin::getVersionFolder</a></b>: Get the version folder</li><li class='li_class'><b><a href='#svnAdmin_getPutFolder'>svnAdmin::getPutFolder</a></b>: Get the folder to put files or delete files</li><li class='li_class'><b><a href='#svnAdmin_putFile'>svnAdmin::putFile</a></b>: Put a file in the repo</li><li class='li_class'><b><a href='#svnAdmin_putFolder'>svnAdmin::putFolder</a></b>: Put folder in the repository</li><li class='li_class'><b><a href='#svnAdmin_deleteFileFolder'>svnAdmin::deleteFileFolder</a></b>: Put folder in the repository</li><li class='li_class'><b><a href='#svnAdmin_merge'>svnAdmin::merge</a></b>: Merge the commit ... thus all the change will be taken in account</li><li class='li_class'><b><a href='#svnAdmin_getFile'>svnAdmin::getFile</a></b>: Get a single file of the repository</li><li class='li_class'><b><a href='#svnAdmin_getAllFiles'>svnAdmin::getAllFiles</a></b>: Get all files of the repository</li><li class='li_class'><b><a href='#svnAdmin_prepareCommit'>svnAdmin::prepareCommit</a></b>: Prepare the commit</li><li class='li_class'><b><a href='#svnAdmin_sendSVNRequest'>svnAdmin::sendSVNRequest</a></b>: Send a SVN request</li></ul>					<table class="widefat fixed" cellspacing="0">
+						<thead>
+							<tr>
+								<tr>
+									<th class="manage-column column-columnname" scope="col">Méthodes</th>
+									<th class="manage-column column-columnname" scope="col">Détails</th>
+								</tr>
+							</tr>
+						</thead>
+						<tfoot>
+							<tr>
+								<tr>
+									<th class="manage-column column-columnname" scope="col">Méthodes</th>
+									<th class="manage-column column-columnname" scope="col">Détails</th>
+								</tr>
+							</tr>
+						</tfoot>
+						<tbody>
+							<tr class="alternate" valign="top" id="ligne1"> 
+								<td class="column-columnname">
+									<span id="cell_1_1" ><a name='svnAdmin_svnAdmin'><p><b>svnAdmin</b><span class='desc_phpDoc'>[METHODE]</span></p><p>Constructor of the class</p></span>
+								</td>
+								<td class="column-columnname">
+									<span id="cell_1_2" ><p><b>Paramètres :</b></p><p style='padding-left:30px;'><b>$host</b> (<i>string</i>) the host of the svn repository (for instance svn.wp-plugins.org)</p><p style='padding-left:30px;'><b>$port</b> [optionnelle] (<i>interger</i>) the port of the webdav repository (par défaut, sa valeur est : 80) </p><p style='padding-left:30px;'><b>$login</b> [optionnelle] (<i>string</i>) your login (par défaut, sa valeur est : ) </p><p style='padding-left:30px;'><b>$mdp</b> [optionnelle] (<i>string</i>) your password (par défaut, sa valeur est : ) </p><p><b>Valeur de retour :</b></p><p style='padding-left:30px;'><b>svnAdmin</b> the box object</p><p><b>Exemple d&#039;appel :</b></p><p style='padding-left:30px;'><code>svnAdmin svnAdmin ($host, [$port], [$login], [$mdp]) ; </code></p></span>
+								</td>
+							</tr> 
+							<tr class="" valign="top" id="ligne1"> 
+								<td class="column-columnname">
+									<span id="cell_1_1" ><a name='svnAdmin_listFilesInRepository'><p><b>listFilesInRepository</b><span class='desc_phpDoc'>[METHODE]</span></p><p>List the files and folder on the repository</p></span>
+								</td>
+								<td class="column-columnname">
+									<span id="cell_1_2" ><p><b>Paramètres :</b></p><p style='padding-left:30px;'><b>$base</b> (<i>string</i>) the relative path of the folder to be looked into (from the repository)</p><p style='padding-left:30px;'><b>$rec</b> [optionnelle] (<i>boolean</i>) true if the listing should be reccursive (useful if you want the list of an entire repository with sub-folders) (par défaut, sa valeur est : 1) </p><p style='padding-left:30px;'><b>$credentials</b> [optionnelle] (<i>boolean</i>) true if the repository requires credentials to list files (par défaut, sa valeur est : ) </p><p><b>Valeur de retour :</b></p><p style='padding-left:30px;'><b>array</b> 'isOk' =&gt; whether the request is successful, 'list' =&gt; the list of files and folders, 'raw_result' the request and the respond in an array (useful for debugging purpose)</p><p><b>Exemple d&#039;appel :</b></p><p style='padding-left:30px;'><code>array listFilesInRepository ($base, [$rec], [$credentials]) ; </code></p></span>
+								</td>
+							</tr> 
+							<tr class="alternate" valign="top" id="ligne1"> 
+								<td class="column-columnname">
+									<span id="cell_1_1" ><a name='svnAdmin_getActivityFolder'><p><b>getActivityFolder</b><span class='desc_phpDoc'>[METHODE]</span></p><p>Get the activity collection folder (required to put/delete file in the repo)</p></span>
+								</td>
+								<td class="column-columnname">
+									<span id="cell_1_2" ><p><b>Paramètres :</b></p><p style='padding-left:30px;'><b>$base</b> (<i>string</i>) the relative path of the folder (for instance /yourplugin/trunk/)</p><p style='padding-left:30px;'><b>$credentials</b> [optionnelle] (<i>boolean</i>) true if the repository requires credentials (par défaut, sa valeur est : ) </p><p><b>Valeur de retour :</b></p><p style='padding-left:30px;'><b>array</b> 'isOk' =&gt; whether the request is successful, 'activity_folder' =&gt; the activity folder, 'raw_result' the request and the respond in an array (useful for debugging purpose)</p><p><b>Exemple d&#039;appel :</b></p><p style='padding-left:30px;'><code>array getActivityFolder ($base, [$credentials]) ; </code></p></span>
+								</td>
+							</tr> 
+							<tr class="" valign="top" id="ligne1"> 
+								<td class="column-columnname">
+									<span id="cell_1_1" ><a name='svnAdmin_getVCC'><p><b>getVCC</b><span class='desc_phpDoc'>[METHODE]</span></p><p>Get VCC (Version Controlled Resource)</p></span>
+								</td>
+								<td class="column-columnname">
+									<span id="cell_1_2" ><p><b>Paramètres :</b></p><p style='padding-left:30px;'><b>$base</b> (<i>string</i>) the relative path of the folder (for instance /yourplugin/trunk/)</p><p style='padding-left:30px;'><b>$credentials</b> [optionnelle] (<i>boolean</i>) true if the repository requires credentials (par défaut, sa valeur est : ) </p><p><b>Valeur de retour :</b></p><p style='padding-left:30px;'><b>array</b> 'isOk' =&gt; whether the request is successful, 'vcc' =&gt; the version controlled folder, 'raw_result' the request and the respond in an array (useful for debugging purpose)</p><p><b>Exemple d&#039;appel :</b></p><p style='padding-left:30px;'><code>array getVCC ($base, [$credentials]) ; </code></p></span>
+								</td>
+							</tr> 
+							<tr class="alternate" valign="top" id="ligne1"> 
+								<td class="column-columnname">
+									<span id="cell_1_1" ><a name='svnAdmin_getRevision'><p><b>getRevision</b><span class='desc_phpDoc'>[METHODE]</span></p><p>Get Repository Revision</p></span>
+								</td>
+								<td class="column-columnname">
+									<span id="cell_1_2" ><p><b>Paramètres :</b></p><p style='padding-left:30px;'><b>$base</b> (<i>string</i>) the relative path of the folder (for instance /yourplugin/trunk/)</p><p style='padding-left:30px;'><b>$credentials</b> [optionnelle] (<i>boolean</i>) true if the repository requires credentials (par défaut, sa valeur est : ) </p><p><b>Valeur de retour :</b></p><p style='padding-left:30px;'><b>array</b> 'isOk' =&gt; whether the request is successful, 'revision' =&gt; the revision number, 'raw_result' the request and the respond in an array (useful for debugging purpose)</p><p><b>Exemple d&#039;appel :</b></p><p style='padding-left:30px;'><code>array getRevision ($base, [$credentials]) ; </code></p></span>
+								</td>
+							</tr> 
+							<tr class="" valign="top" id="ligne1"> 
+								<td class="column-columnname">
+									<span id="cell_1_1" ><a name='svnAdmin_createActivity'><p><b>createActivity</b><span class='desc_phpDoc'>[METHODE]</span></p><p>Create an activity</p></span>
+								</td>
+								<td class="column-columnname">
+									<span id="cell_1_2" ><p><b>Paramètres :</b></p><p style='padding-left:30px;'><b>$activity_n_uuid</b> (<i>string</i>) it is the activity folder concatenated with an random UUID (composed with hexadecimal digit xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx)</p><p style='padding-left:30px;'><b>$credentials</b> [optionnelle] (<i>boolean</i>) true if the repository requires credentials (par défaut, sa valeur est : ) </p><p><b>Valeur de retour :</b></p><p style='padding-left:30px;'><b>array</b> 'isOk' =&gt; whether the request is successful, 'raw_result' the request and the respond in an array (useful for debugging purpose)</p><p><b>Exemple d&#039;appel :</b></p><p style='padding-left:30px;'><code>array createActivity ($activity_n_uuid, [$credentials]) ; </code></p><p><b>Voir aussi :</b></p><p style='padding-left:30px;'><a href='#svnAdmin_getActivityFolder'>svnAdmin::getActivityFolder</a></p></span>
+								</td>
+							</tr> 
+							<tr class="alternate" valign="top" id="ligne1"> 
+								<td class="column-columnname">
+									<span id="cell_1_1" ><a name='svnAdmin_getCommitCommentURL'><p><b>getCommitCommentURL</b><span class='desc_phpDoc'>[METHODE]</span></p><p>Get the commit comment URL</p></span>
+								</td>
+								<td class="column-columnname">
+									<span id="cell_1_2" ><p><b>Paramètres :</b></p><p style='padding-left:30px;'><b>$vcc</b> (<i>string</i>) the VCC of the repository</p><p style='padding-left:30px;'><b>$activity_n_uuid</b> (<i>string</i>) it is the activity folder concatenated with the random UUID (composed with hexadecimal digit xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx)</p><p style='padding-left:30px;'><b>$credentials</b> [optionnelle] (<i>boolean</i>) true if the repository requires credentials (par défaut, sa valeur est : ) </p><p><b>Valeur de retour :</b></p><p style='padding-left:30px;'><b>array</b> 'isOk' =&gt; whether the request is successful, 'url' the comment url, 'raw_result' the request and the respond in an array (useful for debugging purpose)</p><p><b>Exemple d&#039;appel :</b></p><p style='padding-left:30px;'><code>array getCommitCommentURL ($vcc, $activity_n_uuid, [$credentials]) ; </code></p><p><b>Voir aussi :</b></p><p style='padding-left:30px;'><a href='#svnAdmin_getActivityFolder'>svnAdmin::getActivityFolder</a></p><p style='padding-left:30px;'><a href='#svnAdmin_getVCC'>svnAdmin::getVCC</a></p></span>
+								</td>
+							</tr> 
+							<tr class="" valign="top" id="ligne1"> 
+								<td class="column-columnname">
+									<span id="cell_1_1" ><a name='svnAdmin_setCommitComment'><p><b>setCommitComment</b><span class='desc_phpDoc'>[METHODE]</span></p><p>Set a commit comment</p></span>
+								</td>
+								<td class="column-columnname">
+									<span id="cell_1_2" ><p><b>Paramètres :</b></p><p style='padding-left:30px;'><b>$comment</b> (<i>string</i>) the comment to be added</p><p style='padding-left:30px;'><b>$comment_url</b> (<i>string</i>) the comment url</p><p style='padding-left:30px;'><b>$credentials</b> [optionnelle] (<i>boolean</i>) true if the repository requires credentials (par défaut, sa valeur est : ) </p><p><b>Valeur de retour :</b></p><p style='padding-left:30px;'><b>array</b> 'isOk' =&gt; whether the request is successful,'raw_result' the request and the respond in an array (useful for debugging purpose)</p><p><b>Exemple d&#039;appel :</b></p><p style='padding-left:30px;'><code>array setCommitComment ($comment, $comment_url, [$credentials]) ; </code></p><p><b>Voir aussi :</b></p><p style='padding-left:30px;'><a href='#svnAdmin_getCommitCommentURL'>svnAdmin::getCommitCommentURL</a></p></span>
+								</td>
+							</tr> 
+							<tr class="alternate" valign="top" id="ligne1"> 
+								<td class="column-columnname">
+									<span id="cell_1_1" ><a name='svnAdmin_getVersionFolder'><p><b>getVersionFolder</b><span class='desc_phpDoc'>[METHODE]</span></p><p>Get the version folder</p></span>
+								</td>
+								<td class="column-columnname">
+									<span id="cell_1_2" ><p><b>Paramètres :</b></p><p style='padding-left:30px;'><b>$base</b> (<i>string</i>) the relative path of the folder (for instance /yourplugin/trunk/)</p><p style='padding-left:30px;'><b>$credentials</b> [optionnelle] (<i>boolean</i>) true if the repository requires credentials (par défaut, sa valeur est : ) </p><p><b>Valeur de retour :</b></p><p style='padding-left:30px;'><b>array</b> 'isOk' =&gt; whether the request is successful, 'version_folder' =&gt; the version folder,'raw_result' the request and the respond in an array (useful for debugging purpose)</p><p><b>Exemple d&#039;appel :</b></p><p style='padding-left:30px;'><code>array getVersionFolder ($base, [$credentials]) ; </code></p></span>
+								</td>
+							</tr> 
+							<tr class="" valign="top" id="ligne1"> 
+								<td class="column-columnname">
+									<span id="cell_1_1" ><a name='svnAdmin_getPutFolder'><p><b>getPutFolder</b><span class='desc_phpDoc'>[METHODE]</span></p><p>Get the folder to put files or delete files</p></span>
+								</td>
+								<td class="column-columnname">
+									<span id="cell_1_2" ><p><b>Paramètres :</b></p><p style='padding-left:30px;'><b>$version</b> (<i>string</i>) the version folder</p><p style='padding-left:30px;'><b>$activity_n_uuid</b> (<i>string</i>) it is the activity folder concatenated with the random UUID (composed with hexadecimal digit xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx)</p><p style='padding-left:30px;'><b>$credentials</b> [optionnelle] (<i>boolean</i>) true if the repository requires credentials (par défaut, sa valeur est : ) </p><p><b>Valeur de retour :</b></p><p style='padding-left:30px;'><b>array</b> 'isOk' =&gt; whether the request is successful, 'put_folder' the put url, 'raw_result' the request and the respond in an array (useful for debugging purpose)</p><p><b>Exemple d&#039;appel :</b></p><p style='padding-left:30px;'><code>array getPutFolder ($version, $activity_n_uuid, [$credentials]) ; </code></p><p><b>Voir aussi :</b></p><p style='padding-left:30px;'><a href='#svnAdmin_getActivityFolder'>svnAdmin::getActivityFolder</a></p><p style='padding-left:30px;'><a href='#svnAdmin_getVersionFolder'>svnAdmin::getVersionFolder</a></p></span>
+								</td>
+							</tr> 
+							<tr class="alternate" valign="top" id="ligne1"> 
+								<td class="column-columnname">
+									<span id="cell_1_1" ><a name='svnAdmin_putFile'><p><b>putFile</b><span class='desc_phpDoc'>[METHODE]</span></p><p>Put a file in the repo</p></span>
+								</td>
+								<td class="column-columnname">
+									<span id="cell_1_2" ><p><b>Paramètres :</b></p><p style='padding-left:30px;'><b>$put_folder_n_file</b> (<i>string</i>) the put folder concatenated with the file name</p><p style='padding-left:30px;'><b>$file</b> (<i>string</i>) the complete url of the file on your disk</p><p style='padding-left:30px;'><b>$credentials</b> [optionnelle] (<i>boolean</i>) true if the repository requires credentials (par défaut, sa valeur est : ) </p><p><b>Valeur de retour :</b></p><p style='padding-left:30px;'><b>array</b> 'isOk' =&gt; whether the request is successful, 'svn_header' the svn header sent (useful for debugging), 'raw_result' the request and the respond in an array (useful for debugging purpose)</p><p><b>Exemple d&#039;appel :</b></p><p style='padding-left:30px;'><code>array putFile ($put_folder_n_file, $file, [$credentials]) ; </code></p><p><b>Voir aussi :</b></p><p style='padding-left:30px;'><a href='#svnAdmin_getPutFolder'>svnAdmin::getPutFolder</a></p></span>
+								</td>
+							</tr> 
+							<tr class="" valign="top" id="ligne1"> 
+								<td class="column-columnname">
+									<span id="cell_1_1" ><a name='svnAdmin_putFolder'><p><b>putFolder</b><span class='desc_phpDoc'>[METHODE]</span></p><p>Put folder in the repository</p></span>
+								</td>
+								<td class="column-columnname">
+									<span id="cell_1_2" ><p><b>Paramètres :</b></p><p style='padding-left:30px;'><b>$put_folder_n_folder</b> (<i>string</i>) the put folder concatenated with the folder to add</p><p style='padding-left:30px;'><b>$credentials</b> [optionnelle] (<i>boolean</i>) true if the repository requires credentials (par défaut, sa valeur est : 1) </p><p><b>Valeur de retour :</b></p><p style='padding-left:30px;'><b>array</b> 'isOk' =&gt; whether the request is successful,'raw_result' the request and the respond in an array (useful for debugging purpose)</p><p><b>Exemple d&#039;appel :</b></p><p style='padding-left:30px;'><code>array putFolder ($put_folder_n_folder, [$credentials]) ; </code></p><p><b>Voir aussi :</b></p><p style='padding-left:30px;'><a href='#svnAdmin_getPutFolder'>svnAdmin::getPutFolder</a></p></span>
+								</td>
+							</tr> 
+							<tr class="alternate" valign="top" id="ligne1"> 
+								<td class="column-columnname">
+									<span id="cell_1_1" ><a name='svnAdmin_deleteFileFolder'><p><b>deleteFileFolder</b><span class='desc_phpDoc'>[METHODE]</span></p><p>Put folder in the repository</p></span>
+								</td>
+								<td class="column-columnname">
+									<span id="cell_1_2" ><p><b>Paramètres :</b></p><p style='padding-left:30px;'><b>$put_folder_n_filefolder</b> (<i>string</i>) the put folder concatenated with the folder/file to add</p><p style='padding-left:30px;'><b>$credentials</b> [optionnelle] (<i>boolean</i>) true if the repository requires credentials (par défaut, sa valeur est : 1) </p><p><b>Valeur de retour :</b></p><p style='padding-left:30px;'><b>array</b> 'isOk' =&gt; whether the request is successful,'raw_result' the request and the respond in an array (useful for debugging purpose)</p><p><b>Exemple d&#039;appel :</b></p><p style='padding-left:30px;'><code>array deleteFileFolder ($put_folder_n_filefolder, [$credentials]) ; </code></p><p><b>Voir aussi :</b></p><p style='padding-left:30px;'><a href='#svnAdmin_getPutFolder'>svnAdmin::getPutFolder</a></p></span>
+								</td>
+							</tr> 
+							<tr class="" valign="top" id="ligne1"> 
+								<td class="column-columnname">
+									<span id="cell_1_1" ><a name='svnAdmin_merge'><p><b>merge</b><span class='desc_phpDoc'>[METHODE]</span></p><p>Merge the commit ... thus all the change will be taken in account</p></span>
+								</td>
+								<td class="column-columnname">
+									<span id="cell_1_2" ><p><b>Paramètres :</b></p><p style='padding-left:30px;'><b>$base</b> (<i>string</i>) the relative path of the folder (for instance /yourplugin/trunk/)</p><p style='padding-left:30px;'><b>$activity_n_uuid</b> (<i>string</i>) it is the activity folder concatenated with the random UUID (composed with hexadecimal digit xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx)</p><p style='padding-left:30px;'><b>$credentials</b> [optionnelle] (<i>boolean</i>) true if the repository requires credentials (par défaut, sa valeur est : ) </p><p><b>Valeur de retour :</b></p><p style='padding-left:30px;'><b>array</b> 'isOk' =&gt; whether the request is successful, 'commit_info' the commit information, 'raw_result' the request and the respond in an array (useful for debugging purpose)</p><p><b>Exemple d&#039;appel :</b></p><p style='padding-left:30px;'><code>array merge ($base, $activity_n_uuid, [$credentials]) ; </code></p><p><b>Voir aussi :</b></p><p style='padding-left:30px;'><a href='#svnAdmin_getActivityFolder'>svnAdmin::getActivityFolder</a></p></span>
+								</td>
+							</tr> 
+							<tr class="alternate" valign="top" id="ligne1"> 
+								<td class="column-columnname">
+									<span id="cell_1_1" ><a name='svnAdmin_getFile'><p><b>getFile</b><span class='desc_phpDoc'>[METHODE]</span></p><p>Get a single file of the repository</p></span>
+								</td>
+								<td class="column-columnname">
+									<span id="cell_1_2" ><p><b>Paramètres :</b></p><p style='padding-left:30px;'><b>$base_file</b> (<i>string</i>) the relative path of the file to get (for instance /yourplugin/trunk/file1.txt)</p><p style='padding-left:30px;'><b>$store</b> (<i>string</i>) the local path to store the file retrieved (for instance /home/foo/yourplugin/file1.txt)</p><p style='padding-left:30px;'><b>$credentials</b> [optionnelle] (<i>boolean</i>) true if the repository requires credentials (par défaut, sa valeur est : 1) </p><p><b>Valeur de retour :</b></p><p style='padding-left:30px;'><b>array</b> 'isOk' =&gt; whether the request is successful, 'siez' the size in bytes of the retrieved file</p><p><b>Exemple d&#039;appel :</b></p><p style='padding-left:30px;'><code>array getFile ($base_file, $store, [$credentials]) ; </code></p></span>
+								</td>
+							</tr> 
+							<tr class="" valign="top" id="ligne1"> 
+								<td class="column-columnname">
+									<span id="cell_1_1" ><a name='svnAdmin_getAllFiles'><p><b>getAllFiles</b><span class='desc_phpDoc'>[METHODE]</span></p><p>Get all files of the repository</p></span>
+								</td>
+								<td class="column-columnname">
+									<span id="cell_1_2" ><p><b>Paramètres :</b></p><p style='padding-left:30px;'><b>$base</b> (<i>string</i>) the relative path of the folder (for instance /yourplugin/trunk/)</p><p style='padding-left:30px;'><b>$vcc</b> (<i>string</i>) the VCC</p><p style='padding-left:30px;'><b>$rev</b> (<i>string</i>) the revision number</p><p style='padding-left:30px;'><b>$store</b> (<i>string</i>) the local path to store the file retrieved (for instance /home/foo/yourplugin/)</p><p style='padding-left:30px;'><b>$credentials</b> [optionnelle] (<i>boolean</i>) true if the repository requires credentials (par défaut, sa valeur est : 1) </p><p><b>Valeur de retour :</b></p><p style='padding-left:30px;'><b>array</b> 'isOk' =&gt; whether the request is successful, 'info' the list of retrieved files/folder, 'raw_result' the request and the respond in an array (useful for debugging purpose)</p><p><b>Exemple d&#039;appel :</b></p><p style='padding-left:30px;'><code>array getAllFiles ($base, $vcc, $rev, $store, [$credentials]) ; </code></p><p><b>Voir aussi :</b></p><p style='padding-left:30px;'><a href='#svnAdmin_getRevision'>svnAdmin::getRevision</a></p><p style='padding-left:30px;'><a href='#svnAdmin_getVCC'>svnAdmin::getVCC</a></p></span>
+								</td>
+							</tr> 
+							<tr class="alternate" valign="top" id="ligne1"> 
+								<td class="column-columnname">
+									<span id="cell_1_1" ><a name='svnAdmin_prepareCommit'><p><b>prepareCommit</b><span class='desc_phpDoc'>[METHODE]</span></p><p>Prepare the commit</p></span>
+								</td>
+								<td class="column-columnname">
+									<span id="cell_1_2" ><p><b>Paramètres :</b></p><p style='padding-left:30px;'><b>$base</b> (<i>string</i>) the relative path of the folder (for instance /yourplugin/trunk/)</p><p style='padding-left:30px;'><b>$comment</b> (<i>string</i>) the comment for the commit</p><p style='padding-left:30px;'><b>$credentials</b> [optionnelle] (<i>boolean</i>) true if the repository requires credentials (par défaut, sa valeur est : ) </p><p><b>Valeur de retour :</b></p><p style='padding-left:30px;'><b>array</b> 'isOk' =&gt; whether the request is successful, 'step' indicated the step which fails, 'putFolder'  the put folder , 'activityFolder' the acivity folder, 'uuid' the random uuid used for this commit,  'raw_result' the request and the respond in an array (useful for debugging purpose)</p><p><b>Exemple d&#039;appel :</b></p><p style='padding-left:30px;'><code>array prepareCommit ($base, $comment, [$credentials]) ; </code></p></span>
+								</td>
+							</tr> 
+							<tr class="" valign="top" id="ligne1"> 
+								<td class="column-columnname">
+									<span id="cell_1_1" ><a name='svnAdmin_sendSVNRequest'><p><b>sendSVNRequest</b><span class='desc_phpDoc'>[METHODE]</span></p><p>Send a SVN request</p></span>
+								</td>
+								<td class="column-columnname">
+									<span id="cell_1_2" ><p><b>Paramètres :</b></p><p style='padding-left:30px;'><b>$host</b> (<i>string</i>) the host (for instance svn.wp-plugins.org)</p><p style='padding-left:30px;'><b>$relative_uri</b> (<i>string</i>) the base url (for instance /yourplugin/trunk/)</p><p style='padding-left:30px;'><b>$type</b> (<i>string</i>) the type of request (e.g. GET, PROPFIND, PROPPATCH, etc.)</p><p style='padding-left:30px;'><b>$content</b> (<i>string</i>) the content of the http request</p><p style='padding-left:30px;'><b>$additional_headers</b> [optionnelle] (<i>array</i>) if addiotionnal header are required (for instance array('Content-Type: text/plain')) (par défaut, sa valeur est : []) </p><p style='padding-left:30px;'><b>$credentials</b> [optionnelle] (<i>boolean</i>) true if the repository requires credentials (par défaut, sa valeur est : ) </p><p><b>Valeur de retour :</b></p><p style='padding-left:30px;'><b>array</b> the response and the content sent</p><p><b>Exemple d&#039;appel :</b></p><p style='padding-left:30px;'><code>array sendSVNRequest ($host, $relative_uri, $type, $content, [$additional_headers], [$credentials]) ; </code></p></span>
+								</td>
+							</tr> 
+						</tbody>
+					</table>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+			<a name='class_Utils'></a>			<div class="metabox-holder" style="width: 100%">
+				<div class="meta-box-sortables">
+					<div class="postbox">
+						<h3 class="hndle"><span>Utils<span class='desc_phpDoc'>[CLASSE]</span></span></h3>
+						<div class="inside" style="padding: 5px 10px 5px 20px;">
+							<p>This PHP class regroups a few useful method to manage directory, string, ...</p><p>Voici les méthodes de la classe:</p><ul><li class='li_class'><b><a href='#Utils_convertUTF8'>Utils::convertUTF8</a></b>: To convert into UTF8</li><li class='li_class'><b><a href='#Utils_dirSize'>Utils::dirSize</a></b>: Compute the size of a directory (reccursively or not)</li><li class='li_class'><b><a href='#Utils_is_really_int'>Utils::is_really_int</a></b>: Test if the argument is really an integer (even if string)</li><li class='li_class'><b><a href='#Utils_rand_str'>Utils::rand_str</a></b>: Randomize a string</li><li class='li_class'><b><a href='#Utils_create_identifier'>Utils::create_identifier</a></b>: Create an simple identifier from a given string. It removes all non alphanumeric characters and strip spaces</li><li class='li_class'><b><a href='#Utils_byteSize'>Utils::byteSize</a></b>: Convert an integer into a string which represent a  size in a computer format (ie. MB, KB, GB, etc.)</li><li class='li_class'><b><a href='#Utils_multicolumn_sort'>Utils::multicolumn_sort</a></b>: Sort a table against the n-th column</li><li class='li_class'><b><a href='#Utils_copy_rec'>Utils::copy_rec</a></b>: Copy a file or a directory (recursively)</li><li class='li_class'><b><a href='#Utils_rm_rec'>Utils::rm_rec</a></b>: Delete a file or a directory (recursively)</li><li class='li_class'><b><a href='#Utils_md5_rec'>Utils::md5_rec</a></b>: Compute the md5 of a file or a directory (recursively)</li><li class='li_class'><b><a href='#Utils_is_writable'>Utils::is_writable</a></b>: Check if a folder or a file is writable</li><li class='li_class'><b><a href='#Utils_is_readable'>Utils::is_readable</a></b>: Check if a folder or a file is readable</li></ul>					<table class="widefat fixed" cellspacing="0">
+						<thead>
+							<tr>
+								<tr>
+									<th class="manage-column column-columnname" scope="col">Méthodes</th>
+									<th class="manage-column column-columnname" scope="col">Détails</th>
+								</tr>
+							</tr>
+						</thead>
+						<tfoot>
+							<tr>
+								<tr>
+									<th class="manage-column column-columnname" scope="col">Méthodes</th>
+									<th class="manage-column column-columnname" scope="col">Détails</th>
+								</tr>
+							</tr>
+						</tfoot>
+						<tbody>
+							<tr class="alternate" valign="top" id="ligne1"> 
+								<td class="column-columnname">
+									<span id="cell_1_1" ><a name='Utils_convertUTF8'><p><b>convertUTF8</b><span class='desc_phpDoc'>[METHODE]</span></p><p>To convert into UTF8</p></span>
+								</td>
+								<td class="column-columnname">
+									<span id="cell_1_2" ><p><b>Paramètres :</b></p><p style='padding-left:30px;'><b>$content</b> (<i>string</i>) the string to convert into UTF8</p><p><b>Valeur de retour :</b></p><p style='padding-left:30px;'><b>string</b> the converted string</p><p><b>Exemple d&#039;appel :</b></p><p style='padding-left:30px;'><code>string convertUTF8 ($content) ; </code></p></span>
+								</td>
+							</tr> 
+							<tr class="" valign="top" id="ligne1"> 
+								<td class="column-columnname">
+									<span id="cell_1_1" ><a name='Utils_dirSize'><p><b>dirSize</b><span class='desc_phpDoc'>[METHODE]</span></p><p>Compute the size of a directory (reccursively or not)</p></span>
+								</td>
+								<td class="column-columnname">
+									<span id="cell_1_2" ><p><b>Paramètres :</b></p><p style='padding-left:30px;'><b>$path</b> (<i>string</i>) the path of the directory to scan</p><p style='padding-left:30px;'><b>$recursive</b> [optionnelle] (<i>boolean</i>) set to FALSE if you do NOT want to reccurse in the folder of the directory (par défaut, sa valeur est : 1) </p><p><b>Valeur de retour :</b></p><p style='padding-left:30px;'><b>integer</b> the size of the directory</p><p><b>Exemple d&#039;appel :</b></p><p style='padding-left:30px;'><code>integer dirSize ($path, [$recursive]) ; </code></p></span>
+								</td>
+							</tr> 
+							<tr class="alternate" valign="top" id="ligne1"> 
+								<td class="column-columnname">
+									<span id="cell_1_1" ><a name='Utils_is_really_int'><p><b>is_really_int</b><span class='desc_phpDoc'>[METHODE]</span></p><p>Test if the argument is really an integer (even if string)</p><p>For instance :</p><p><code>is_really_int(5)</code> will return TRUE.</p><p><code>is_really_int("5")</code> will return TRUE.</p><p><code>is_really_int(5.2)</code> will return FALSE.</p><p><code>is_really_int(array(5))</code> will return FALSE.</p></span>
+								</td>
+								<td class="column-columnname">
+									<span id="cell_1_2" ><p><b>Paramètres :</b></p><p style='padding-left:30px;'><b>$int</b> (<i>mixed</i>) the integer, float, string, ... to check</p><p><b>Valeur de retour :</b></p><p style='padding-left:30px;'><b>boolean</b> TRUE if it is an integer, FALSE otherwise</p><p><b>Exemple d&#039;appel :</b></p><p style='padding-left:30px;'><code>boolean is_really_int ($int) ; </code></p></span>
+								</td>
+							</tr> 
+							<tr class="" valign="top" id="ligne1"> 
+								<td class="column-columnname">
+									<span id="cell_1_1" ><a name='Utils_rand_str'><p><b>rand_str</b><span class='desc_phpDoc'>[METHODE]</span></p><p>Randomize a string</p><p>For instance, <code>rand_str(5, "0123456789")</code> will return a string of length 5 characters comprising only numbers</p></span>
+								</td>
+								<td class="column-columnname">
+									<span id="cell_1_2" ><p><b>Paramètres :</b></p><p style='padding-left:30px;'><b>$length</b> (<i>integer</i>) the length of the randomized result string</p><p style='padding-left:30px;'><b>$chars</b> (<i>string</i>) the available characters for the randomized result string</p><p><b>Valeur de retour :</b></p><p style='padding-left:30px;'><b>string</b> the randomized result string</p><p><b>Exemple d&#039;appel :</b></p><p style='padding-left:30px;'><code>string rand_str ($length, $chars) ; </code></p></span>
+								</td>
+							</tr> 
+							<tr class="alternate" valign="top" id="ligne1"> 
+								<td class="column-columnname">
+									<span id="cell_1_1" ><a name='Utils_create_identifier'><p><b>create_identifier</b><span class='desc_phpDoc'>[METHODE]</span></p><p>Create an simple identifier from a given string. It removes all non alphanumeric characters and strip spaces</p><p>For instance :</p><p><code>create_identifier("Hello World 007")</code> will return "Hello_World_007".</p><p><code>create_identifier("It's time !")</code> will return "Its_time_".</p><p><code>create_identifier("4L car")</code> will return "L_car".</p></span>
+								</td>
+								<td class="column-columnname">
+									<span id="cell_1_2" ><p><b>Paramètres :</b></p><p style='padding-left:30px;'><b>$text</b> (<i>string</i>) the text to be sanitized</p><p><b>Valeur de retour :</b></p><p style='padding-left:30px;'><b>string</b> the sanitized string (identifier)</p><p><b>Exemple d&#039;appel :</b></p><p style='padding-left:30px;'><code>string create_identifier ($text) ; </code></p></span>
+								</td>
+							</tr> 
+							<tr class="" valign="top" id="ligne1"> 
+								<td class="column-columnname">
+									<span id="cell_1_1" ><a name='Utils_byteSize'><p><b>byteSize</b><span class='desc_phpDoc'>[METHODE]</span></p><p>Convert an integer into a string which represent a  size in a computer format (ie. MB, KB, GB, etc.)</p></span>
+								</td>
+								<td class="column-columnname">
+									<span id="cell_1_2" ><p><b>Paramètres :</b></p><p style='padding-left:30px;'><b>$bytes</b> (<i>integer</i>) the number to convert into a byte-format (ie. MB, KB, GB, etc.)</p><p><b>Valeur de retour :</b></p><p style='padding-left:30px;'><b>string</b> the size with a byte-format at the end (ie. MB, KB, GB, etc.)</p><p><b>Exemple d&#039;appel :</b></p><p style='padding-left:30px;'><code>string byteSize ($bytes) ; </code></p></span>
+								</td>
+							</tr> 
+							<tr class="alternate" valign="top" id="ligne1"> 
+								<td class="column-columnname">
+									<span id="cell_1_1" ><a name='Utils_multicolumn_sort'><p><b>multicolumn_sort</b><span class='desc_phpDoc'>[METHODE]</span></p><p>Sort a table against the n-th column</p></span>
+								</td>
+								<td class="column-columnname">
+									<span id="cell_1_2" ><p><b>Paramètres :</b></p><p style='padding-left:30px;'><b>$data</b> (<i>array</i>) the table (i.e. array of array) to be sorted</p><p style='padding-left:30px;'><b>$num</b> (<i>integer</i>) the n-th column to be considered in order to sort the table</p><p style='padding-left:30px;'><b>$asc</b> [optionnelle] (<i>boolean</i>) the order will be ascendant if true and descendant otherwise (par défaut, sa valeur est : 1) </p><p><b>Valeur de retour :</b></p><p style='padding-left:30px;'><b>array</b> the sorted table</p><p><b>Exemple d&#039;appel :</b></p><p style='padding-left:30px;'><code>array multicolumn_sort ($data, $num, [$asc]) ; </code></p></span>
+								</td>
+							</tr> 
+							<tr class="" valign="top" id="ligne1"> 
+								<td class="column-columnname">
+									<span id="cell_1_1" ><a name='Utils_copy_rec'><p><b>copy_rec</b><span class='desc_phpDoc'>[METHODE]</span></p><p>Copy a file or a directory (recursively)</p></span>
+								</td>
+								<td class="column-columnname">
+									<span id="cell_1_2" ><p><b>Paramètres :</b></p><p style='padding-left:30px;'><b>$source</b> (<i>string</i>) the source directory</p><p style='padding-left:30px;'><b>$destination</b> (<i>string</i>) the destination directory</p><p><b>Valeur de retour :</b></p><p style='padding-left:30px;'><b>void</b> </p><p><b>Exemple d&#039;appel :</b></p><p style='padding-left:30px;'><code>void copy_rec ($source, $destination) ; </code></p></span>
+								</td>
+							</tr> 
+							<tr class="alternate" valign="top" id="ligne1"> 
+								<td class="column-columnname">
+									<span id="cell_1_1" ><a name='Utils_rm_rec'><p><b>rm_rec</b><span class='desc_phpDoc'>[METHODE]</span></p><p>Delete a file or a directory (recursively)</p></span>
+								</td>
+								<td class="column-columnname">
+									<span id="cell_1_2" ><p><b>Paramètres :</b></p><p style='padding-left:30px;'><b>$path</b> (<i>string</i>) the path to delete</p><p><b>Valeur de retour :</b></p><p style='padding-left:30px;'><b>boolean</b> true if the dir or file does not exists at the end of the rm process</p><p><b>Exemple d&#039;appel :</b></p><p style='padding-left:30px;'><code>boolean rm_rec ($path) ; </code></p></span>
+								</td>
+							</tr> 
+							<tr class="" valign="top" id="ligne1"> 
+								<td class="column-columnname">
+									<span id="cell_1_1" ><a name='Utils_md5_rec'><p><b>md5_rec</b><span class='desc_phpDoc'>[METHODE]</span></p><p>Compute the md5 of a file or a directory (recursively)</p></span>
+								</td>
+								<td class="column-columnname">
+									<span id="cell_1_2" ><p><b>Paramètres :</b></p><p style='padding-left:30px;'><b>$path</b> (<i>string</i>) the path to compute hash</p><p style='padding-left:30px;'><b>$exclu</b> [optionnelle] (<i>array</i>) a list of filename/folder to exclude from the hash (par défaut, sa valeur est : []) </p><p><b>Valeur de retour :</b></p><p style='padding-left:30px;'><b>string</b> md5 hash</p><p><b>Exemple d&#039;appel :</b></p><p style='padding-left:30px;'><code>string md5_rec ($path, [$exclu]) ; </code></p></span>
+								</td>
+							</tr> 
+							<tr class="alternate" valign="top" id="ligne1"> 
+								<td class="column-columnname">
+									<span id="cell_1_1" ><a name='Utils_is_writable'><p><b>is_writable</b><span class='desc_phpDoc'>[METHODE]</span></p><p>Check if a folder or a file is writable</p></span>
+								</td>
+								<td class="column-columnname">
+									<span id="cell_1_2" ><p><b>Paramètres :</b></p><p style='padding-left:30px;'><b>$path</b> (<i>string</i>) the path to the folder or the file</p><p><b>Valeur de retour :</b></p><p style='padding-left:30px;'><b>boolean</b> true if the folder or the file is writable</p><p><b>Exemple d&#039;appel :</b></p><p style='padding-left:30px;'><code>boolean is_writable ($path) ; </code></p></span>
+								</td>
+							</tr> 
+							<tr class="" valign="top" id="ligne1"> 
+								<td class="column-columnname">
+									<span id="cell_1_1" ><a name='Utils_is_readable'><p><b>is_readable</b><span class='desc_phpDoc'>[METHODE]</span></p><p>Check if a folder or a file is readable</p></span>
+								</td>
+								<td class="column-columnname">
+									<span id="cell_1_2" ><p><b>Paramètres :</b></p><p style='padding-left:30px;'><b>$path</b> (<i>string</i>) the path to the folder or the file</p><p><b>Valeur de retour :</b></p><p style='padding-left:30px;'><b>boolean</b> true if the folder or the file is writable</p><p><b>Exemple d&#039;appel :</b></p><p style='padding-left:30px;'><code>boolean is_readable ($path) ; </code></p></span>
+								</td>
+							</tr> 
+						</tbody>
+					</table>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+			<a name='class_SL_Zip'></a>			<div class="metabox-holder" style="width: 100%">
+				<div class="meta-box-sortables">
+					<div class="postbox">
+						<h3 class="hndle"><span>SL_Zip<span class='desc_phpDoc'>[CLASSE]</span></span></h3>
+						<div class="inside" style="padding: 5px 10px 5px 20px;">
+							<p>This PHP class creates zip file (multipart if needed)</p><p>It requires the gzcompress function. Otherwise, a fatal error will be raised</p><p>For instance :</p><p><code>$z = new SL_Zip;<br />$z -&gt; addFile("/www/test/File.txt","/www/test/","/newroot/");<br />$z -&gt; addDir("/www/test/Folder","/www/test/","/newroot/") ; <br />$z -&gt; createZip("/pathToZip/backup.zip",1048576);</code></p><p>Voici les méthodes de la classe:</p><ul><li class='li_class'><b><a href='#SL_Zip_progress'>SL_Zip::progress</a></b>: Return the progression ratio</li><li class='li_class'><b><a href='#SL_Zip_addFile'>SL_Zip::addFile</a></b>: Add files to the archive</li><li class='li_class'><b><a href='#SL_Zip_addDir'>SL_Zip::addDir</a></b>: Add directory to the archive (reccursively)</li><li class='li_class'><b><a href='#SL_Zip_reset'>SL_Zip::reset</a></b>: reset the zip process</li><li class='li_class'><b><a href='#SL_Zip_is_inProgress'>SL_Zip::is_inProgress</a></b>: Tells whether a zip file is being created or not</li><li class='li_class'><b><a href='#SL_Zip_createZip'>SL_Zip::createZip</a></b>: Create the archive and split it if necessary</li></ul>					<table class="widefat fixed" cellspacing="0">
+						<thead>
+							<tr>
+								<tr>
+									<th class="manage-column column-columnname" scope="col">Méthodes</th>
+									<th class="manage-column column-columnname" scope="col">Détails</th>
+								</tr>
+							</tr>
+						</thead>
+						<tfoot>
+							<tr>
+								<tr>
+									<th class="manage-column column-columnname" scope="col">Méthodes</th>
+									<th class="manage-column column-columnname" scope="col">Détails</th>
+								</tr>
+							</tr>
+						</tfoot>
+						<tbody>
+							<tr class="alternate" valign="top" id="ligne1"> 
+								<td class="column-columnname">
+									<span id="cell_1_1" ><a name='SL_Zip_progress'><p><b>progress</b><span class='desc_phpDoc'>[METHODE]</span></p><p>Return the progression ratio</p></span>
+								</td>
+								<td class="column-columnname">
+									<span id="cell_1_2" ><p><b>Paramètres :</b></p><p style='padding-left:30px;'><b>$file</b> (<i>??</i>) ??</p><p><b>Valeur de retour :</b></p><p style='padding-left:30px;'><b>string</b> the progress nb_file_included/nb_file</p><p><b>Exemple d&#039;appel :</b></p><p style='padding-left:30px;'><code>string progress ($file) ; </code></p></span>
+								</td>
+							</tr> 
+							<tr class="" valign="top" id="ligne1"> 
+								<td class="column-columnname">
+									<span id="cell_1_1" ><a name='SL_Zip_addFile'><p><b>addFile</b><span class='desc_phpDoc'>[METHODE]</span></p><p>Add files to the archive</p></span>
+								</td>
+								<td class="column-columnname">
+									<span id="cell_1_2" ><p><b>Paramètres :</b></p><p style='padding-left:30px;'><b>$filename</b> (<i>string</i>) the path of the file to add</p><p style='padding-left:30px;'><b>$remove</b> [optionnelle] (<i>string</i>) the part of the path to remove (par défaut, sa valeur est : ) </p><p style='padding-left:30px;'><b>$add</b> [optionnelle] (<i>string</i>) the part of the path to add (par défaut, sa valeur est : ) </p><p><b>Valeur de retour :</b></p><p style='padding-left:30px;'><b>void</b> </p><p><b>Exemple d&#039;appel :</b></p><p style='padding-left:30px;'><code>void addFile ($filename, [$remove], [$add]) ; </code></p></span>
+								</td>
+							</tr> 
+							<tr class="alternate" valign="top" id="ligne1"> 
+								<td class="column-columnname">
+									<span id="cell_1_1" ><a name='SL_Zip_addDir'><p><b>addDir</b><span class='desc_phpDoc'>[METHODE]</span></p><p>Add directory to the archive (reccursively)</p></span>
+								</td>
+								<td class="column-columnname">
+									<span id="cell_1_2" ><p><b>Paramètres :</b></p><p style='padding-left:30px;'><b>$dirname</b> (<i>string</i>) the path of the folder to add</p><p style='padding-left:30px;'><b>$remove</b> [optionnelle] (<i>string</i>) the part of the path to remove (par défaut, sa valeur est : ) </p><p style='padding-left:30px;'><b>$add</b> [optionnelle] (<i>string</i>) the part of the path to add (par défaut, sa valeur est : ) </p><p style='padding-left:30px;'><b>$exclu</b> [optionnelle] (<i>array</i>) a list of folder that are no to be included in the zip file (par défaut, sa valeur est : []) </p><p><b>Valeur de retour :</b></p><p style='padding-left:30px;'><b>void</b> </p><p><b>Exemple d&#039;appel :</b></p><p style='padding-left:30px;'><code>void addDir ($dirname, [$remove], [$add], [$exclu]) ; </code></p></span>
+								</td>
+							</tr> 
+							<tr class="" valign="top" id="ligne1"> 
+								<td class="column-columnname">
+									<span id="cell_1_1" ><a name='SL_Zip_reset'><p><b>reset</b><span class='desc_phpDoc'>[METHODE]</span></p><p>reset the zip process</p></span>
+								</td>
+								<td class="column-columnname">
+									<span id="cell_1_2" ><p><b>Paramètres :</b></p><p style='padding-left:30px;'><b>$path</b> (<i>??</i>) ??</p><p><b>Valeur de retour :</b></p><p style='padding-left:30px;'><b>void</b> </p><p><b>Exemple d&#039;appel :</b></p><p style='padding-left:30px;'><code>void reset ($path) ; </code></p></span>
+								</td>
+							</tr> 
+							<tr class="alternate" valign="top" id="ligne1"> 
+								<td class="column-columnname">
+									<span id="cell_1_1" ><a name='SL_Zip_is_inProgress'><p><b>is_inProgress</b><span class='desc_phpDoc'>[METHODE]</span></p><p>Tells whether a zip file is being created or not</p></span>
+								</td>
+								<td class="column-columnname">
+									<span id="cell_1_2" ><p><b>Paramètres :</b></p><p style='padding-left:30px;'><b>$path</b> (<i>??</i>) ??</p><p><b>Valeur de retour :</b></p><p style='padding-left:30px;'><b>array</b> the 'step' could be 'in progress' (a process is still running), 'nothing' (no zip is being zipped) or 'to be completed' (and the 'name_zip' will be the name of the zip file being zipped) or 'error' (and the 'error' will display the error messgae)</p><p><b>Exemple d&#039;appel :</b></p><p style='padding-left:30px;'><code>array is_inProgress ($path) ; </code></p></span>
+								</td>
+							</tr> 
+							<tr class="" valign="top" id="ligne1"> 
+								<td class="column-columnname">
+									<span id="cell_1_1" ><a name='SL_Zip_createZip'><p><b>createZip</b><span class='desc_phpDoc'>[METHODE]</span></p><p>Create the archive and split it if necessary</p></span>
+								</td>
+								<td class="column-columnname">
+									<span id="cell_1_2" ><p><b>Paramètres :</b></p><p style='padding-left:30px;'><b>$splitfilename</b> (<i>string</i>) the path of the zip file to create</p><p style='padding-left:30px;'><b>$chunk_size</b> [optionnelle] (<i>integer</i>) the maximum size of the archive (par défaut, sa valeur est : 1.0E+15) </p><p style='padding-left:30px;'><b>$maxExecutionTime</b> [optionnelle] (<i>integer</i>) the maximum execution time in second (if this time is exceeded, the function will return false. You just have to relaunch this function to complete the zip from where it has stopped) (par défaut, sa valeur est : 150) </p><p style='padding-left:30px;'><b>$maxAllocatedMemory</b> [optionnelle] (<i>??</i>) ?? (par défaut, sa valeur est : 4000000) </p><p><b>Valeur de retour :</b></p><p style='padding-left:30px;'><b>array</b> with the name of the file (or 'finished' =&gt; false if an error occured see 'error' for the error message)</p><p><b>Exemple d&#039;appel :</b></p><p style='padding-left:30px;'><code>array createZip ($splitfilename, [$chunk_size], [$maxExecutionTime], [$maxAllocatedMemory]) ; </code></p></span>
+								</td>
+							</tr> 
+						</tbody>
+					</table>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+			

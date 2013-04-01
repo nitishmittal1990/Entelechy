@@ -1,0 +1,10 @@
+
+/* Like this meta box*/
+#like-this-meta-box ul, .postbox ul{margin:0 6px;}
+.link-it{background:url(../images/icon-link.png) no-repeat;padding:0 0 0 22px;}
+.rating-it{background:url(../images/icon-rating.png) no-repeat;padding:0 0 0 22px;}
+.donate-it{background:url(../images/icon-donate.png) no-repeat;padding:0 0 0 22px;}
+.trans-it{background:url(../images/icon-trans.png) no-repeat;padding:0 0 0 22px;}
+
+/* Quick preview meta box */
+#quick-preview-meta-box ul li{background:url(../images/bullet-blue.png) no-repeat -4px 8px;padding:6px 0 0 16px;border-top:1px solid #E7E7E7;}
